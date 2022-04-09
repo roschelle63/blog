@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Jeremy Roschelle</title>
+    <link>https://jeremyr.blog/pages/</link>
+    <description>Recent content in Pages on Jeremy Roschelle</description>
+    <image>
+      <url>https://jeremyr.blog/</url>
+      <link>https://jeremyr.blog/</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Apr 2022 00:05:21 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://jeremyr.blog/pages/about/</link>
+      <pubDate>Fri, 08 Apr 2022 00:05:21 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/about/</guid>
+      <description>I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for Digital Promise, a nonprofit, where I am Executive Director of our Learning Sciences Research team. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.
+My favorite hobbies are photography, jazz, backpacking and hiking.
+With my wife Audrey ❤️, I live both in Silicon Valley and Washington DC.</description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>https://jeremyr.blog/pages/writing/</link>
+      <pubDate>Thu, 07 Apr 2022 22:40:24 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/writing/</guid>
+      <description>a curated list of things I&amp;rsquo;ve written professionally
+Blogs for CACM CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for the magazine.
+ R&amp;amp;D or r&amp;amp;d: What&amp;rsquo;s the Difference? February 2022 AI or Intelligence Augmentation for Education? March 2021 by Jeremy Roschelle, Pati Ruiz, and Judi Fusco Safe AI in Education needs you November 2021 by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle How scripting missing the mark March 2022 Powerful Online Learning is a Distributed System March 2020 Computational Thinking or Computational Teamwork?</description>
+    </item>
+    
+  </channel>
+</rss>
