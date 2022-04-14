@@ -2,19 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/pages/about/</loc>
-    <lastmod>2022-04-08T00:05:21-04:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/</loc>
+    <lastmod>2022-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2022-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/202204nashville/</loc>
+    <lastmod>2022-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/about/</loc>
     <lastmod>2022-04-08T00:05:21-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/pages/</loc>
     <lastmod>2022-04-08T00:05:21-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/</loc>
-    <lastmod>2022-04-07T23:27:42-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
     <lastmod>2022-04-07T23:27:42-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/</loc>
