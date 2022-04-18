@@ -9,14 +9,53 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 14 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Apr 2022 10:05:23 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>April in Georgetown, a stroll</title>
+      <link>https://jeremyr.blog/posts/photos/202204-georgetown/</link>
+      <pubDate>Mon, 18 Apr 2022 10:05:23 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/posts/photos/202204-georgetown/</guid>
+      <description>Late in the afternoon on Easter Sunday, I wandered through the streets of Georgetown, in Washington DC. It was very quiet. I love how actively people plan beautiful little displays of flowers in Washington DC, especially tulips at this time of year. Many houses have lamps which are lit with actual gas, not electricity. I also wondered along the historical canal that goes a hundred miles or so into Maryland. I&amp;rsquo;ve really been enjoying the long spring &amp;ndash; we started with spring in California in mid-January and now continuing it in DC well into mid-April.</description>
+    </item>
+    
+    <item>
+      <title>Patents</title>
+      <link>https://jeremyr.blog/pages/patents/</link>
+      <pubDate>Sat, 16 Apr 2022 15:19:47 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/patents/</guid>
+      <description>It seems cool that my name is on a few patents. As far as I know, these patents have never been used for anything. The history was that my former employer, SRI International, pursued and was awarded these patents based on research conducted in our Center for Technology in Learning on the topic of computer-supported collaborative learning, especially with mobile devices. As is typical, the patents are assigned to SRI; I don&amp;rsquo;t &amp;ldquo;own&amp;rdquo; any rights in them.</description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>https://jeremyr.blog/pages/blogs/</link>
+      <pubDate>Sat, 16 Apr 2022 15:16:47 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/blogs/</guid>
+      <description>CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for the magazine. Here are all my blogs:
+ R&amp;amp;D or r&amp;amp;d: What&amp;#39;s the Difference? February 2022 AI or Intelligence Augmentation for Education? March 2021 by Jeremy Roschelle, Pati Ruiz, and Judi Fusco Safe AI in Education needs you November 2021 by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle How scripting missing the mark March 2022 Powerful Online Learning is a Distributed System March 2020 Computational Thinking or Computational Teamwork?</description>
+    </item>
+    
+    <item>
+      <title>Testpage</title>
+      <link>https://jeremyr.blog/pages/testpage/</link>
+      <pubDate>Fri, 15 Apr 2022 00:18:53 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/testpage/</guid>
+      <description>This is my data test page
+journal  Roschelle, J., Noss, R., Blikstein, P., &amp;amp; Jackiw, N. (2017). Technology for learning mathematics. In J. Cai (Ed.), Compendium for Research in Mathematics Education. Reston, VA: National Council of Teachers of Mathematics. 273-296. [DOI]
+Description: Handbook chapter providing a broad overview of what we know about technology for learning mathematics Roschelle, J., Feng, M., Murphy, R. &amp;amp; Mason, C.A. (2016). Online mathematics homework increases student achievement.</description>
+    </item>
+    
     <item>
       <title>Stanley Jordan as Jimi</title>
       <link>https://jeremyr.blog/posts/jazz/2022-04-stanleyjordan/</link>
       <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jeremyr.blog/posts/jazz/2022-04-stanleyjordan/</guid>
-      <description>Stanley Jordan brought the house down at Blues Alley in Georgetown with his recreation of Jimi Hendrix&amp;rsquo;s music. The audience rose and soared with the Star Spangled Banner. We grooved to Foxy Lady. We were awed by Jordan&amp;rsquo;s amazing guitar techniques, including lots of high speed tapping. For the guitar nerds out there, he had a series of awesome guitar tones all night long, which must have been driven by some electronics, as their was no guitar amp anywhere in site.</description>
+      <description>Stanley Jordan brought the house down at Blues Alley in Georgetown with his recreation of Jimi Hendrix&amp;rsquo;s music. The audience rose and soared with the Star Spangled Banner. We grooved to Foxy Lady. We were awed by Jordan&amp;rsquo;s amazing guitar techniques, including lots of high speed tapping. For the guitar nerds out there, he had a series of awesome guitar tones all night long, which must have been driven by some electronics, as there was no guitar amp anywhere in site.</description>
     </item>
     
     <item>
@@ -34,9 +73,8 @@
       <pubDate>Fri, 08 Apr 2022 00:05:21 -0400</pubDate>
       
       <guid>https://jeremyr.blog/pages/about/</guid>
-      <description>I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for Digital Promise, a nonprofit, where I am Executive Director of our Learning Sciences Research team. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.
-My favorite hobbies are photography, jazz, backpacking and hiking.
-With my wife Audrey ❤️, I live both in Silicon Valley and Washington DC.</description>
+      <description>I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for Digital Promise, a nonprofit, where I am Executive Director of our Learning Sciences Research team. I am Fellow of the International Society of the Learning Sciences. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.
+My favorite hobbies are photography, jazz, backpacking and hiking.</description>
     </item>
     
     <item>
@@ -45,9 +83,9 @@ With my wife Audrey ❤️, I live both in Silicon Valley and Washington DC.</de
       <pubDate>Thu, 07 Apr 2022 22:40:24 -0400</pubDate>
       
       <guid>https://jeremyr.blog/pages/writing/</guid>
-      <description>a curated list of things I&amp;rsquo;ve written professionally
-Blogs for CACM CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for the magazine.
- R&amp;amp;D or r&amp;amp;d: What&amp;rsquo;s the Difference? February 2022 AI or Intelligence Augmentation for Education? March 2021 by Jeremy Roschelle, Pati Ruiz, and Judi Fusco Safe AI in Education needs you November 2021 by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle How scripting missing the mark March 2022 Powerful Online Learning is a Distributed System March 2020 Computational Thinking or Computational Teamwork?</description>
+      <description>A curated list of things I&amp;rsquo;ve written professionally
+CACM Blogs   CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for their magazine, such as:
+ R&amp;amp;D or r&amp;amp;d: What&amp;#39;s the Difference? February 2022 AI or Intelligence Augmentation for Education? March 2021 by Jeremy Roschelle, Pati Ruiz, and Judi Fusco Safe AI in Education needs you November 2021 by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle How scripting missing the mark March 2022 Powerful Online Learning is a Distributed System March 2020  Read more blogs here.</description>
     </item>
     
     <item>

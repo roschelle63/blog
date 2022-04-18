@@ -2,11 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/posts/photos/202204-georgetown/</loc>
+    <lastmod>2022-04-18T10:05:23-04:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-18T10:05:23-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2022-04-14T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-18T10:05:23-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/</loc>
+    <lastmod>2022-04-16T15:19:47-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/patents/</loc>
+    <lastmod>2022-04-16T15:19:47-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/blogs/</loc>
+    <lastmod>2022-04-16T15:16:47-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/testpage/</loc>
+    <lastmod>2022-04-15T00:18:53-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022-04-stanleyjordan/</loc>
     <lastmod>2022-04-14T00:00:00+00:00</lastmod>
@@ -15,9 +30,6 @@
     <lastmod>2022-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/pages/about/</loc>
-    <lastmod>2022-04-08T00:05:21-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/pages/</loc>
     <lastmod>2022-04-08T00:05:21-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/</loc>
