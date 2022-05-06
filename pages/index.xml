@@ -9,7 +9,17 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 16 Apr 2022 15:19:47 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 23:19:43 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing CSS</title>
+      <link>https://jeremyr.blog/pages/testcss/</link>
+      <pubDate>Sun, 01 May 2022 23:19:43 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/testcss/</guid>
+      <description>This is my test page. This is bold
+My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. Flex 3  Flex 2x2  Flex full width  </description>
+    </item>
+    
     <item>
       <title>Patents</title>
       <link>https://jeremyr.blog/pages/patents/</link>

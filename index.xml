@@ -9,7 +9,28 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 01 May 2022 11:15:18 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B&amp;W Union Station</title>
+      <link>https://jeremyr.blog/posts/photos/202204-unionstation/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremyr.blog/posts/photos/202204-unionstation/</guid>
+      <description>Union station in Washington DC is one of the most beautiful train stations in the United States. One afternoon, I had a great time wandering about and shooting photos.
+ The station is fun for people watching, although some people frozen in stone.
+ </description>
+    </item>
+    
+    <item>
+      <title>Testing CSS</title>
+      <link>https://jeremyr.blog/pages/testcss/</link>
+      <pubDate>Sun, 01 May 2022 23:19:43 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/pages/testcss/</guid>
+      <description>This is my test page. This is bold
+My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. Flex 3  Flex 2x2  Flex full width  </description>
+    </item>
+    
     <item>
       <title>Danilo Peréz</title>
       <link>https://jeremyr.blog/posts/jazz/202204-danilo/</link>

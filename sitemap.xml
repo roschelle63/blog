@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/posts/jazz/202204-danilo/</loc>
-    <lastmod>2022-05-01T11:15:18-04:00</lastmod>
+    <loc>https://jeremyr.blog/posts/photos/202204-unionstation/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2022-05-01T11:15:18-04:00</lastmod>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/</loc>
+    <lastmod>2022-05-01T23:19:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/pages/testcss/</loc>
+    <lastmod>2022-05-01T23:19:43-04:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/202204-danilo/</loc>
     <lastmod>2022-05-01T11:15:18-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/202204-porchfest/</loc>
@@ -22,9 +31,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/202204-georgetown/</loc>
     <lastmod>2022-04-18T10:05:23-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/pages/</loc>
-    <lastmod>2022-04-16T15:19:47-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/pages/patents/</loc>
     <lastmod>2022-04-16T15:19:47-04:00</lastmod>
