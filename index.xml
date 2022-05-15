@@ -9,7 +9,17 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 May 2022 21:24:17 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Womens March</title>
+      <link>https://jeremyr.blog/posts/photos/202205-womensmarch/</link>
+      <pubDate>Sat, 14 May 2022 21:24:17 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/posts/photos/202205-womensmarch/</guid>
+      <description>Audrey and I created some impromptu posters, hopped on the #54 bus, and joined the Washington DC Women&amp;rsquo;s March. We were protesting the Supreme Court&amp;rsquo;s draft decision to overturn Roe v Wade. Lots of people asked to take a photo of Audrey&amp;rsquo;s poster: &amp;ldquo;if men could get pregnant, abortions would be available at ATMs.&amp;rdquo;
+ The weather was misty, but warm, so we didn&amp;rsquo;t mind getting wet. The rally started on a lawn just below the Washington Monument.</description>
+    </item>
+    
     <item>
       <title>B&amp;W Union Station</title>
       <link>https://jeremyr.blog/posts/photos/202204-unionstation/</link>
@@ -17,7 +27,7 @@
       
       <guid>https://jeremyr.blog/posts/photos/202204-unionstation/</guid>
       <description>Union station in Washington DC is one of the most beautiful train stations in the United States. One afternoon, I had a great time wandering about and shooting photos.
- The station is fun for people watching, although some people frozen in stone.
+ The station is fun for people watching, although some people appear frozen in stone.
  </description>
     </item>
     
@@ -28,7 +38,8 @@
       
       <guid>https://jeremyr.blog/pages/testcss/</guid>
       <description>This is my test page. This is bold
-My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. Flex 3  Flex 2x2  Flex full width  </description>
+My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. Flex 3 here is some markdown text
+ here is some markdown text Flex 2x2  Flex full width  </description>
     </item>
     
     <item>
