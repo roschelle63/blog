@@ -9,22 +9,22 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Sep 2022 09:02:28 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 20:11:58 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dogs</title>
+      <link>https://jeremyr.blog/tags/dogs/</link>
+      <pubDate>Mon, 10 Oct 2022 20:11:58 -0400</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/dogs/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Micah</title>
       <link>https://jeremyr.blog/tags/micah/</link>
       <pubDate>Sun, 11 Sep 2022 09:02:28 -0700</pubDate>
       
       <guid>https://jeremyr.blog/tags/micah/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dogs</title>
-      <link>https://jeremyr.blog/tags/dogs/</link>
-      <pubDate>Sun, 14 Aug 2022 10:34:09 -0700</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/dogs/</guid>
       <description></description>
     </item>
     
