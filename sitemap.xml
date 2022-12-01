@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2022julianlage/</loc>
+    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022chargedparticles/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/jacob/</loc>
-    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022lisafischer/</loc>
@@ -34,9 +40,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/202211-topofwashington/</loc>
     <lastmod>2022-11-08T20:16:46-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2022-10-30T18:02:05-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/dogs/</loc>
     <lastmod>2022-10-30T18:02:05-04:00</lastmod>
