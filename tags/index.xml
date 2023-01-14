@@ -9,7 +9,16 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Dec 2022 07:31:51 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 12:35:59 -0800</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micah</title>
+      <link>https://jeremyr.blog/tags/micah/</link>
+      <pubDate>Sat, 14 Jan 2023 12:35:59 -0800</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/micah/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Audrey</title>
       <link>https://jeremyr.blog/tags/audrey/</link>
@@ -70,15 +79,6 @@
       <pubDate>Sun, 30 Oct 2022 18:02:05 -0400</pubDate>
       
       <guid>https://jeremyr.blog/tags/dogs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Micah</title>
-      <link>https://jeremyr.blog/tags/micah/</link>
-      <pubDate>Sun, 11 Sep 2022 09:02:28 -0700</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/micah/</guid>
       <description></description>
     </item>
     
