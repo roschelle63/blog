@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/posts/jazz/2023phatband/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-01-14T12:35:59-08:00</lastmod>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/micah/</loc>
-    <lastmod>2023-01-14T12:35:59-08:00</lastmod>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2023-01-14T12:35:59-08:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/jazz/2023stanleyclarke/</loc>
-    <lastmod>2023-01-14T12:35:59-08:00</lastmod>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023pettytheft/</loc>
+    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023stanleyclarke/</loc>
     <lastmod>2023-01-14T12:35:59-08:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2022-bestof/</loc>
@@ -22,9 +31,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/202212-asilomar/</loc>
     <lastmod>2022-12-17T21:38:03-08:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2022-12-01T07:31:51-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022julianlage/</loc>
     <lastmod>2022-12-01T07:31:51-05:00</lastmod>
