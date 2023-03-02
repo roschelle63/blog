@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2023-03-01T16:58:52-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/micah/</loc>
+    <lastmod>2023-03-01T16:58:52-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023-02-micah/</loc>
+    <lastmod>2023-03-01T16:58:52-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2023-03-01T16:58:52-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-03-01T16:58:52-08:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/tags/audrey/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023mavisstaples/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2023-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2023-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023prideandjoy/</loc>
@@ -27,9 +33,6 @@
     <lastmod>2023-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023phatband/</loc>
-    <lastmod>2023-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/micah/</loc>
     <lastmod>2023-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023pettytheft/</loc>
