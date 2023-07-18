@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/posts/photos/2023-07-windyhill/</loc>
-    <lastmod>2023-07-16T14:41:27-07:00</lastmod>
+    <loc>https://jeremyr.blog/tags/jacob/</loc>
+    <lastmod>2023-07-18T08:44:00-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-07-16T14:41:27-07:00</lastmod>
+    <lastmod>2023-07-18T08:44:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023-plutojuice/</loc>
+    <lastmod>2023-07-18T08:44:00-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2023-07-18T08:44:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-07-18T08:44:00-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2023-07-windyhill/</loc>
     <lastmod>2023-07-16T14:41:27-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-greenport/</loc>
@@ -27,9 +36,6 @@
     <lastmod>2023-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-marcusmiller/</loc>
-    <lastmod>2023-06-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2023-06-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/charlie/</loc>
@@ -111,9 +117,6 @@
     <lastmod>2022-12-01T07:31:51-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022chargedparticles/</loc>
-    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/jacob/</loc>
     <lastmod>2022-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2022lisafischer/</loc>
