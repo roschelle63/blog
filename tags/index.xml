@@ -9,7 +9,16 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Jul 2023 08:44:00 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jul 2023 11:14:24 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micah</title>
+      <link>https://jeremyr.blog/tags/micah/</link>
+      <pubDate>Sun, 23 Jul 2023 11:14:24 -0700</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/micah/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Jacob</title>
       <link>https://jeremyr.blog/tags/jacob/</link>
@@ -88,15 +97,6 @@
       <pubDate>Mon, 29 May 2023 08:09:26 -0400</pubDate>
       
       <guid>https://jeremyr.blog/tags/paul/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Micah</title>
-      <link>https://jeremyr.blog/tags/micah/</link>
-      <pubDate>Fri, 03 Mar 2023 23:47:12 -0800</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/micah/</guid>
       <description></description>
     </item>
     
