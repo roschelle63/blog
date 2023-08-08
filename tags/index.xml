@@ -9,7 +9,16 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 28 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 22:04:08 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Roy</title>
+      <link>https://jeremyr.blog/tags/roy/</link>
+      <pubDate>Mon, 07 Aug 2023 22:04:08 -0700</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/roy/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Audrey</title>
       <link>https://jeremyr.blog/tags/audrey/</link>
