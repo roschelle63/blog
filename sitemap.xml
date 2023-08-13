@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2023-08-12T23:35:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/micah/</loc>
+    <lastmod>2023-08-12T23:35:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2023-08-12T23:35:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023-08-sanjosejazz/</loc>
+    <lastmod>2023-08-12T23:35:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-08-12T23:35:50-07:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-08-buddyguy/</loc>
     <lastmod>2023-08-07T22:04:08-07:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-08-07T22:04:08-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2023-08-07T22:04:08-07:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/tags/roy/</loc>
-    <lastmod>2023-08-07T22:04:08-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2023-08-07T22:04:08-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-07-anatcohen/</loc>
@@ -31,9 +37,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-transcendence/</loc>
     <lastmod>2023-07-26T20:08:33-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/micah/</loc>
-    <lastmod>2023-07-23T11:14:24-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-07-micahsfmarathon/</loc>
     <lastmod>2023-07-23T11:14:24-07:00</lastmod>
