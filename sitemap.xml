@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/tags/jacob/</loc>
+    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2023-newmexico/</loc>
+    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-desolationwilderness/</loc>
     <lastmod>2023-09-16T09:58:03-07:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-09-16T09:58:03-07:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/tags/micah/</loc>
-    <lastmod>2023-09-16T09:58:03-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2023-09-16T09:58:03-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2023-09-16T09:58:03-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-09-bebelgilberto/</loc>
@@ -43,9 +49,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-madiera/</loc>
     <lastmod>2023-07-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/jacob/</loc>
-    <lastmod>2023-07-26T20:08:33-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-transcendence/</loc>
     <lastmod>2023-07-26T20:08:33-07:00</lastmod>
