@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/tags/jacob/</loc>
-    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/beth/</loc>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/eddie/</loc>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</loc>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2023-11-19T18:33:38-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/jacob/</loc>
     <lastmod>2023-11-13T22:21:42-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-newmexico/</loc>
@@ -25,9 +37,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-09-bebelgilberto/</loc>
     <lastmod>2023-09-16T09:33:44-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2023-09-13T22:07:45-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/roy/</loc>
     <lastmod>2023-09-13T22:07:45-07:00</lastmod>
@@ -312,9 +321,6 @@
     <lastmod>2022-04-07T22:40:24-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/david/</loc>
-    <lastmod>2022-04-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/eddie/</loc>
     <lastmod>2022-04-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/lizzie/</loc>
