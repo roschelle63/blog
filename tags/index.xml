@@ -9,11 +9,20 @@
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Dec 2023 22:38:19 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 17:37:24 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audrey</title>
+      <link>https://jeremyr.blog/tags/audrey/</link>
+      <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/audrey/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Micah</title>
       <link>https://jeremyr.blog/tags/micah/</link>
-      <pubDate>Thu, 28 Dec 2023 22:38:19 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
       
       <guid>https://jeremyr.blog/tags/micah/</guid>
       <description></description>
@@ -22,18 +31,9 @@
     <item>
       <title>Victoria</title>
       <link>https://jeremyr.blog/tags/victoria/</link>
-      <pubDate>Thu, 28 Dec 2023 22:38:19 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
       
       <guid>https://jeremyr.blog/tags/victoria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audrey</title>
-      <link>https://jeremyr.blog/tags/audrey/</link>
-      <pubDate>Sun, 17 Dec 2023 14:51:47 -0500</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/audrey/</guid>
       <description></description>
     </item>
     
