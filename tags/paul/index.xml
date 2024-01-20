@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paul on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/paul/</link>
     <description>Recent content in Paul on Jeremy Roschelle</description>
     <image>
+      <title>Jeremy Roschelle</title>
       <url>https://jeremyr.blog/</url>
       <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 29 May 2023 08:09:26 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/tags/paul/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 29 May 2023 08:09:26 -0400</lastBuildDate>
+    <atom:link href="https://jeremyr.blog/tags/paul/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La Bohème</title>
       <link>https://jeremyr.blog/posts/jazz/2023-laboheme/</link>
       <pubDate>Mon, 29 May 2023 08:09:26 -0400</pubDate>
-      
       <guid>https://jeremyr.blog/posts/jazz/2023-laboheme/</guid>
       <description>A night at the opera! Audrey and I took Mom and Paul a double first: their first time at the Kennedy Center and our first time at the opera. The night was warm and beautiful, so we enjoyed people watching outdoors before the show. We also really enjoyed the opera. It was unexpectedly funny, and of course, romantic and tragic. The sets and costumes were not overdone, but still made for a spectacle.</description>
     </item>
-    
   </channel>
 </rss>
