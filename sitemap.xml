@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/posts/photos/2024-january-nyc/</loc>
-    <lastmod>2024-01-19T21:34:46-05:00</lastmod>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2024-01-22T10:19:46-08:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2024-01-19T21:34:46-05:00</lastmod>
+    <lastmod>2024-01-22T10:19:46-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2024-01-julianlage/</loc>
+    <lastmod>2024-01-22T10:19:46-08:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2024-01-22T10:19:46-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2024-01-22T10:19:46-08:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2024-january-nyc/</loc>
     <lastmod>2024-01-19T21:34:46-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/alice/</loc>
@@ -17,17 +26,11 @@
     <loc>https://jeremyr.blog/posts/jazz/2024-01-harlemgospelchoir/</loc>
     <lastmod>2024-01-15T19:51:41-05:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
-    <lastmod>2024-01-15T19:51:41-05:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-01-meshell/</loc>
     <lastmod>2024-01-15T10:59:12-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-01-krisdavis/</loc>
     <lastmod>2024-01-14T20:25:24-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2024-01-01T17:37:24-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-12-jazzmeia/</loc>
     <lastmod>2024-01-01T17:37:24-05:00</lastmod>
