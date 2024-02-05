@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jan 2024 10:19:46 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 19:43:34 -0800</lastBuildDate>
     <atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Micah</title>
+      <link>https://jeremyr.blog/tags/micah/</link>
+      <pubDate>Sun, 04 Feb 2024 19:43:34 -0800</pubDate>
+      <guid>https://jeremyr.blog/tags/micah/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Audrey</title>
       <link>https://jeremyr.blog/tags/audrey/</link>
@@ -25,13 +32,6 @@
       <link>https://jeremyr.blog/tags/alice/</link>
       <pubDate>Mon, 15 Jan 2024 19:51:41 -0500</pubDate>
       <guid>https://jeremyr.blog/tags/alice/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Micah</title>
-      <link>https://jeremyr.blog/tags/micah/</link>
-      <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
-      <guid>https://jeremyr.blog/tags/micah/</guid>
       <description></description>
     </item>
     <item>
