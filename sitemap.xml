@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/posts/jazz/2024-03-ravicontrane/</loc>
+    <lastmod>2024-03-29T07:37:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2024-03-29T07:37:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/micah/</loc>
+    <lastmod>2024-03-29T07:37:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2024-03-29T07:37:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2024-03-29T07:37:50-07:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/tags/audrey/</loc>
     <lastmod>2024-03-25T22:19:46-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2024-03-deathvalley/</loc>
-    <lastmod>2024-03-25T22:19:46-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2024-03-25T22:19:46-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2024-03-25T22:19:46-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2024-03-25T22:19:46-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-03-marcusmiller/</loc>
@@ -24,9 +30,6 @@
     <lastmod>2024-02-29T08:25:48-08:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-02-delfayomarsalis/</loc>
-    <lastmod>2024-02-04T19:43:34-08:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/micah/</loc>
     <lastmod>2024-02-04T19:43:34-08:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-01-lindamayhanoh/</loc>
