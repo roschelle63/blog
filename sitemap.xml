@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/posts/photos/2024-edgewood/</loc>
-    <lastmod>2024-04-27T15:45:35-07:00</lastmod>
+    <loc>https://jeremyr.blog/posts/photos/2024-colorado/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/alice/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/jacob/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/</loc>
-    <lastmod>2024-04-27T15:45:35-07:00</lastmod>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/karen/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/paul/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2024-05-07T22:21:05-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2024-edgewood/</loc>
     <lastmod>2024-04-27T15:45:35-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-03-ethaniverson/</loc>
@@ -19,12 +40,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-03-ravicontrane/</loc>
     <lastmod>2024-03-28T07:37:50-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
-    <lastmod>2024-03-28T07:37:50-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2024-03-25T22:19:46-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2024-03-deathvalley/</loc>
     <lastmod>2024-03-25T22:19:46-07:00</lastmod>
@@ -46,9 +61,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2024-january-nyc/</loc>
     <lastmod>2024-01-19T21:34:46-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/alice/</loc>
-    <lastmod>2024-01-15T19:51:41-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2024-01-harlemgospelchoir/</loc>
     <lastmod>2024-01-15T19:51:41-05:00</lastmod>
@@ -85,9 +97,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</loc>
     <lastmod>2023-11-19T18:33:38-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/jacob/</loc>
-    <lastmod>2023-11-13T22:21:42-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2023-newmexico/</loc>
     <lastmod>2023-11-13T22:21:42-05:00</lastmod>
@@ -156,9 +165,6 @@
     <lastmod>2023-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-laboheme/</loc>
-    <lastmod>2023-05-29T08:09:26-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/paul/</loc>
     <lastmod>2023-05-29T08:09:26-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2023-davidsanchez/</loc>
