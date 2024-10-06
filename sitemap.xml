@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2024-09-decora/</loc>
+    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/tags/audrey/</loc>
     <lastmod>2024-09-21T17:25:10-05:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2024-09-21T17:25:10-05:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/tags/lucy/</loc>
-    <lastmod>2024-09-21T17:25:10-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
     <lastmod>2024-09-21T17:25:10-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2024-09-kamala/</loc>
