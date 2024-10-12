@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 17:25:10 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2024 06:57:25 -0500</lastBuildDate>
     <atom:link href="https://jeremyr.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Visiting Decorah, Iowa</title>
+      <link>https://jeremyr.blog/posts/photos/2024-09-decora/</link>
+      <pubDate>Sun, 06 Oct 2024 06:57:25 -0500</pubDate>
+      <guid>https://jeremyr.blog/posts/photos/2024-09-decora/</guid>
+      <description>&lt;p&gt;From Madison, I took a day trip to Iowa. Specifically, the town of Decorah, to visit Melissa Koch. I worked closely with Melissa about a decade ago at SRI International, and now she runs the wonderful &lt;a href=&#34;https://www.bandbonbroadway.com/&#34;&gt;Bed and Breakfast on Broadway&lt;/a&gt; with her husband, son, and dog. She&amp;rsquo;s cracked the code of the perfect small town life.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/Melissa.jpg&#34; alt=&#34;&amp;lt;# Melissa and her dog in front of the B&amp;amp;B #&amp;gt;&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;We started with a tour of the 1910, 5-bedroom inn. I enjoyed the period living room and main guest rooms upstairs. But then Melissa invited me up a narrow set of stairs to the top floor. It opened onto an amazing suite, with a turreted tower as the perfect reading room. What an amazing space! I&amp;rsquo;ll be back. &lt;em&gt;Click any picture for bigger images.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rallying in Madison</title>
       <link>https://jeremyr.blog/posts/photos/2024-09-kamala/</link>
@@ -5658,28 +5668,6 @@ CACM is the &lt;a href=&#34;https://cacm.acm.org/&#34;&gt;magazine&lt;/a&gt; of 
 		
 	});
 &lt;/script&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://jeremyr.blog/posts/photos/2024-09-decora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jeremyr.blog/posts/photos/2024-09-decora/</guid>
-      <description>&lt;!DOCTYPE html&gt;
-&lt;hr&gt;
-&lt;p&gt;title: &amp;ldquo;Visiting Decorah, Iowa&amp;rdquo;
-date: 2024-10-06T06:57:25-05:00
-draft: true
-showtoc: false
-tocopen: false&lt;/p&gt;
-&lt;p&gt;disableShare: false
-cover:
-image: &amp;ldquo;images/cover.jpg&amp;rdquo;
-alt: &amp;quot;&amp;quot;
-caption: &amp;ldquo;View of the Mississippi River from Effigy Mounds&amp;rdquo;
-relative: true&lt;/p&gt;
-&lt;p&gt;tags:&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;From Madison, I took a day trip to Iowa. Specifically, the town of Decorah, to visit Melissa Koch. I worked closely with Melissa about a decade ago at SRI International, and now she runs the wonderful &lt;a href=&#34;https://www.bandbonbroadway.com/&#34;&gt;Bed and Breakfast on Broadway&lt;/a&gt; with her husband, son, and dog. She&amp;rsquo;s cracked the code of the perfect small town life.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
