@@ -2,19 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
-    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/photos/2024-09-decora/</loc>
-    <lastmod>2024-10-06T06:57:25-05:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/tags/audrey/</loc>
     <lastmod>2024-09-21T17:25:10-05:00</lastmod>
   </url><url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2024-09-21T17:25:10-05:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/tags/lucy/</loc>
+    <lastmod>2024-09-21T17:25:10-05:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
     <lastmod>2024-09-21T17:25:10-05:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2024-09-kamala/</loc>
@@ -341,7 +338,7 @@
     <loc>https://jeremyr.blog/posts/jazz/kamasi-washington/</loc>
     <lastmod>2022-07-28T09:55:55-07:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/posts/jazz/james-francies-george-cables/</loc>
+    <loc>https://jeremyr.blog/posts/jazz/james-francies---george-cables/</loc>
     <lastmod>2022-07-25T07:16:05-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/202207-mattitucksunset/</loc>
@@ -445,6 +442,8 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/cherryblossom/</loc>
     <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2024-09-decora/</loc>
   </url><url>
     <loc>https://jeremyr.blog/archives.fr/</loc>
   </url><url>

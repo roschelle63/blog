@@ -18,51 +18,253 @@
       <link>https://jeremyr.blog/pages/testcss/</link>
       <pubDate>Sun, 01 May 2022 23:19:43 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/testcss/</guid>
-      <description>This is my test page. This is bold
-My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. Flex 3 here is some markdown text
-here is some markdown text Flex 2x2 Flex full width </description>
+      <description>&lt;p&gt;This is my test page. This is &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p class=&#34;para2&#34; &gt;My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. 
+&lt;/p&gt;
+&lt;h1 id=&#34;flex-3&#34;&gt;Flex 3&lt;/h1&gt;
+&lt;p&gt;here is some markdown text&lt;/p&gt;
+&lt;div class=&#34;flexflow&#34;&gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34;&gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2Tall.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms3Wide.jpg&#34; &gt;
+&lt;/div&gt;
+here is some markdown text
+&lt;h1 id=&#34;flex-2x2&#34;&gt;Flex 2x2&lt;/h1&gt;
+&lt;div class=&#34;flexflow50&#34; &gt;
+
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms3.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms3.jpg&#34; &gt;
+
+&lt;/div&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;flex-full-width&#34;&gt;Flex full width&lt;/h1&gt;
+&lt;div class=&#34;flexflow100&#34; &gt;
+
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms1.jpg&#34; &gt;
+&lt;img src=&#34;https://jeremyr.blog/Cherry/Blossoms2.jpg&#34; &gt;
+
+&lt;/div&gt;
+&lt;br&gt;</description>
     </item>
     <item>
       <title>Patents</title>
       <link>https://jeremyr.blog/pages/patents/</link>
       <pubDate>Sat, 16 Apr 2022 15:19:47 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/patents/</guid>
-      <description>It seems cool that my name is on a few patents. As far as I know, these patents have never been used for anything. The history was that my former employer, SRI International, pursued and was awarded these patents based on research conducted in our Center for Technology in Learning on the topic of computer-supported collaborative learning, especially with mobile devices. As is typical, the patents are assigned to SRI; I don&amp;rsquo;t &amp;ldquo;own&amp;rdquo; any rights in them.</description>
+      <description>&lt;p&gt;It seems cool that my name is on a few patents. As far as I know, these patents have never been used for anything. The history was that my former employer, SRI International, pursued and was awarded these patents based on research conducted in our Center for Technology in Learning on the topic of computer-supported collaborative learning, especially with mobile devices. As is typical, the patents are assigned to SRI; I don&amp;rsquo;t &amp;ldquo;own&amp;rdquo; any rights in them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Blogs</title>
       <link>https://jeremyr.blog/pages/blogs/</link>
       <pubDate>Sat, 16 Apr 2022 15:16:47 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/blogs/</guid>
-      <description>CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for the magazine. Here are all my blogs:
-A Pioneer in Using AI to Teach Reading July 2024 by Jeremy Roschelle Ethics and Equity in AI for Collaborative Learning September 2023 by Michael Alan Chang, Jeremy Roschelle, and iSAT Research Group Stop Judging AI Using Human Exams July 2023 by Jeremy Roschelle AI in the Public Interest: Education and Democracy March 2023 by Jeremy Roschelle ChatGPT for Provost February 2023 by Jeremy Roschelle The ChatAlgebra Educational Revolution January 2023 by Jeremy Roschelle Reflections on the AI Bill of Rights Blueprint October 2022 by Jeremy Roschelle Four Conversations About Human-Centric AI September 2022 by Jeremy Roschelle R&amp;amp;D or r&amp;amp;d: What&amp;#39;s the Difference?</description>
+      <description>&lt;p&gt;CACM is the &lt;a href=&#34;https://cacm.acm.org/&#34;&gt;magazine&lt;/a&gt; of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo;
+I occassionally write columns for the magazine. Here are all my blogs:&lt;/p&gt;
+&lt;ul&gt;
+
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogcacm/a-pioneer-in-using-ai-to-teach-reading/&#34;&gt;A Pioneer in Using AI to Teach Reading&lt;/a&gt; July 2024&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/276106-ethics-and-equity-in-ai-for-collaborative-learning/fulltext&#34;&gt;Ethics and Equity in AI for Collaborative Learning&lt;/a&gt; September 2023&lt;em&gt; by Michael Alan Chang, Jeremy Roschelle, and iSAT Research Group&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/275076-stop-judging-ai-using-human-exams/fulltext&#34;&gt;Stop Judging AI Using Human Exams&lt;/a&gt; July 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/271217-ai-in-the-public-interest-education-and-democracy/fulltext&#34;&gt;AI in the Public Interest: Education and Democracy&lt;/a&gt; March 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/269998-chatgpt-for-provost/fulltext&#34;&gt;ChatGPT for Provost&lt;/a&gt; February 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/268378-the-chatalgebra-educational-revolution/fulltext&#34;&gt;The ChatAlgebra Educational Revolution&lt;/a&gt; January 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/265536-reflections-on-the-ai-bill-of-rights-blueprint/fulltext&#34;&gt;Reflections on the AI Bill of Rights Blueprint&lt;/a&gt; October 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/264607-four-conversations-about-human-centric-ai/fulltext&#34;&gt;Four Conversations About Human-Centric AI&lt;/a&gt; September 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/258576-rd-or-rd-whats-the-difference/fulltext&#34;&gt;R&amp;amp;D or r&amp;amp;d: What&amp;#39;s the Difference?&lt;/a&gt; February 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/251188-ai-or-intelligence-augmentation-for-education/fulltext&#34;&gt;AI or Intelligence Augmentation for Education?&lt;/a&gt; March 2021&lt;em&gt; by Jeremy Roschelle, Pati Ruiz, and Judi Fusco&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/256657-safe-ai-in-education-needs-you/fulltext&#34;&gt;Safe AI in Education needs you&lt;/a&gt; November 2021&lt;em&gt; by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/259528-how-scripting-misses-the-mark/fulltext&#34;&gt;How scripting missing the mark&lt;/a&gt; March 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/243769-powerful-online-learning-is-a-distributed-system/fulltext&#34;&gt;Powerful Online Learning is a Distributed System&lt;/a&gt; March 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/244188-computational-thinking-or-computational-teamwork/fulltext&#34;&gt;Computational Thinking or Computational Teamwork?&lt;/a&gt; April 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/244415-learning-computational-thinking-to-dominate-the-music-industry/fulltext&#34;&gt;Learning Computational Thinking to Dominate the Music Industry&lt;/a&gt; April 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/246538-towards-equity-in-k-12-computer-science-education-consistency-cumulativity-and-competencies/fulltext&#34;&gt;Towards Equity in K-12 Computer Science Education: Consistency, Cumulativity and Competencies&lt;/a&gt; July 2020&lt;em&gt; by Jeremy Roschelle and Quinn Burke&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/249708-computers-for-learning-charisma-that-fails-to-disrupt/fulltext&#34;&gt;Computers for Learning: Charisma that Fails to Disrupt?&lt;/a&gt; January 2021&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/253556-inclusive-integration-of-computing-in-school-districts-two-essential-tradeoffs/fulltext&#34;&gt;Inclusive Integration of Computing in School Districts: Two Essential Tradeoffs&lt;/a&gt; June 2021&lt;em&gt; by Merijke Coenraad, Brian Giovanini, Kelly Mills, Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/248747-why-focus-on-technologies-for-human-learning/fulltext&#34;&gt;Why Focus on Technologies for Human Learning?&lt;/a&gt; November 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Testpage</title>
       <link>https://jeremyr.blog/pages/testpage/</link>
       <pubDate>Fri, 15 Apr 2022 00:18:53 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/testpage/</guid>
-      <description>This is my data test page
-journal Roschelle, J., Noss, R., Blikstein, P., &amp;amp; Jackiw, N. (2017). Technology for learning mathematics. In J. Cai (Ed.), Compendium for Research in Mathematics Education. Reston, VA: National Council of Teachers of Mathematics. 273-296. [DOI]
-Description: Handbook chapter providing a broad overview of what we know about technology for learning mathematics Roschelle, J., Feng, M., Murphy, R. &amp;amp; Mason, C.A. (2016). Online mathematics homework increases student achievement.</description>
+      <description>&lt;p&gt;This is my data test page&lt;/p&gt;
+&lt;h2 id=&#34;journal&#34;&gt;journal&lt;/h2&gt;
+&lt;ul&gt;
+
+
+	 &lt;li&gt;Roschelle, J., Noss, R., Blikstein, P., &amp;amp; Jackiw, N. (2017). Technology for learning mathematics. In J. Cai (Ed.), Compendium for Research in Mathematics Education. Reston, VA: National Council of Teachers of Mathematics. 273-296. &lt;a href=&#34;https://doi.org/&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;Handbook chapter providing a broad overview of what we know about technology for learning mathematics&lt;/em&gt;&lt;/li&gt;
+
+	 &lt;li&gt;Roschelle, J., Feng, M., Murphy, R. &amp;amp; Mason, C.A. (2016). Online mathematics homework increases student achievement. AERA Open, 2(4), 1-12. &lt;a href=&#34;https://doi.org/10.1177/2332858416673968&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;Rigorous research studying showing that ASSISTments helps students learn mathematics&lt;/em&gt;&lt;/li&gt;
+
+	 &lt;li&gt;Roschelle, J., Shechtman, N., Tatar, D., Hegedus, S., Hopkins, B., Empson, S., Knudsen, J. &amp;amp; Gallagher, L. (2010). Integration of technology, curriculum, and professional development for advancing middle school mathematics: Three large-scale studies.  American Educational Research Journal, 47(4), 833-878 &lt;a href=&#34;https://doi.org/10.3102/0002831210367426&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;Large-scale studies showing that SimCalc helped students to learn mathematics&lt;/em&gt;&lt;/li&gt;
+
+	 &lt;li&gt;Smith, J.P., diSessa, A.A., Roschelle, J. (1993). Misconceptions reconceived: A constructivist analysis of knowledge in transition. Journal of the Learning Sciences, 3(2), 115-163. &lt;a href=&#34;https://doi.org/10.1207/s15327809jls0302_1&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;We had so much fun re-thinking the idea that students have &amp;#39;misconceptions&amp;#39;&lt;/em&gt;&lt;/li&gt;
+
+	 &lt;li&gt;Teasley, S.D. and Roschelle, J. (1993). Constructing a Joint Problem Space: The computer as a tool for sharing knowledge. In S.P. Lajoie &amp;amp; S.J. Derry (Eds). The Computer as a Cognitive Tool.  Hillsdale, NJ: Erlbaum. 229-258. &lt;a href=&#34;https://doi.org/&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;Early work about computer supported collaborative learning, the paper that Europeans most like&lt;/em&gt;&lt;/li&gt;
+
+	 &lt;li&gt;Roschelle,  J. (1992). Learning by collaborating: Convergent conceptual change. Journal of the Learning Sciences, 2(3), 235-276. &lt;a href=&#34;https://doi.org/10.1207/s15327809jls0203_1&#34; name=&#34;DOI&#34;&gt;[DOI]&lt;/a&gt;&lt;br&gt;
+	Description: &lt;em&gt;Early work about computer supported collaborative learning, the paper that Americans cite most&lt;/em&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;blogs-first-4&#34;&gt;blogs first 4&lt;/h2&gt;
+&lt;ul&gt;
+
+	
+		  &lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogcacm/a-pioneer-in-using-ai-to-teach-reading/&#34;&gt;A Pioneer in Using AI to Teach Reading&lt;/a&gt; July 2024&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		  &lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/276106-ethics-and-equity-in-ai-for-collaborative-learning/fulltext&#34;&gt;Ethics and Equity in AI for Collaborative Learning&lt;/a&gt; September 2023&lt;em&gt; by Michael Alan Chang, Jeremy Roschelle, and iSAT Research Group&lt;/em&gt;&lt;/li&gt;
+	
+		  &lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/275076-stop-judging-ai-using-human-exams/fulltext&#34;&gt;Stop Judging AI Using Human Exams&lt;/a&gt; July 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		  &lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/271217-ai-in-the-public-interest-education-and-democracy/fulltext&#34;&gt;AI in the Public Interest: Education and Democracy&lt;/a&gt; March 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+
+&lt;/ul&gt;
+&lt;h2 id=&#34;blogs&#34;&gt;blogs&lt;/h2&gt;
+&lt;ul&gt;
+
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogcacm/a-pioneer-in-using-ai-to-teach-reading/&#34;&gt;A Pioneer in Using AI to Teach Reading&lt;/a&gt; July 2024&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/276106-ethics-and-equity-in-ai-for-collaborative-learning/fulltext&#34;&gt;Ethics and Equity in AI for Collaborative Learning&lt;/a&gt; September 2023&lt;em&gt; by Michael Alan Chang, Jeremy Roschelle, and iSAT Research Group&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/275076-stop-judging-ai-using-human-exams/fulltext&#34;&gt;Stop Judging AI Using Human Exams&lt;/a&gt; July 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/271217-ai-in-the-public-interest-education-and-democracy/fulltext&#34;&gt;AI in the Public Interest: Education and Democracy&lt;/a&gt; March 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/269998-chatgpt-for-provost/fulltext&#34;&gt;ChatGPT for Provost&lt;/a&gt; February 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/268378-the-chatalgebra-educational-revolution/fulltext&#34;&gt;The ChatAlgebra Educational Revolution&lt;/a&gt; January 2023&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/265536-reflections-on-the-ai-bill-of-rights-blueprint/fulltext&#34;&gt;Reflections on the AI Bill of Rights Blueprint&lt;/a&gt; October 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/264607-four-conversations-about-human-centric-ai/fulltext&#34;&gt;Four Conversations About Human-Centric AI&lt;/a&gt; September 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/258576-rd-or-rd-whats-the-difference/fulltext&#34;&gt;R&amp;amp;D or r&amp;amp;d: What&amp;#39;s the Difference?&lt;/a&gt; February 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/251188-ai-or-intelligence-augmentation-for-education/fulltext&#34;&gt;AI or Intelligence Augmentation for Education?&lt;/a&gt; March 2021&lt;em&gt; by Jeremy Roschelle, Pati Ruiz, and Judi Fusco&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/256657-safe-ai-in-education-needs-you/fulltext&#34;&gt;Safe AI in Education needs you&lt;/a&gt; November 2021&lt;em&gt; by Leah Friedman, Nancye Blair Black, Erin Walker, and Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/259528-how-scripting-misses-the-mark/fulltext&#34;&gt;How scripting missing the mark&lt;/a&gt; March 2022&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/243769-powerful-online-learning-is-a-distributed-system/fulltext&#34;&gt;Powerful Online Learning is a Distributed System&lt;/a&gt; March 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/244188-computational-thinking-or-computational-teamwork/fulltext&#34;&gt;Computational Thinking or Computational Teamwork?&lt;/a&gt; April 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/244415-learning-computational-thinking-to-dominate-the-music-industry/fulltext&#34;&gt;Learning Computational Thinking to Dominate the Music Industry&lt;/a&gt; April 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/246538-towards-equity-in-k-12-computer-science-education-consistency-cumulativity-and-competencies/fulltext&#34;&gt;Towards Equity in K-12 Computer Science Education: Consistency, Cumulativity and Competencies&lt;/a&gt; July 2020&lt;em&gt; by Jeremy Roschelle and Quinn Burke&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/249708-computers-for-learning-charisma-that-fails-to-disrupt/fulltext&#34;&gt;Computers for Learning: Charisma that Fails to Disrupt?&lt;/a&gt; January 2021&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/253556-inclusive-integration-of-computing-in-school-districts-two-essential-tradeoffs/fulltext&#34;&gt;Inclusive Integration of Computing in School Districts: Two Essential Tradeoffs&lt;/a&gt; June 2021&lt;em&gt; by Merijke Coenraad, Brian Giovanini, Kelly Mills, Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+		&lt;li&gt;&lt;a href=&#34;https://cacm.acm.org/blogs/blog-cacm/248747-why-focus-on-technologies-for-human-learning/fulltext&#34;&gt;Why Focus on Technologies for Human Learning?&lt;/a&gt; November 2020&lt;em&gt; by Jeremy Roschelle&lt;/em&gt;&lt;/li&gt;
+	
+
+&lt;/ul&gt;
+&lt;h2 id=&#34;patents-first-four&#34;&gt;patents first four&lt;/h2&gt;
+&lt;ul&gt;
+
+	
+	   &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=6628918&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;6628918&lt;/a&gt; System, method and computer program product for instant group learning feedback via image-based marking and aggregation. 2003, &lt;em&gt;Roschelle, Vahey, De Frondeville&lt;/em&gt;.&lt;/li&gt;
+	
+	   &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=6885844&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;6885844&lt;/a&gt; System, method and computer program product for rapidly posing relevant questions to a group leader in an educational environment using networked thin client devices. 2005, &lt;em&gt;Roschelle &amp;amp; Digiano&lt;/em&gt;.&lt;/li&gt;
+	
+	   &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=7720946&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;7720946&lt;/a&gt; System, method and computer program product for enhancing awareness of fellow students&amp;#39; state of comprehension in an educational environment using networked thin client devices. 2010, &lt;em&gt;Digiano, Roschelle &amp;amp; Vahey&lt;/em&gt;.&lt;/li&gt;
+	
+	   &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=8092227&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;8092227&lt;/a&gt; Method and apparatus for group learning via sequential explanation templates. 2012, &lt;em&gt;Roschelle &amp;amp; Penuel&lt;/em&gt;.&lt;/li&gt;
+	
+
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;patents&#34;&gt;patents&lt;/h2&gt;
+&lt;ul&gt;
+
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=6628918&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;6628918&lt;/a&gt; System, method and computer program product for instant group learning feedback via image-based marking and aggregation. 2003, &lt;em&gt;Roschelle, Vahey, De Frondeville&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=6885844&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;6885844&lt;/a&gt; System, method and computer program product for rapidly posing relevant questions to a group leader in an educational environment using networked thin client devices. 2005, &lt;em&gt;Roschelle &amp;amp; Digiano&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=7720946&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;7720946&lt;/a&gt; System, method and computer program product for enhancing awareness of fellow students&amp;#39; state of comprehension in an educational environment using networked thin client devices. 2010, &lt;em&gt;Digiano, Roschelle &amp;amp; Vahey&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=8092227&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;8092227&lt;/a&gt; Method and apparatus for group learning via sequential explanation templates. 2012, &lt;em&gt;Roschelle &amp;amp; Penuel&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=8127039&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;8127039&lt;/a&gt; Method and system for enabling and controlling communication topology, access to resources, and document flow in a distributed networking environment. 2012, &lt;em&gt;Patton, Roschelle, Pea &amp;amp; Vahey&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=8230351&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;8230351&lt;/a&gt; Method and apparatus for collaborative work GroupScribbles. 2012, &lt;em&gt;Patton, Digiano, Davis, Brecht, Harris, Schank, Roschelle&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=8656044&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;8656044&lt;/a&gt; Invitation for transferring objects in a communications network. 2006, &lt;em&gt;Roschelle, Brecht, Fry, Moore, Karachiwala&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=9246586&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;9246586&lt;/a&gt; Method and system for enabling and controlling communication topology, access to resources, and document flow in a distributed networking environment. 2016, &lt;em&gt;Patton, Roschelle, Pea, Vahey&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=9361807&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;9361807&lt;/a&gt; Method and apparatus for providing collaborative learning. 2016, &lt;em&gt;Roschelle, Zaner, Patton&lt;/em&gt;.&lt;/li&gt;
+	
+	 &lt;li&gt;&lt;a href=&#34;https://pdfpiw.uspto.gov/.piw?Docid=10403163&amp;amp;homeurl=http%3A%2F%2Fpatft.uspto.gov%2Fnetacgi%2Fnph-Parser%3FSect1%3DPTO1%2526Sect2%3DHITOFF%2526d%3DPALL%2526p%3D1%2526u%3D%25252Fnetahtml%25252FPTO%25252Fsrchnum.htm%2526r%3D1%2526f%3DG%2526l%3D50%2526s1%3D6,885,844.PN.%2526OS%3DPN%2F6,885,844%2526RS%3DPN%2F6,885,844&amp;amp;PageNum=&amp;amp;Rtype=&amp;amp;SectionNum=&amp;amp;idkey=NONE&amp;amp;Input=View&amp;#43;first&amp;#43;page%29&#34;&gt;10403163&lt;/a&gt; Method and system for providing collaborative learning. 2019, &lt;em&gt;Roschelle, Zaner, Patton&lt;/em&gt;.&lt;/li&gt;
+	
+
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>About me</title>
       <link>https://jeremyr.blog/pages/about/</link>
       <pubDate>Fri, 08 Apr 2022 00:05:21 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/about/</guid>
-      <description>I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for Digital Promise, a nonprofit, where I am Executive Director of our Learning Sciences Research team. I am Fellow of the International Society of the Learning Sciences. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.
-My favorite hobbies are photography, jazz, backpacking and hiking.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for &lt;a href=&#34;https://digitalpromise.org&#34;&gt;Digital Promise&lt;/a&gt;, a nonprofit, where I am Executive Director of our &lt;a href=&#34;https://digitalpromise.org/initiative/learning-sciences/&#34;&gt;Learning Sciences Research&lt;/a&gt; team. I am Fellow of the &lt;a href=&#34;https://www.isls.org/&#34;&gt;International Society of the Learning Sciences&lt;/a&gt;. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.&lt;/p&gt;
+&lt;p&gt;My favorite hobbies are photography, jazz, backpacking and hiking. You will find posts in the blog about these things.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Writing</title>
       <link>https://jeremyr.blog/pages/writing/</link>
       <pubDate>Thu, 07 Apr 2022 22:40:24 -0400</pubDate>
       <guid>https://jeremyr.blog/pages/writing/</guid>
-      <description>A curated list of things I&amp;rsquo;ve written professionally
-AI Report In 2022-23, I led the Digital Promise team that supported the US Department of Education&amp;rsquo;s Office of Educational Technology on this report: AI and the Future of Learning and Teaching: Insights and Recommendations.
-CACM Blogs CACM is the magazine of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for their magazine, such as:
-A Pioneer in Using AI to Teach Reading July 2024 by Jeremy Roschelle Ethics and Equity in AI for Collaborative Learning September 2023 by Michael Alan Chang, Jeremy Roschelle, and iSAT Research Group Stop Judging AI Using Human Exams July 2023 by Jeremy Roschelle AI in the Public Interest: Education and Democracy March 2023 by Jeremy Roschelle ChatGPT for Provost February 2023 by Jeremy Roschelle Read more blogs here.</description>
+      <description>&lt;p&gt;&lt;em&gt;A curated list of things I&amp;rsquo;ve written professionally&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ai-report&#34;&gt;AI Report&lt;/h2&gt;
+&lt;p&gt;In 2022-23, I led the Digital Promise team that supported the US Department of Education&amp;rsquo;s Office of Educational Technology on this report: &lt;a href=&#34;https://tech.ed.gov/ai/&#34;&gt;AI and the Future of Learning and Teaching: Insights and Recommendations&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;cacm-blogs&#34;&gt;CACM Blogs&lt;/h2&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://jeremyr.blog/cacmlogo.png&#34;
+         alt=&#34;logo for the magazine, Communications of the ACM&#34; height=&#34;140&#34;/&gt; 
+&lt;/figure&gt;
+
+CACM is the &lt;a href=&#34;https://cacm.acm.org/&#34;&gt;magazine&lt;/a&gt; of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for their magazine, such as:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
