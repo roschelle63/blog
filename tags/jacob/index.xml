@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jacob on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/jacob/</link>
@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Aug 2024 13:17:20 -0500</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/tags/jacob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 13:17:20 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/jacob/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backpacking Rockbound Pass, Desolation Wilderness</title>
       <link>https://jeremyr.blog/posts/photos/2024-07-rockbound/</link>
       <pubDate>Sat, 03 Aug 2024 13:17:20 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2024-07-rockbound/</guid>
       <description>&lt;h1 id=&#34;hitting-the-trail&#34;&gt;Hitting the trail&lt;/h1&gt;
 &lt;p&gt;Our quest for the perfect lake in California&amp;rsquo;s Sierra Nevada continued this year with backpacking in the &lt;a href=&#34;https://www.fs.usda.gov/recarea/ltbmu/recarea/?recid=11786&#34;&gt;Desolation Wilderness&lt;/a&gt;. This year Micah Jacob and I were joined by a special guest: nephew Jack. We planned a four day trip:&lt;/p&gt;
@@ -29,76 +29,94 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/map.jpg&#34; alt=&#34;&amp;lt;# map of our route through Desolation Wilderness #&amp;gt;&#34;  /&gt;
 &lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>2024 Family Colorado Trip</title>
       <link>https://jeremyr.blog/posts/photos/2024-colorado/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2024-colorado/</guid>
       <description>&lt;p&gt;In May 2024, our family converged in the mile-high city of Denver for a beautiful spring weekend. Mom, Paul, and Karen flew in from New Jersey; Audrey from California; and Jacob lives and teaches in Denver. I was already there for a business trip.&lt;/p&gt;
 &lt;p&gt;First stop was Colorado College, Jacob&amp;rsquo;s alma mater, pictured above. Did you know Katharine Lee Bates, an English professor at Wellesley College, composed &lt;a href=&#34;https://en.wikipedia.org/wiki/America_the_Beautiful&#34;&gt;America the Beautiful&lt;/a&gt; here in 1882? We asked Mom to put her Wellesley degree to work composing an update. Alas the road to Pike&amp;rsquo;s Peak was snow-covered, and thus the next verse about &amp;ldquo;purple mountain majesty&amp;rdquo; would have to await another day.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Tierra Grande: New Mexico</title>
       <link>https://jeremyr.blog/posts/photos/2023-newmexico/</link>
       <pubDate>Mon, 13 Nov 2023 22:21:42 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2023-newmexico/</guid>
       <description>&lt;p&gt;I came to New Mexico for a Digital Promise retreat, and stayed for an adventure with my son, Jacob. The retreat was held at the beautiful Tamaya Resort on land of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Santa_Ana_Pueblo,_New_Mexico&#34;&gt;Santa Ana Pueblo&lt;/a&gt;. We came in November, and the Cottonwood trees were glowing in golden yellow along the peaceful paths throughout the resort. It is truly &lt;em&gt;Tierra Grande.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/NM-01.jpg&#34; alt=&#34;&amp;lt;# text  #&amp;gt;&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;Fortunately, the retreat agenda allowed for time to stroll the grounds. One evening, I found the light welcoming me on a path through the trees.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Jaimeo Brown Transcendence</title>
       <link>https://jeremyr.blog/posts/jazz/2023-transcendence/</link>
       <pubDate>Wed, 26 Jul 2023 20:08:33 -0700</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2023-transcendence/</guid>
       <description>&lt;p&gt;Jacob and I went to the Stanford Jazz Workshop on Monday night to hear really innovative music led by &lt;a href=&#34;https://www.jaimeobrown.com/&#34;&gt;Jaimeo Brown&lt;/a&gt;. He combined samples of gospel singers with live guitar, electronics, drums, and saxophone. Meanwhile behind the musicians, a video of scenes with elephants and water slowly played. The musicians were all phenomenal, and they created a powerful experience. Campbell Recital Hall is quite small and it felt like a real privilege to hear such great music in an intimate space.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Pluto Juice at Stanford Jazz Workshop</title>
       <link>https://jeremyr.blog/posts/jazz/2023-plutojuice/</link>
       <pubDate>Tue, 18 Jul 2023 08:44:00 -0700</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2023-plutojuice/</guid>
       <description>&lt;p&gt;Jacob and I went on a Monday night adventure to the outer planets and back with the innovative jazz-rock fusion group &lt;a href=&#34;https://daynastephens.bandcamp.com/album/pluto-juice&#34;&gt;Pluto Juice&lt;/a&gt;. Dayna Stephens led on his EWI &lt;a href=&#34;https://en.wikipedia.org/wiki/EWI_(musical_instrument)&#34;&gt;(Electronic Wind Instrument)&lt;/a&gt;, an instrument that you play like a saxophone but which makes sound only via a connected synthesizer. A few times he picked up his tenor saxophone, and proved to have awesome tone, technique and expressivity. Billy Mohler on electric bass held down a solid groove, heavy on octave doubling, compression and other effects. Anthony Fung on drums co-leads the band and played some great intros and solos to the tunes. Joining the group for the first time, Charles Altura offered spacey textures on guitar, but also played very agile, speedy solos. Sometimes the music sounded like instrumentals on David Bowie&amp;rsquo;s &amp;ldquo;Low&amp;rdquo;; sometimes more like classic jazz-rock fusion; other times like a spacey, lush trip.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Charged Particles, Music of Michael Brecker</title>
       <link>https://jeremyr.blog/posts/jazz/2022chargedparticles/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2022chargedparticles/</guid>
       <description>&lt;p&gt;On a visit with Jacob in Denver, we looked at the last minute for some live music and discovered that Charged Particles was playing in downtown Denver. They were playing music of Michael Brecker, who was one of the heros of jazz in my high school years. For example, check out this 1980 performance of &lt;a href=&#34;https://www.youtube.com/watch?v=vKyJou39Kks&#34;&gt;Some Skunk Funk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Although Michael Brecker has passed away, his brother Randy joined the set on trumpet. And Tod Dickow was up to the task of Michael&amp;rsquo;s precise, high energy lines on tenor sax. We enjoyed a wonderful set with super talented musicians. Charged Particles has an album called Live at the Baked Potato on &lt;a href=&#34;https://open.spotify.com/album/75Wa3ZKHqK3ejmKlPabw34?si=5IMKv9irQ7iIA4-7FIRy_Q&#34;&gt;Spotify&lt;/a&gt;, if you want to check it out.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Kamasi Washington</title>
       <link>https://jeremyr.blog/posts/jazz/kamasi-washington/</link>
       <pubDate>Thu, 28 Jul 2022 09:55:55 -0700</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/kamasi-washington/</guid>
       <description>&lt;p&gt;In celebration of Jacob&amp;rsquo;s birthday and Father&amp;rsquo;s Day, we visited the new Guild venue to &amp;ldquo;take a journey&amp;rdquo; with Kamasi Washington and his powerful band. With two drummers, the beat was always intense and funky. Kamasi also brought a singer, keyboard player, trombone and flute/sax.&lt;/p&gt;
 &lt;p&gt;It was my first time at &lt;a href=&#34;https://guildtheatre.com/&#34;&gt;The Guild&lt;/a&gt; and I loved the new space. Also enjoyed seeing our ushers, Patti and Larry.&lt;/p&gt;
 &lt;p&gt;Tunes included a wonderful new song for Kamasi&amp;rsquo;s newborn and the powerful closing &amp;ldquo;Fists of Fury.&amp;rdquo;&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Micah&#39;s Delayed Commencement</title>
       <link>https://jeremyr.blog/posts/photos/202205-micahcommence/</link>
       <pubDate>Thu, 19 May 2022 22:18:44 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/202205-micahcommence/</guid>
       <description>&lt;p&gt;The Roschelle family happily converged at Morningside Heights to celebrate Micah&amp;rsquo;s commencement from Columbia University. He actually graduated two years ago, in May 2020. But that was the year of coming home for spring break and never returning to New York to finish senior year. So it was great to finally have a full on celebration two years later. My mother, Alice, has a master&amp;rsquo;s degree from Columbia, making it a multi-generational roar of the Columbia lion. And, of course, Victoria also graduated from Columbia, a year before Micah. Columbia blue was everywhere as were the big smiles.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Mingus</title>
       <link>https://jeremyr.blog/posts/jazz/mingus/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/mingus/</guid>
       <description>&lt;h1 id=&#34;the-charles-mingus-big-band&#34;&gt;The Charles Mingus Big Band&lt;/h1&gt;
 &lt;p&gt;My birthday present this year was the &lt;a href=&#34;https://www.charlesmingus.com/mingus-big-band&#34;&gt;Charles Mingus Big Band&lt;/a&gt; live at Kennedy Center&amp;rsquo;s Terrace Theater. The band was there to celebrate &lt;a href=&#34;https://americanhistory.si.edu/smithsonian-jazz/jazz-appreciation-month&#34;&gt;Jazz Appreciation Month&lt;/a&gt; and the centential of the birth of iconic bass player and composer &lt;a href=&#34;https://www.charlesmingus.com/mingusbio&#34;&gt;Charles Mingus&lt;/a&gt;. We were treated to a dynamic concert, full of energy and contrast.&lt;/p&gt;
 &lt;h2 id=&#34;goodbye-pork-pie-hat&#34;&gt;Goodbye Pork Pie Hat&lt;/h2&gt;
 &lt;p&gt;A highlight was the second tune, a version of the Mingus composition &amp;ldquo;Goodbye Pork Pie Hat&amp;rdquo; using the lyrics written by Joni Mitchell. Singer Frank Lacy gave an impassioned, powerful rendition of the story about saxophonist Lester Young, who married a white woman, and found &amp;ldquo;love is never easy street.&amp;rdquo; Scott Robinson started the tune with an amazing unaccompanied sax solo&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Monumental Tulips</title>
       <link>https://jeremyr.blog/posts/photos/monumenttulips/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/monumenttulips/</guid>
       <description>&lt;p&gt;We had a beautiful sunny day for my birthday. Jacob and I rode bikes to the National Mall, and visited the Tidal Basin. The Cherry Blossoms were well past their peak but still beautiful. As we were leaving the Tidal Basin, we came upon this monumental tulip collection.&lt;/p&gt;
 
@@ -476,5 +494,6 @@
 	});
 &lt;/script&gt;</description>
     </item>
+    
   </channel>
 </rss>

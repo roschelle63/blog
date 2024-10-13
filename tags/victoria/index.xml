@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Victoria on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/victoria/</link>
@@ -11,39 +11,46 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 2024 17:37:24 -0500</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/tags/victoria/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2024 17:37:24 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/victoria/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jazzmeia Horn, New Year&#39;s Eve</title>
       <link>https://jeremyr.blog/posts/jazz/2023-12-jazzmeia/</link>
       <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2023-12-jazzmeia/</guid>
       <description>&lt;p&gt;For New Year&amp;rsquo;s Eve and our Anniversary Eve as well, Audrey and I took Micah and Victoria to the Kennedy Center to hear vocalist Jazzmeia Horn and her Noble Force. The musical energy started high and stayed high, with Jazzmeia leading a full big band horn section with 5 saxes, 4 trombones and 4 trumpets through a series of her own compositions. &amp;ldquo;Strive&amp;rdquo; and &amp;ldquo;Freedom&amp;rdquo; were particularly powerful. (Listen to  &lt;a href=&#34;https://open.spotify.com/track/3HDNWUbi0F51aRdjru4vu4?si=e5c297f3581d49c7&#34;&gt;Freedom&lt;/a&gt; on Spotify.)&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Tidal Basin at Night</title>
       <link>https://jeremyr.blog/posts/photos/2023-tidalbasinnight/</link>
       <pubDate>Thu, 28 Dec 2023 22:38:19 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2023-tidalbasinnight/</guid>
       <description>&lt;p&gt;On their first night in DC, I took Micah and Victoria for a walk around the Tidal Basin at night. It was a warm, calm evening. Perfect for a winter walk. And Thomas Jefferson was glad we visited.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/MicahVictoriaJefferson.jpg&#34; alt=&#34;&amp;lt;# Micah and Victoria at the Jefferson Memorial at night  #&amp;gt;&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;Martin Luther King seemed to have a few things to say to the Washington Monument. While Micah and Victoria read all the MLK quotes, I set up my tripod for some clear night shots.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Maria Schneider Orchestra</title>
       <link>https://jeremyr.blog/posts/jazz/2023-mariaschneider/</link>
       <pubDate>Fri, 03 Mar 2023 23:47:12 -0800</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2023-mariaschneider/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve enjoyed Maria Schneider several times now, but this is the first time we&amp;rsquo;ve heard the Orchestra in San Francisco. The compositions were lush and original, and ranged across many of her albums. We were glad to have time to catch a quick meal of Thai food beforehand with Micah and Victoria. &amp;ldquo;Sputnik&amp;rdquo; was my favorite tune this time, with the encore &amp;ldquo;Walking by Flashlight&amp;rdquo; a close second.&lt;/p&gt;
 &lt;p&gt;Audrey ordered a copy of the book of poems that inspired many compositions, &lt;a href=&#34;https://press.uchicago.edu/ucp/books/book/distributed/W/bo43505466.html&#34;&gt;100 Postcards to Jim Harrison&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Micah&#39;s Delayed Commencement</title>
       <link>https://jeremyr.blog/posts/photos/202205-micahcommence/</link>
       <pubDate>Thu, 19 May 2022 22:18:44 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/202205-micahcommence/</guid>
       <description>&lt;p&gt;The Roschelle family happily converged at Morningside Heights to celebrate Micah&amp;rsquo;s commencement from Columbia University. He actually graduated two years ago, in May 2020. But that was the year of coming home for spring break and never returning to New York to finish senior year. So it was great to finally have a full on celebration two years later. My mother, Alice, has a master&amp;rsquo;s degree from Columbia, making it a multi-generational roar of the Columbia lion. And, of course, Victoria also graduated from Columbia, a year before Micah. Columbia blue was everywhere as were the big smiles.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

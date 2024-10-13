@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pages on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/pages/</link>
@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 May 2022 23:19:43 -0400</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 23:19:43 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing CSS</title>
       <link>https://jeremyr.blog/pages/testcss/</link>
       <pubDate>Sun, 01 May 2022 23:19:43 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/testcss/</guid>
       <description>&lt;p&gt;This is my test page. This is &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
 &lt;p class=&#34;para2&#34; &gt;My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. My new paragraph. 
@@ -54,17 +54,21 @@ here is some markdown text
 &lt;/div&gt;
 &lt;br&gt;</description>
     </item>
+    
     <item>
       <title>Patents</title>
       <link>https://jeremyr.blog/pages/patents/</link>
       <pubDate>Sat, 16 Apr 2022 15:19:47 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/patents/</guid>
       <description>&lt;p&gt;It seems cool that my name is on a few patents. As far as I know, these patents have never been used for anything. The history was that my former employer, SRI International, pursued and was awarded these patents based on research conducted in our Center for Technology in Learning on the topic of computer-supported collaborative learning, especially with mobile devices. As is typical, the patents are assigned to SRI; I don&amp;rsquo;t &amp;ldquo;own&amp;rdquo; any rights in them.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Blogs</title>
       <link>https://jeremyr.blog/pages/blogs/</link>
       <pubDate>Sat, 16 Apr 2022 15:16:47 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/blogs/</guid>
       <description>&lt;p&gt;CACM is the &lt;a href=&#34;https://cacm.acm.org/&#34;&gt;magazine&lt;/a&gt; of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo;
 I occassionally write columns for the magazine. Here are all my blogs:&lt;/p&gt;
@@ -112,10 +116,12 @@ I occassionally write columns for the magazine. Here are all my blogs:&lt;/p&gt;
 
 &lt;/ul&gt;</description>
     </item>
+    
     <item>
       <title>Testpage</title>
       <link>https://jeremyr.blog/pages/testpage/</link>
       <pubDate>Fri, 15 Apr 2022 00:18:53 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/testpage/</guid>
       <description>&lt;p&gt;This is my data test page&lt;/p&gt;
 &lt;h2 id=&#34;journal&#34;&gt;journal&lt;/h2&gt;
@@ -242,18 +248,22 @@ I occassionally write columns for the magazine. Here are all my blogs:&lt;/p&gt;
 
 &lt;/ul&gt;</description>
     </item>
+    
     <item>
       <title>About me</title>
       <link>https://jeremyr.blog/pages/about/</link>
       <pubDate>Fri, 08 Apr 2022 00:05:21 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a Learning Scientist &amp;ndash; I study how to improve teaching and learning with technology. I work for &lt;a href=&#34;https://digitalpromise.org&#34;&gt;Digital Promise&lt;/a&gt;, a nonprofit, where I am Executive Director of our &lt;a href=&#34;https://digitalpromise.org/initiative/learning-sciences/&#34;&gt;Learning Sciences Research&lt;/a&gt; team. I am Fellow of the &lt;a href=&#34;https://www.isls.org/&#34;&gt;International Society of the Learning Sciences&lt;/a&gt;. Most of my work has been about how to use technology to improve learning of mathematics and other STEM subjects.&lt;/p&gt;
 &lt;p&gt;My favorite hobbies are photography, jazz, backpacking and hiking. You will find posts in the blog about these things.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Writing</title>
       <link>https://jeremyr.blog/pages/writing/</link>
       <pubDate>Thu, 07 Apr 2022 22:40:24 -0400</pubDate>
+      
       <guid>https://jeremyr.blog/pages/writing/</guid>
       <description>&lt;p&gt;&lt;em&gt;A curated list of things I&amp;rsquo;ve written professionally&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ai-report&#34;&gt;AI Report&lt;/h2&gt;
@@ -266,5 +276,6 @@ I occassionally write columns for the magazine. Here are all my blogs:&lt;/p&gt;
 
 CACM is the &lt;a href=&#34;https://cacm.acm.org/&#34;&gt;magazine&lt;/a&gt; of the computer society &amp;ldquo;Association of Computing Machinery.&amp;rdquo; I occassionally write columns for their magazine, such as:&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

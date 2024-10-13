@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lucy on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/lucy/</link>
@@ -11,20 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2024 17:25:10 -0500</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/tags/lucy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Sep 2024 17:25:10 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/lucy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rallying in Madison</title>
       <link>https://jeremyr.blog/posts/photos/2024-09-kamala/</link>
       <pubDate>Sat, 21 Sep 2024 17:25:10 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2024-09-kamala/</guid>
       <description>&lt;p&gt;A high point of Audrey&amp;rsquo;s birthday celebration weekend was a family trip to the Kamala Harris rally in Madison, Wisconsin. We were in the 4th row, behind the podium. It was loud, colorful and exciting.&lt;/p&gt;
 &lt;p&gt;Getting in required a very long walk around the stadium perimeter to get to the security screening area. Secret service dogs were sniffing people as they entered. We had to show id to check in, and then passed through an airport screening machine. No bags were allowed. Jacob arrived late and they had closed the doors and wouldn&amp;rsquo;t let anyone else in.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Prairie Flowers</title>
       <link>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</link>
       <pubDate>Fri, 05 Jul 2024 15:34:45 -0500</pubDate>
+      
       <guid>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</guid>
       <description>&lt;p&gt;In July, the fields of Wisconsin are filled with flowers. We&amp;rsquo;re delighted to have Lucy visiting with us from LA. Last night we watched fireworks all around Lake Monona. Today we went to a dog park and had a great hike among these lovely flowers.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Click any photo for larger images&lt;/em&gt;&lt;/p&gt;
@@ -403,5 +405,6 @@
 	});
 &lt;/script&gt;</description>
     </item>
+    
   </channel>
 </rss>

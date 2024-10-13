@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lizzie on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/lizzie/</link>
@@ -11,17 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/tags/lizzie/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/lizzie/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mingus</title>
       <link>https://jeremyr.blog/posts/jazz/mingus/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/mingus/</guid>
       <description>&lt;h1 id=&#34;the-charles-mingus-big-band&#34;&gt;The Charles Mingus Big Band&lt;/h1&gt;
 &lt;p&gt;My birthday present this year was the &lt;a href=&#34;https://www.charlesmingus.com/mingus-big-band&#34;&gt;Charles Mingus Big Band&lt;/a&gt; live at Kennedy Center&amp;rsquo;s Terrace Theater. The band was there to celebrate &lt;a href=&#34;https://americanhistory.si.edu/smithsonian-jazz/jazz-appreciation-month&#34;&gt;Jazz Appreciation Month&lt;/a&gt; and the centential of the birth of iconic bass player and composer &lt;a href=&#34;https://www.charlesmingus.com/mingusbio&#34;&gt;Charles Mingus&lt;/a&gt;. We were treated to a dynamic concert, full of energy and contrast.&lt;/p&gt;
 &lt;h2 id=&#34;goodbye-pork-pie-hat&#34;&gt;Goodbye Pork Pie Hat&lt;/h2&gt;
 &lt;p&gt;A highlight was the second tune, a version of the Mingus composition &amp;ldquo;Goodbye Pork Pie Hat&amp;rdquo; using the lyrics written by Joni Mitchell. Singer Frank Lacy gave an impassioned, powerful rendition of the story about saxophonist Lester Young, who married a white woman, and found &amp;ldquo;love is never easy street.&amp;rdquo; Scott Robinson started the tune with an amazing unaccompanied sax solo&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Laem on Jeremy Roschelle</title>
     <link>https://jeremyr.blog/tags/laem/</link>
@@ -11,15 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jeremyr.blog/tags/laem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/laem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Marcus Miller</title>
       <link>https://jeremyr.blog/posts/jazz/2023-marcusmiller/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://jeremyr.blog/posts/jazz/2023-marcusmiller/</guid>
       <description>&lt;p&gt;Bass players do not often lead bands, but then again, Marcus Miller is not your average bass player. It was a treat to bring Audrey&amp;rsquo;s brother&amp;rsquo;s family—Gene, Laem and Cliff—to the &lt;a href=&#34;https://www.birchmere.com/&#34;&gt;Birchmere Music Hall&lt;/a&gt; in Alexandria, VA to see Marcus Miller lead a long and energetic set.&lt;/p&gt;
 &lt;p&gt;A rendition of &lt;a href=&#34;https://youtu.be/km7GfqBcs0g&#34;&gt;Mr. Pastorius&lt;/a&gt; was a high point of the set, although it was also the only swing jazz tune. More typical to the set was &lt;a href=&#34;https://youtu.be/25uWdn1VJxU&#34;&gt;Detroit&lt;/a&gt;, a funky, energetic composition which Marcus renamed &amp;ldquo;Detroit DMV&amp;rdquo; for the evening.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>
