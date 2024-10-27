@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Beth on Jeremy Roschelle</title>
-    <link>https://jeremyr.blog/tags/beth/</link>
+    <link>http://localhost:1313/tags/beth/</link>
     <description>Recent content in Beth on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>https://jeremyr.blog/</url>
-      <link>https://jeremyr.blog/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Nov 2023 18:33:38 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/beth/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Nov 2023 18:33:38 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/beth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Romeo and Juliet Opera</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</link>
+      <link>http://localhost:1313/posts/jazz/2023-11-romeoandjuliet/</link>
       <pubDate>Sun, 19 Nov 2023 18:33:38 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-11-romeoandjuliet/</guid>
       <description>&lt;p&gt;We had a wonderful time among the Capulet and Montague families at the Kennedy Center. After the hopeful first half, Audrey wisely noted &amp;ldquo;This isn&amp;rsquo;t going to end well.&amp;rdquo; The closing scene was the best part of the opera, even if the lovers will only be together in the afterlife. The Kennedy Center is a great place to see an opera.&lt;/p&gt;
 &lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
 &lt;table&gt;

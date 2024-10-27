@@ -2,319 +2,319 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Jeremy Roschelle</title>
-    <link>https://jeremyr.blog/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>https://jeremyr.blog/</url>
-      <link>https://jeremyr.blog/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey</title>
-      <link>https://jeremyr.blog/tags/audrey/</link>
+      <link>http://localhost:1313/tags/audrey/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/audrey/</guid>
+      <guid>http://localhost:1313/tags/audrey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cliff</title>
-      <link>https://jeremyr.blog/tags/cliff/</link>
+      <link>http://localhost:1313/tags/cliff/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/cliff/</guid>
+      <guid>http://localhost:1313/tags/cliff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diane</title>
-      <link>https://jeremyr.blog/tags/diane/</link>
+      <link>http://localhost:1313/tags/diane/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/diane/</guid>
+      <guid>http://localhost:1313/tags/diane/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gene</title>
-      <link>https://jeremyr.blog/tags/gene/</link>
+      <link>http://localhost:1313/tags/gene/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/gene/</guid>
+      <guid>http://localhost:1313/tags/gene/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jacob</title>
-      <link>https://jeremyr.blog/tags/jacob/</link>
+      <link>http://localhost:1313/tags/jacob/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/jacob/</guid>
+      <guid>http://localhost:1313/tags/jacob/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jeff</title>
-      <link>https://jeremyr.blog/tags/jeff/</link>
+      <link>http://localhost:1313/tags/jeff/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/jeff/</guid>
+      <guid>http://localhost:1313/tags/jeff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laem</title>
-      <link>https://jeremyr.blog/tags/laem/</link>
+      <link>http://localhost:1313/tags/laem/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/laem/</guid>
+      <guid>http://localhost:1313/tags/laem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lucy</title>
-      <link>https://jeremyr.blog/tags/lucy/</link>
+      <link>http://localhost:1313/tags/lucy/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/lucy/</guid>
+      <guid>http://localhost:1313/tags/lucy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Molly</title>
-      <link>https://jeremyr.blog/tags/molly/</link>
+      <link>http://localhost:1313/tags/molly/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/molly/</guid>
+      <guid>http://localhost:1313/tags/molly/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Peter</title>
-      <link>https://jeremyr.blog/tags/peter/</link>
+      <link>http://localhost:1313/tags/peter/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/peter/</guid>
+      <guid>http://localhost:1313/tags/peter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rachel</title>
-      <link>https://jeremyr.blog/tags/rachel/</link>
+      <link>http://localhost:1313/tags/rachel/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/rachel/</guid>
+      <guid>http://localhost:1313/tags/rachel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sarah</title>
-      <link>https://jeremyr.blog/tags/sarah/</link>
+      <link>http://localhost:1313/tags/sarah/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/sarah/</guid>
+      <guid>http://localhost:1313/tags/sarah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Susan</title>
-      <link>https://jeremyr.blog/tags/susan/</link>
+      <link>http://localhost:1313/tags/susan/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/susan/</guid>
+      <guid>http://localhost:1313/tags/susan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jack</title>
-      <link>https://jeremyr.blog/tags/jack/</link>
+      <link>http://localhost:1313/tags/jack/</link>
       <pubDate>Sat, 03 Aug 2024 13:17:20 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/jack/</guid>
+      <guid>http://localhost:1313/tags/jack/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Micah</title>
-      <link>https://jeremyr.blog/tags/micah/</link>
+      <link>http://localhost:1313/tags/micah/</link>
       <pubDate>Sat, 03 Aug 2024 13:17:20 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/micah/</guid>
+      <guid>http://localhost:1313/tags/micah/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alice</title>
-      <link>https://jeremyr.blog/tags/alice/</link>
+      <link>http://localhost:1313/tags/alice/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/tags/alice/</guid>
+      <guid>http://localhost:1313/tags/alice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Karen</title>
-      <link>https://jeremyr.blog/tags/karen/</link>
+      <link>http://localhost:1313/tags/karen/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/tags/karen/</guid>
+      <guid>http://localhost:1313/tags/karen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paul</title>
-      <link>https://jeremyr.blog/tags/paul/</link>
+      <link>http://localhost:1313/tags/paul/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/tags/paul/</guid>
+      <guid>http://localhost:1313/tags/paul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Victoria</title>
-      <link>https://jeremyr.blog/tags/victoria/</link>
+      <link>http://localhost:1313/tags/victoria/</link>
       <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/victoria/</guid>
+      <guid>http://localhost:1313/tags/victoria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beth</title>
-      <link>https://jeremyr.blog/tags/beth/</link>
+      <link>http://localhost:1313/tags/beth/</link>
       <pubDate>Sun, 19 Nov 2023 18:33:38 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/beth/</guid>
+      <guid>http://localhost:1313/tags/beth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Eddie</title>
-      <link>https://jeremyr.blog/tags/eddie/</link>
+      <link>http://localhost:1313/tags/eddie/</link>
       <pubDate>Sun, 19 Nov 2023 18:33:38 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/eddie/</guid>
+      <guid>http://localhost:1313/tags/eddie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roy</title>
-      <link>https://jeremyr.blog/tags/roy/</link>
+      <link>http://localhost:1313/tags/roy/</link>
       <pubDate>Wed, 13 Sep 2023 22:07:45 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/tags/roy/</guid>
+      <guid>http://localhost:1313/tags/roy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Charlie</title>
-      <link>https://jeremyr.blog/tags/charlie/</link>
+      <link>http://localhost:1313/tags/charlie/</link>
       <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/charlie/</guid>
+      <guid>http://localhost:1313/tags/charlie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fred</title>
-      <link>https://jeremyr.blog/tags/fred/</link>
+      <link>http://localhost:1313/tags/fred/</link>
       <pubDate>Sat, 03 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/fred/</guid>
+      <guid>http://localhost:1313/tags/fred/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amy</title>
-      <link>https://jeremyr.blog/tags/amy/</link>
+      <link>http://localhost:1313/tags/amy/</link>
       <pubDate>Tue, 08 Nov 2022 20:16:46 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/amy/</guid>
+      <guid>http://localhost:1313/tags/amy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Isla</title>
-      <link>https://jeremyr.blog/tags/isla/</link>
+      <link>http://localhost:1313/tags/isla/</link>
       <pubDate>Tue, 08 Nov 2022 20:16:46 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/isla/</guid>
+      <guid>http://localhost:1313/tags/isla/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Len</title>
-      <link>https://jeremyr.blog/tags/len/</link>
+      <link>http://localhost:1313/tags/len/</link>
       <pubDate>Tue, 08 Nov 2022 20:16:46 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/tags/len/</guid>
+      <guid>http://localhost:1313/tags/len/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dogs</title>
-      <link>https://jeremyr.blog/tags/dogs/</link>
+      <link>http://localhost:1313/tags/dogs/</link>
       <pubDate>Sun, 30 Oct 2022 18:02:05 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/tags/dogs/</guid>
+      <guid>http://localhost:1313/tags/dogs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grandpaul</title>
-      <link>https://jeremyr.blog/tags/grandpaul/</link>
+      <link>http://localhost:1313/tags/grandpaul/</link>
       <pubDate>Thu, 19 May 2022 22:18:44 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/tags/grandpaul/</guid>
+      <guid>http://localhost:1313/tags/grandpaul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Langs</title>
-      <link>https://jeremyr.blog/tags/langs/</link>
+      <link>http://localhost:1313/tags/langs/</link>
       <pubDate>Sat, 30 Apr 2022 22:40:17 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/tags/langs/</guid>
+      <guid>http://localhost:1313/tags/langs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Judi</title>
-      <link>https://jeremyr.blog/tags/judi/</link>
+      <link>http://localhost:1313/tags/judi/</link>
       <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/judi/</guid>
+      <guid>http://localhost:1313/tags/judi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noel</title>
-      <link>https://jeremyr.blog/tags/noel/</link>
+      <link>http://localhost:1313/tags/noel/</link>
       <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/noel/</guid>
+      <guid>http://localhost:1313/tags/noel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David</title>
-      <link>https://jeremyr.blog/tags/david/</link>
+      <link>http://localhost:1313/tags/david/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/david/</guid>
+      <guid>http://localhost:1313/tags/david/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lizzie</title>
-      <link>https://jeremyr.blog/tags/lizzie/</link>
+      <link>http://localhost:1313/tags/lizzie/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/tags/lizzie/</guid>
+      <guid>http://localhost:1313/tags/lizzie/</guid>
       <description></description>
     </item>
     

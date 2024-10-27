@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jacob on Jeremy Roschelle</title>
-    <link>https://jeremyr.blog/tags/jacob/</link>
+    <link>http://localhost:1313/tags/jacob/</link>
     <description>Recent content in Jacob on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>https://jeremyr.blog/</url>
-      <link>https://jeremyr.blog/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/jacob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/jacob/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey&#39;s Birthday in Madison</title>
-      <link>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</link>
+      <link>http://localhost:1313/posts/photos/2024-09-audreybirthday/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-09-audreybirthday/</guid>
       <description>&lt;p&gt;We celebrated Audrey&amp;rsquo;s 60th Birthday with a gathering of friends and family in Madison, Wisconsin. A weekend of fun!&lt;/p&gt;
 &lt;h1 id=&#34;friday&#34;&gt;Friday&lt;/h1&gt;
 &lt;p&gt;We started the morning with Molly and Jeff, who were first to arrive. We enjoyed a delicious breakfast at &lt;a href=&#34;http://marigoldkitchen.com/&#34;&gt;Marigold Kitchen&lt;/a&gt;, across from the state capitol. After a walk to see Audrey&amp;rsquo;s office in WisDems HQ, we toured the capitol which has spectacular marble and is generally grand.&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Backpacking Rockbound Pass, Desolation Wilderness</title>
-      <link>https://jeremyr.blog/posts/photos/2024-07-rockbound/</link>
+      <link>http://localhost:1313/posts/photos/2024-07-rockbound/</link>
       <pubDate>Sat, 03 Aug 2024 13:17:20 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-07-rockbound/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-07-rockbound/</guid>
       <description>&lt;h1 id=&#34;hitting-the-trail&#34;&gt;Hitting the trail&lt;/h1&gt;
 &lt;p&gt;Our quest for the perfect lake in California&amp;rsquo;s Sierra Nevada continued this year with backpacking in the &lt;a href=&#34;https://www.fs.usda.gov/recarea/ltbmu/recarea/?recid=11786&#34;&gt;Desolation Wilderness&lt;/a&gt;. This year Micah Jacob and I were joined by a special guest: nephew Jack. We planned a four day trip:&lt;/p&gt;
 &lt;ol&gt;
@@ -44,20 +44,20 @@
     
     <item>
       <title>2024 Family Colorado Trip</title>
-      <link>https://jeremyr.blog/posts/photos/2024-colorado/</link>
+      <link>http://localhost:1313/posts/photos/2024-colorado/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-colorado/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-colorado/</guid>
       <description>&lt;p&gt;In May 2024, our family converged in the mile-high city of Denver for a beautiful spring weekend. Mom, Paul, and Karen flew in from New Jersey; Audrey from California; and Jacob lives and teaches in Denver. I was already there for a business trip.&lt;/p&gt;
 &lt;p&gt;First stop was Colorado College, Jacob&amp;rsquo;s alma mater, pictured above. Did you know Katharine Lee Bates, an English professor at Wellesley College, composed &lt;a href=&#34;https://en.wikipedia.org/wiki/America_the_Beautiful&#34;&gt;America the Beautiful&lt;/a&gt; here in 1882? We asked Mom to put her Wellesley degree to work composing an update. Alas the road to Pike&amp;rsquo;s Peak was snow-covered, and thus the next verse about &amp;ldquo;purple mountain majesty&amp;rdquo; would have to await another day.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tierra Grande: New Mexico</title>
-      <link>https://jeremyr.blog/posts/photos/2023-newmexico/</link>
+      <link>http://localhost:1313/posts/photos/2023-newmexico/</link>
       <pubDate>Mon, 13 Nov 2023 22:21:42 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2023-newmexico/</guid>
+      <guid>http://localhost:1313/posts/photos/2023-newmexico/</guid>
       <description>&lt;p&gt;I came to New Mexico for a Digital Promise retreat, and stayed for an adventure with my son, Jacob. The retreat was held at the beautiful Tamaya Resort on land of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Santa_Ana_Pueblo,_New_Mexico&#34;&gt;Santa Ana Pueblo&lt;/a&gt;. We came in November, and the Cottonwood trees were glowing in golden yellow along the peaceful paths throughout the resort. It is truly &lt;em&gt;Tierra Grande.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/NM-01.jpg&#34; alt=&#34;&amp;lt;# text  #&amp;gt;&#34;  /&gt;
 &lt;/p&gt;
@@ -66,38 +66,38 @@
     
     <item>
       <title>Jaimeo Brown Transcendence</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-transcendence/</link>
+      <link>http://localhost:1313/posts/jazz/2023-transcendence/</link>
       <pubDate>Wed, 26 Jul 2023 20:08:33 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-transcendence/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-transcendence/</guid>
       <description>&lt;p&gt;Jacob and I went to the Stanford Jazz Workshop on Monday night to hear really innovative music led by &lt;a href=&#34;https://www.jaimeobrown.com/&#34;&gt;Jaimeo Brown&lt;/a&gt;. He combined samples of gospel singers with live guitar, electronics, drums, and saxophone. Meanwhile behind the musicians, a video of scenes with elephants and water slowly played. The musicians were all phenomenal, and they created a powerful experience. Campbell Recital Hall is quite small and it felt like a real privilege to hear such great music in an intimate space.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Pluto Juice at Stanford Jazz Workshop</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-plutojuice/</link>
+      <link>http://localhost:1313/posts/jazz/2023-plutojuice/</link>
       <pubDate>Tue, 18 Jul 2023 08:44:00 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-plutojuice/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-plutojuice/</guid>
       <description>&lt;p&gt;Jacob and I went on a Monday night adventure to the outer planets and back with the innovative jazz-rock fusion group &lt;a href=&#34;https://daynastephens.bandcamp.com/album/pluto-juice&#34;&gt;Pluto Juice&lt;/a&gt;. Dayna Stephens led on his EWI &lt;a href=&#34;https://en.wikipedia.org/wiki/EWI_(musical_instrument)&#34;&gt;(Electronic Wind Instrument)&lt;/a&gt;, an instrument that you play like a saxophone but which makes sound only via a connected synthesizer. A few times he picked up his tenor saxophone, and proved to have awesome tone, technique and expressivity. Billy Mohler on electric bass held down a solid groove, heavy on octave doubling, compression and other effects. Anthony Fung on drums co-leads the band and played some great intros and solos to the tunes. Joining the group for the first time, Charles Altura offered spacey textures on guitar, but also played very agile, speedy solos. Sometimes the music sounded like instrumentals on David Bowie&amp;rsquo;s &amp;ldquo;Low&amp;rdquo;; sometimes more like classic jazz-rock fusion; other times like a spacey, lush trip.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Charged Particles, Music of Michael Brecker</title>
-      <link>https://jeremyr.blog/posts/jazz/2022chargedparticles/</link>
+      <link>http://localhost:1313/posts/jazz/2022chargedparticles/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2022chargedparticles/</guid>
+      <guid>http://localhost:1313/posts/jazz/2022chargedparticles/</guid>
       <description>&lt;p&gt;On a visit with Jacob in Denver, we looked at the last minute for some live music and discovered that Charged Particles was playing in downtown Denver. They were playing music of Michael Brecker, who was one of the heros of jazz in my high school years. For example, check out this 1980 performance of &lt;a href=&#34;https://www.youtube.com/watch?v=vKyJou39Kks&#34;&gt;Some Skunk Funk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Although Michael Brecker has passed away, his brother Randy joined the set on trumpet. And Tod Dickow was up to the task of Michael&amp;rsquo;s precise, high energy lines on tenor sax. We enjoyed a wonderful set with super talented musicians. Charged Particles has an album called Live at the Baked Potato on &lt;a href=&#34;https://open.spotify.com/album/75Wa3ZKHqK3ejmKlPabw34?si=5IMKv9irQ7iIA4-7FIRy_Q&#34;&gt;Spotify&lt;/a&gt;, if you want to check it out.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kamasi Washington</title>
-      <link>https://jeremyr.blog/posts/jazz/kamasi-washington/</link>
+      <link>http://localhost:1313/posts/jazz/kamasi-washington/</link>
       <pubDate>Thu, 28 Jul 2022 09:55:55 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/kamasi-washington/</guid>
+      <guid>http://localhost:1313/posts/jazz/kamasi-washington/</guid>
       <description>&lt;p&gt;In celebration of Jacob&amp;rsquo;s birthday and Father&amp;rsquo;s Day, we visited the new Guild venue to &amp;ldquo;take a journey&amp;rdquo; with Kamasi Washington and his powerful band. With two drummers, the beat was always intense and funky. Kamasi also brought a singer, keyboard player, trombone and flute/sax.&lt;/p&gt;
 &lt;p&gt;It was my first time at &lt;a href=&#34;https://guildtheatre.com/&#34;&gt;The Guild&lt;/a&gt; and I loved the new space. Also enjoyed seeing our ushers, Patti and Larry.&lt;/p&gt;
 &lt;p&gt;Tunes included a wonderful new song for Kamasi&amp;rsquo;s newborn and the powerful closing &amp;ldquo;Fists of Fury.&amp;rdquo;&lt;/p&gt;</description>
@@ -105,19 +105,19 @@
     
     <item>
       <title>Micah&#39;s Delayed Commencement</title>
-      <link>https://jeremyr.blog/posts/photos/202205-micahcommence/</link>
+      <link>http://localhost:1313/posts/photos/202205-micahcommence/</link>
       <pubDate>Thu, 19 May 2022 22:18:44 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202205-micahcommence/</guid>
+      <guid>http://localhost:1313/posts/photos/202205-micahcommence/</guid>
       <description>&lt;p&gt;The Roschelle family happily converged at Morningside Heights to celebrate Micah&amp;rsquo;s commencement from Columbia University. He actually graduated two years ago, in May 2020. But that was the year of coming home for spring break and never returning to New York to finish senior year. So it was great to finally have a full on celebration two years later. My mother, Alice, has a master&amp;rsquo;s degree from Columbia, making it a multi-generational roar of the Columbia lion. And, of course, Victoria also graduated from Columbia, a year before Micah. Columbia blue was everywhere as were the big smiles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mingus</title>
-      <link>https://jeremyr.blog/posts/jazz/mingus/</link>
+      <link>http://localhost:1313/posts/jazz/mingus/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/mingus/</guid>
+      <guid>http://localhost:1313/posts/jazz/mingus/</guid>
       <description>&lt;h1 id=&#34;the-charles-mingus-big-band&#34;&gt;The Charles Mingus Big Band&lt;/h1&gt;
 &lt;p&gt;My birthday present this year was the &lt;a href=&#34;https://www.charlesmingus.com/mingus-big-band&#34;&gt;Charles Mingus Big Band&lt;/a&gt; live at Kennedy Center&amp;rsquo;s Terrace Theater. The band was there to celebrate &lt;a href=&#34;https://americanhistory.si.edu/smithsonian-jazz/jazz-appreciation-month&#34;&gt;Jazz Appreciation Month&lt;/a&gt; and the centential of the birth of iconic bass player and composer &lt;a href=&#34;https://www.charlesmingus.com/mingusbio&#34;&gt;Charles Mingus&lt;/a&gt;. We were treated to a dynamic concert, full of energy and contrast.&lt;/p&gt;
 &lt;h2 id=&#34;goodbye-pork-pie-hat&#34;&gt;Goodbye Pork Pie Hat&lt;/h2&gt;
@@ -126,10 +126,10 @@
     
     <item>
       <title>Monumental Tulips</title>
-      <link>https://jeremyr.blog/posts/photos/monumenttulips/</link>
+      <link>http://localhost:1313/posts/photos/monumenttulips/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/monumenttulips/</guid>
+      <guid>http://localhost:1313/posts/photos/monumenttulips/</guid>
       <description>&lt;p&gt;We had a beautiful sunny day for my birthday. Jacob and I rode bikes to the National Mall, and visited the Tidal Basin. The Cherry Blossoms were well past their peak but still beautiful. As we were leaving the Tidal Basin, we came upon this monumental tulip collection.&lt;/p&gt;
 
 
@@ -174,18 +174,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -231,7 +231,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227297.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227297.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -253,7 +253,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AMBbc4zg49atnT3SxS8DI8THbw3Knngj8DVuKKeNntg5xN8vlY5JBzx&amp;#43;X6U1LQCMqhCmXkBmxkmvSnWmnzNqMU9et109NTzo04vRJtv8&amp;#43;pG1gy3Zt0G9s4UdzTRAR1HStLUbXfqJdSQY5Qcr2OMj&amp;#43;VQCQrLKDcL5bL8yZHUHJP8An1pxq1XZpJp26&amp;#43;WrCUKaurtPX/gGC2vBNOtLqcbphIZclj1wT/I&amp;#43;vpTIdXdrWJZSA6hWTrkM46j8BWHf/wDIJtfp/wCyCp/44P8Adg/9BNeJJKfxf1Y7YycdUaq675V/JLbGR2mC5ZMHZICcN6YwT&amp;#43;VV9Sum&amp;#43;2xBogftUeVReQC2CSCO3X/IrO0vof8Af/8AZHq3df8AIT0b/r2H9aqEnHYG1JttH//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227297_hu18352529910524606334.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227297_hu18352529910524606334.jpg&#34;
 						
 
 						
@@ -294,7 +294,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227276.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227276.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -316,7 +316,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOfWD2qRYPar623tUltMxiuLO5skz5gME6jBAx0Prx/npXtzqcrWm55MIcyetrFaa1VBCVGN8SsfrjmmiH2q49xbObeHzAJFiVSCO/NE4W2hMsgO0egzSpyvBNhNWlZEEmtWto&amp;#43;yVXZDgB8Ywfx6g5GDVWbVJ2nIh2AqMkAbsZ4HQ8nA7Vm63/q/&amp;#43;BRfyWn2X/H&amp;#43;3/bP&amp;#43;teI8TUa1Z6KowWti9Eu90njvLeSRY0Owjac554z19qsalqsv2Ro1hClh8&amp;#43;4ZyCDjHNYtj/x&amp;#43;r9f/Zqv6l0/7ZJ/Wpjiai0TNpUIP3mj/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227276_hu5425927339621779251.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227276_hu5425927339621779251.jpg&#34;
 						
 
 						
@@ -357,7 +357,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227265.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227265.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -379,7 +379,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOWWL2qzBbGVio4wpb8hmp0tmIJCkgdTjpVywiAuCCOsT/8AoJr25y5Yto8mCvKxQWGpBAQASpx64rXkWye0glaHyiA4YK3LYIxx2706VJZle2UyMsLfKp6KoBP9TWKxEXJJLc0dFpN9irb65HZyBGlV4JFEWwJ1O7Ocex/Sq0viaJBMbeOISqCFYQ4AGMk57dvzrGl/1tv/ANfB/wDQhVLtP9B/6CK8ucndnbFaG4dctRZyyN5jXM2HlI6KCegHQHv61HLr0JMmWCI8iBRHxwVBbB/EisI/6qf6RfyqtJ/qo/8ArqP/AEEVHO9BWR//2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227265_hu464473562712764158.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227265_hu464473562712764158.jpg&#34;
 						
 
 						
@@ -420,7 +420,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227254.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227254.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -442,7 +442,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOeWH2qVYfarUVldRvI0xiaF3/dMjgnoOMdR1/Op5YPs4XzVZS5woIOWOM4Fe5GpGSueVOlKLS39CvcwR28wTIG4LtBPUkZxQIvarN5BDqF5CoVzJCEYgAqVOzHP5Uy4njtpI4yju0gJAUZ6DP8AIH8qinUXJzSfYudP3uWK11MW21W0i1GbOC0sRLbsFQyt8uBjrn3qy&amp;#43;t7rbIuGLLll3Lkqeg6n0IP&amp;#43;Ncqv/ISX6f&amp;#43;z1c/5Zn6n&amp;#43;leJ7WUdjvlJvc27rxNPPeo6Boj5JVsHDNngtnvjFQt4pYCz8hmASFd6q3G4devTIIrIk/4/Yv&amp;#43;veT&amp;#43;bVn2/b/dH/stJTaRG5//2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/monumenttulips/images/BdaywJacob%2020227254_hu6611373651122534158.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/monumenttulips/images/BdaywJacob%2020227254_hu6611373651122534158.jpg&#34;
 						
 
 						

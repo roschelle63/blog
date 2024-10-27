@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jack on Jeremy Roschelle</title>
-    <link>https://jeremyr.blog/tags/jack/</link>
+    <link>http://localhost:1313/tags/jack/</link>
     <description>Recent content in Jack on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>https://jeremyr.blog/</url>
-      <link>https://jeremyr.blog/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Aug 2024 13:17:20 -0500</lastBuildDate><atom:link href="https://jeremyr.blog/tags/jack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 13:17:20 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/jack/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backpacking Rockbound Pass, Desolation Wilderness</title>
-      <link>https://jeremyr.blog/posts/photos/2024-07-rockbound/</link>
+      <link>http://localhost:1313/posts/photos/2024-07-rockbound/</link>
       <pubDate>Sat, 03 Aug 2024 13:17:20 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-07-rockbound/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-07-rockbound/</guid>
       <description>&lt;h1 id=&#34;hitting-the-trail&#34;&gt;Hitting the trail&lt;/h1&gt;
 &lt;p&gt;Our quest for the perfect lake in California&amp;rsquo;s Sierra Nevada continued this year with backpacking in the &lt;a href=&#34;https://www.fs.usda.gov/recarea/ltbmu/recarea/?recid=11786&#34;&gt;Desolation Wilderness&lt;/a&gt;. This year Micah Jacob and I were joined by a special guest: nephew Jack. We planned a four day trip:&lt;/p&gt;
 &lt;ol&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Top of Washington Monument</title>
-      <link>https://jeremyr.blog/posts/photos/202211-topofwashington/</link>
+      <link>http://localhost:1313/posts/photos/202211-topofwashington/</link>
       <pubDate>Tue, 08 Nov 2022 20:16:46 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202211-topofwashington/</guid>
+      <guid>http://localhost:1313/posts/photos/202211-topofwashington/</guid>
       <description>&lt;p&gt;As the culmination of a great family visit with Amy, Len, Isla and Jack, we toured the Washington Monument. We were blessed with a very clear day and great views in every direction. After passing through security (some guy failed to get through with a large purple scissors), we were whisked 90 seconds up in an elevator to the top.&lt;/p&gt;
 &lt;h2 id=&#34;jefferson-memorial-and-the-tidal-basin-south&#34;&gt;Jefferson Memorial and the Tidal Basin (South)&lt;/h2&gt;
 &lt;p&gt;The Potomac River flows out beyond the memorial.

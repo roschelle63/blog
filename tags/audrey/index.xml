@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audrey on Jeremy Roschelle</title>
-    <link>https://jeremyr.blog/tags/audrey/</link>
+    <link>http://localhost:1313/tags/audrey/</link>
     <description>Recent content in Audrey on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>https://jeremyr.blog/</url>
-      <link>https://jeremyr.blog/</link>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/audrey/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/audrey/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey&#39;s Birthday in Madison</title>
-      <link>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</link>
+      <link>http://localhost:1313/posts/photos/2024-09-audreybirthday/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-09-audreybirthday/</guid>
       <description>&lt;p&gt;We celebrated Audrey&amp;rsquo;s 60th Birthday with a gathering of friends and family in Madison, Wisconsin. A weekend of fun!&lt;/p&gt;
 &lt;h1 id=&#34;friday&#34;&gt;Friday&lt;/h1&gt;
 &lt;p&gt;We started the morning with Molly and Jeff, who were first to arrive. We enjoyed a delicious breakfast at &lt;a href=&#34;http://marigoldkitchen.com/&#34;&gt;Marigold Kitchen&lt;/a&gt;, across from the state capitol. After a walk to see Audrey&amp;rsquo;s office in WisDems HQ, we toured the capitol which has spectacular marble and is generally grand.&lt;/p&gt;
@@ -26,30 +26,30 @@
     
     <item>
       <title>Rallying in Madison</title>
-      <link>https://jeremyr.blog/posts/photos/2024-09-kamala/</link>
+      <link>http://localhost:1313/posts/photos/2024-09-kamala/</link>
       <pubDate>Sat, 21 Sep 2024 17:25:10 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-09-kamala/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-09-kamala/</guid>
       <description>&lt;p&gt;A high point of Audrey&amp;rsquo;s birthday celebration weekend was a family trip to the Kamala Harris rally in Madison, Wisconsin. We were in the 4th row, behind the podium. It was loud, colorful and exciting.&lt;/p&gt;
 &lt;p&gt;Getting in required a very long walk around the stadium perimeter to get to the security screening area. Secret service dogs were sniffing people as they entered. We had to show id to check in, and then passed through an airport screening machine. No bags were allowed. Jacob arrived late and they had closed the doors and wouldn&amp;rsquo;t let anyone else in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Frank Lloyd Wright&#39;s Taliesin</title>
-      <link>https://jeremyr.blog/posts/photos/2024-09-taliesen/</link>
+      <link>http://localhost:1313/posts/photos/2024-09-taliesen/</link>
       <pubDate>Mon, 16 Sep 2024 19:10:04 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-09-taliesen/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-09-taliesen/</guid>
       <description>&lt;p&gt;A beautiful one-hour drive west of Madison leads to Taliesin, Frank LLoyd Wright&amp;rsquo;s home, studio, and architecture school. Audrey and I loved the extensive four-hour walking tour, which visits many buildings on the property. We saw the studio, dining hall, and auditorium; the eclectic windmill; his sister&amp;rsquo;s house; the &amp;ldquo;barn;&amp;rdquo; and Frank Lloyd Wright&amp;rsquo;s home and personal studio. Our guide was great. with lots of information and stories.&lt;/p&gt;
 &lt;p&gt;His home and property were a constant experiment, and one of the subthemes of the tour was all the preservation work now necessary because much was not built to last. Or as the tour guide said, &amp;ldquo;it was build to Wright&amp;rsquo;s code, not modern code.&amp;rdquo; He was particularly uninterested in gutters, as they ruined the lines&amp;ndash;but would protect the foundation. They experimented with lots of plywood, because it was inexpensive and readily available.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Prairie Flowers</title>
-      <link>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</link>
+      <link>http://localhost:1313/posts/photos/2024-07-prairieflowers/</link>
       <pubDate>Fri, 05 Jul 2024 15:34:45 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-07-prairieflowers/</guid>
       <description>&lt;p&gt;In July, the fields of Wisconsin are filled with flowers. We&amp;rsquo;re delighted to have Lucy visiting with us from LA. Last night we watched fireworks all around Lake Monona. Today we went to a dog park and had a great hike among these lovely flowers.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Click any photo for larger images&lt;/em&gt;&lt;/p&gt;
 
@@ -95,18 +95,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -152,7 +152,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -174,7 +174,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AMe&amp;#43;sba4tRIroHGFWNhzs5wcfgay4/tELmL5SO7oB8o71fvLlVmGxSWjUAcZ&amp;#43;pGa0fDksd1qkXnhWRn4&amp;#43;UEE9q4F78kjmtd2KX2dVwzzJEZAFQPk5PvxWbNazNIptYA7eYBLtY5Jz6/416Hrywy6RN5ltFIYeYQMgA8Y6cgdOMelcVe6bqOm2Yv2Q2pmUDa7DduIJI/DB/T1rSth3B6alzp8jEhhTULq3hiKiWUeW&amp;#43;c4478VsXOkw6TZo0U2yXd82043PjBI/H6fjXM2V0dNuYrol2kRzGRuI5IwORzjFX5dci1tIopo8Q88swOw8YOO/wDOhKDg31J0tqLe319DcLB9tuJYdmWxghmAHp7DH41J4g8UXt/pzxQWyyZUCQrHuB7nrnt/OnWHh/UpMzWtzEEEgMQMuQ4x1GM/Qg89xms29Npe6xAlwrLCs22eJHGSwJHbqDxyKE5x36jXN1P/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425_hu14659288365899272934.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425_hu14659288365899272934.jpg&#34;
 						
 
 						
@@ -215,7 +215,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -237,7 +237,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AK7SySuFLW4DIhVSvLHk7eeM5PvU8cd28SLGbcKJQWBUABBwcY6ckEfWl0yUXsT3yw8op8vK/Nn6ccYPWqmmXZvbF7lIphIzmFwxwBkg59&amp;#43;R&amp;#43;deHBSSu1oiYp2va6LcdnMs93e3gRYFcqj5GWQYyTj&amp;#43;LpSx&amp;#43;VLG0kO14WG4ODkde3tVjTnkkiCyIXilXPl7eDxwcHoM5pl7PGbeC0t4hCV/g24&amp;#43;XPfHoMUqkoP3loypODV1oMknisn8uMu7S8kKePQ/n9OgA7VZ&amp;#43;3WyKskEZZBAu7K9Xzk47H/EVFdsSksixREKNjEkBAMYP06nP1qml/HagrGimMLgllxnucDHGR0Pf3oUpWt0JjKyt0HWV9PqFq2obTGhkK/MOQeeBgcjBpktxiCQpIGkZwgZhtwBng/57VJc3nnSNHbGSOOX94CF5B749&amp;#43;PX19acs1talx5JkSMdWHTGRknv1x9TxRUUeb3Qnyt&amp;#43;6f//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426_hu13009083807138578257.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426_hu13009083807138578257.jpg&#34;
 						
 
 						
@@ -278,7 +278,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -300,7 +300,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANa2gRreKC5t5UjVQIzCfT2/CmS6Msy&amp;#43;bbq6BTtZHOSD61HL8QrK3jRDBcxFjxlEPPoPmpI/iLpwlbdFcjOMhVRf5sa61XjumcnI&amp;#43;pp2llqdlEQI/N3/AHcgnj&amp;#43;lBt9Xyf3cY9tw/wAax3&amp;#43;IFkZS6NehsdBtJ/Ld/KoD4otHO7yb7nn7g/8Ai6XtodbDUWYTQ2su3fGj7emVBx9OKnVo1GQseffGaxLfUC0LlcjkEZJp5vkicNnB65POfY5rwmprY6Lo1jcQLJgou7nPyDimG8tsn5B/3zWetysi7g&amp;#43;/dwrEc5FIDkD92x9&amp;#43;aFfqK5//2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429_hu6827163290274002938.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429_hu6827163290274002938.jpg&#34;
 						
 
 						
@@ -341,7 +341,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -363,7 +363,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOabUJxFHDHcOY3woBbGD7j8q1LHVZ4IEgS/c&amp;#43;U7YUHIU9yP8axr3Rmm1mOP7Ws7XU0m&amp;#43;KAFni&amp;#43;YjcR0qxPpcmmROokaK4C70t5kOdncsSB69Oa5tdydB&amp;#43;oQ3Y0k6sZcW0svk7N3JAzhgM&amp;#43;xH4VgyXiSRsGz8pBRgvTH/wBY11F3pM9z4Ygs7O0DSNcK0jZOFPIznoBg9/eszWfCP9l6bG8kref5xEsiFpI1TPXhc9Mf54qaeurHp0OgEc8esSXKySWwYDaX4YnpnB&amp;#43;vT1/Orl/Z2uoWqQTNHM6jnEZBUdMfXHP1x1rPl1HzlixHk7QS6qdze5JJ54x0piXqruMbAEcnnJ6Vk5MybOjS4Nlp5W2V4w52jed3GMYPtWXqsTyqjTzeaAu3zBnOCRnHo2e5onlibTIGeRY8qSrSHBLYB28Z96rtLFPDGIpHDv8ALndwWzkg8dqzUmO5/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432_hu5940641197457552733.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432_hu5940641197457552733.jpg&#34;
 						
 
 						
@@ -430,19 +430,19 @@
     
     <item>
       <title>Orrin Evans Quartet</title>
-      <link>https://jeremyr.blog/posts/jazz/2024-06-orrinevans/</link>
+      <link>http://localhost:1313/posts/jazz/2024-06-orrinevans/</link>
       <pubDate>Sun, 16 Jun 2024 07:46:51 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2024-06-orrinevans/</guid>
+      <guid>http://localhost:1313/posts/jazz/2024-06-orrinevans/</guid>
       <description>&lt;p&gt;The Orrin Evans Quartet took the stage of the Madison Jazz Festival on a beautiful evening at 7 pm. Audrey and I packed a picnic dinner, including fresh sugar peas from the morning farmer&amp;rsquo;s market. The terrace was packed with people, most with plastic pitchers of beer, in most various states of disattention to the music. Which was unfortunate as Evans led a blazing, innovative set with super talented musicians.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fools&#39; Flotilla: A Madison Tradition</title>
-      <link>https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/</link>
+      <link>http://localhost:1313/posts/photos/2024-06-foolsflotilla/</link>
       <pubDate>Sun, 09 Jun 2024 21:16:39 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-06-foolsflotilla/</guid>
       <description>&lt;p&gt;A hot tip led us to Madison&amp;rsquo;s Yahara River for the annual Fools&amp;rsquo; Flotilla. This boat parade flowed down the river between Madison&amp;rsquo;s two lakes on a beautiful Sunday morning. The end destination was the Marquette Neighborhood Association’s Waterfront Festival. Good zany fun.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Click any picture for bigger images&lt;/em&gt;&lt;/p&gt;
 
@@ -488,18 +488,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -545,7 +545,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3301.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3301.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -567,7 +567,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOB0mJZLgpzEoTiRvX6fnW1Np0G6ITM6qCWALhdw9M8dBWVpiFp1OepFdPf2ImsWniWP9yV3jocE&amp;#43;3uf1oUVyuTM&amp;#43;e0kjj7k3KTg5Z484DEfeP8AkinXhC2rNuAPGxs5Oe/86tyxCSZWaLygT91n3Y/EAfyo1HT5XleG3xL5pMgw2c8Z6/41ny9ytBNJ&amp;#43;9Wul7cQTGJXBSR8EON3YetZGk/erQf/AI&amp;#43;0/wCun9BXTZOkYp2mX9MsIL03TTru2R4QZIwx6Nx6YrJt1MjMwd0ZeAVOOoP&amp;#43;Fb&amp;#43;hfdvP91f61hWX/LX6j/0Fqma1ZpBaI//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3301_hu12187621733486063876.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3301_hu12187621733486063876.jpg&#34;
 						
 
 						
@@ -608,7 +608,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3308.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3308.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -630,7 +630,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APKIQJCEZSwJ5AGTXQ6ROLS1&amp;#43;z3ETPBIzGMsg&amp;#43;ZMc9R7fzqawttKsVvd8bzPJ8kQL7Qo9Tkc9vTt71q6ZbSRXCTC3s5pURn&amp;#43;zNLs3KOMbsHpkdfTrSatuaQhzaoxF05NVBksbZIgjqpbIHXjpwKqnQR9seORpmIUliI88&amp;#43;nBrWvL95rqc20cUcEzAGJB8qeu0ds4/nWf9uuvPNw80kbAnDK2MKOgp2fQm8UiRbOQw&amp;#43;YbliNw&amp;#43;UqO9LeQC2RbtZJN8jlTg44yQR&amp;#43;lWV/48R/vL/So9V/5B0P/AF1P/oRp7obSTaRQtryaeZbVSI1EyruAyT1pl6y6diLYJ5SCTLJz19qi07/kJ/8Abwv/ALNT9f8A&amp;#43;Pwf7gquhi9z/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3308_hu11209560585148649247.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3308_hu11209560585148649247.jpg&#34;
 						
 
 						
@@ -671,7 +671,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3313.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3313.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -693,7 +693,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APOLuwu476S0aRI0I85SckEdgMA85OPTNaupaPHFLHtjmSONVWdiQDuzyeSevbn0qO1uUtdWH2iBbiN0EZDLuK8AFlz0bPOe1dDe6NFqSs0DTzK4yxhkaI5HRWjIYFsYwRgH61F9TfkTje5hWdm0NwJLlTH5y4eT/WbGBJ7cdAOOo9Ksz6AWmdNxLTIUjaTaqqvGHw3Iy2Tx2HWtS5bS7C0ttO0yyR7lFjk8y4kZsOQGYEA7T6dO9Yms3OrT3BWeZliBzHCjkrGOwFNuzvYz92xox2OkzRlhFqEauwO1LtOPpmOrifY4Z7qKJLwKdoYNcKwfvyCn8sVUtP8Aj3X61Kf&amp;#43;P26&amp;#43;oraOtzkqtrlsyW4vLW3u3nGnxzOQQDO7NjIwemP/AK3asXUtQbULvz2hihY5yIgQD&amp;#43;ZNXr/77VjN94fU1U9IqxjRbc22/wAT/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3313_hu11167346862314050797.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3313_hu11167346862314050797.jpg&#34;
 						
 
 						
@@ -734,7 +734,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3316.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3316.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -756,7 +756,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APMrKN3DEbmO3grznHt9KupBcXMCwwtK7sQYkyDkjkdvrWz4au7zw7JPM1o0tu6BHVcD5&amp;#43;qsTjgYNY1rdXKa3HPb&amp;#43;ZFvl3rFuJCAcbTkc8d/eiwyreNcG8dL7eJkbY3A&amp;#43;U&amp;#43;mKqTv9omzEmMgAYPXHtWh4hhuI9TkmumUSXQ84BUZR&amp;#43;Ge2Qec1nQW8l7KqphFJxvc4XPpmi13oI6vSoZdYiu5nuJIjAFc7STvHIx1469ak026a11GCaNV86DBDtkgnBHIp3hL/jx1T/riP51Xtf8Aj9P0X&amp;#43;Ro&amp;#43;0i7LkNW78S38l4nnRWkjIfkYxNlRnt81ZeqatK8XMMQXdkqq4BJPX2PFNuf&amp;#43;P4fX/2aqWpf6k/7y/zNabpmLbTR/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3316_hu13873597860775835542.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3316_hu13873597860775835542.jpg&#34;
 						
 
 						
@@ -797,7 +797,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3320.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3320.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -819,7 +819,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APO5LiIWyDy283IfdjjGOlQGzugyiUbdwBQZ5/zzTZr0c45baFLfhj&amp;#43;WR&amp;#43;NbqabNrtgusm6jM0EPzISQ8mwjOfQBe9TYErjUsbm7tRp8SRqbdS0gc4PXnP0yKzLvSTBbSSLIGaKVVKoQ3VcnkehGK6KXRlZLie5vpNNbLgxDLMy7VKrnIzuJz&amp;#43;fpXI3crJKwiASMDaCB94DufU89fpQo9S5NbGhHp0E7ouNpcgZ9K29HhitNGnvVDMzXEVuy7iAU&amp;#43;8R&amp;#43;O0Cs&amp;#43;0/18P8AvCtKy/5FSb/sIR/&amp;#43;gtTTIih&amp;#43;pSSXHzySu01oPs4cn7wBK5I9TtJ/HHbmlqmkw3CSvI7F7e3TYR0OAp5zyfvevard30vf&amp;#43;vh//Rj0&amp;#43;&amp;#43;/1N7/1wH/oKUptpFrY/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3320_hu7916507700177542029.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3320_hu7916507700177542029.jpg&#34;
 						
 
 						
@@ -860,7 +860,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3321.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3321.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -882,7 +882,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AODuP7OGoukMW&amp;#43;IYK/MWYZxnueeT&amp;#43;IpbK5hjuvJKGSAt&amp;#43;7C4Jzu9OmMZ7VspoEOqa1dTvLFABGJRgqFl79jxnnp0qLS9BiW9haOdJRvcq4QuhwM8HPXj0qZJXdxqT0aMI6hby/egRGLYwUBI565xxipor5HhaGNFebfkOoH3cDt&amp;#43;ddI/w1mkia7lnnQu2QixqevT&amp;#43;L39KwdX8MXujXkSPdIJGyVVZAzIB/exwM1LnHm5b6k8zZqQWCNGHhlmt1aLfsikKjIJFGiefCmyG7njUHJVWwD35q1af8esf/XBv/QjVfSOp/H&amp;#43;VTNJrUd9UXBpc86kHU7ofJuxu46dMVhywGG72GRpDnln5JrrLfof&amp;#43;uP9K5i8/wCQgfrUbTKn8KP/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3321_hu8563662885368069112.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3321_hu8563662885368069112.jpg&#34;
 						
 
 						
@@ -923,7 +923,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3323.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3323.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -945,7 +945,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/APPpLiQ25WJkVc5bbwGwR19/p&amp;#43;FQMkcaQuiuS4DgsAAcHGBWnoWinUtRitruSVo3UriIqhz2yTxSN4euNOvI7HUisAdyHct90Y4ORnvUitpcZdXVjPZPLcyzC6yyCMpuHA4&amp;#43;n/1qpMIkvpWs5h5UmWC5wVUngH3HFXNW0qazVY/J2b0DHc5YPn&amp;#43;Jf1rH&amp;#43;xzBsfKKfKkNyvud42nXGk3y3KXSNmTeFEO3b7A56fhXRXE66yyrNbW4bbjeU3sMjBxnp/8Aq9KzdZ/5Z/hVzT/9cv0FdrpQvax46xdb2fNf8EU73w5PY2FzMurTsiRsUi24AXGSvXv7etYzXWnR6fEY9JTzZyFLvKW2&amp;#43;4GP512&amp;#43;uf8AIGu/&amp;#43;uD/APoJrzp/&amp;#43;PKz/wCugqK8IxasjfLsRVrRbm72Z//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3323_hu13792169600376204999.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3323_hu13792169600376204999.jpg&#34;
 						
 
 						
@@ -986,7 +986,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3327.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3327.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1008,7 +1008,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOW1bwbf6bbw3U4RVyVlUsAVPIHTjB7Ee9ReDPDM&amp;#43;qazvewS9tUJV1kbagPY9RnHpXY39wlwsCwXMErXMIjkj3DYV6jJJGDkgeoIqnYTPokNxOsy28aSAeUrZYnHO3n1wKwqVL3R10aDlK70Rx2teHpYJmlitxBE0jhVDl8BW2nk9geKx2sJRJtJ5PavUNO1PTBpuqrcy23m3qO8Sy7FYFwCct1znnHtXJXEFkZvl8wjIBZXVxn8hVqWiOapBxbOeW5buoNTJdOOQAKprUq0nFCuaCXsg6Kuexx0q4khkiV27&amp;#43;/9aykrTh/49U&amp;#43;p/nURSTB6n//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3327_hu14675278996158222439.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2024-06-foolsflotilla/images/MadisonFlotilla%2024-3327_hu14675278996158222439.jpg&#34;
 						
 
 						
@@ -1075,29 +1075,29 @@
     
     <item>
       <title>Train at Breese Stevens</title>
-      <link>https://jeremyr.blog/posts/jazz/2024-trainmadison/</link>
+      <link>http://localhost:1313/posts/jazz/2024-trainmadison/</link>
       <pubDate>Sat, 08 Jun 2024 10:03:09 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2024-trainmadison/</guid>
+      <guid>http://localhost:1313/posts/jazz/2024-trainmadison/</guid>
       <description>&lt;p&gt;San Franciso-based &lt;a href=&#34;https://en.wikipedia.org/wiki/Train_(band)&#34;&gt;Train&lt;/a&gt; rolled into Madison, Wisconsin—and Audrey and I enjoyed our fourth show from the 1990s pop-rock band. We&amp;rsquo;re temporarily based in Madison while Audrey works here on Voter Protection. The concert venue was just a 10 minute walk from our apartment—Madison is very walkable town. And we enjoyed a pre-concert gathering at the adjacent glass apartment tower, where Audrey&amp;rsquo;s new colleagues have a beautiful apartment. Their balcony looked over the concert venue and had a beautiful view across both of the lakes that surround the Madison isthmus.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2024 Family Colorado Trip</title>
-      <link>https://jeremyr.blog/posts/photos/2024-colorado/</link>
+      <link>http://localhost:1313/posts/photos/2024-colorado/</link>
       <pubDate>Tue, 07 May 2024 22:21:05 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-colorado/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-colorado/</guid>
       <description>&lt;p&gt;In May 2024, our family converged in the mile-high city of Denver for a beautiful spring weekend. Mom, Paul, and Karen flew in from New Jersey; Audrey from California; and Jacob lives and teaches in Denver. I was already there for a business trip.&lt;/p&gt;
 &lt;p&gt;First stop was Colorado College, Jacob&amp;rsquo;s alma mater, pictured above. Did you know Katharine Lee Bates, an English professor at Wellesley College, composed &lt;a href=&#34;https://en.wikipedia.org/wiki/America_the_Beautiful&#34;&gt;America the Beautiful&lt;/a&gt; here in 1882? We asked Mom to put her Wellesley degree to work composing an update. Alas the road to Pike&amp;rsquo;s Peak was snow-covered, and thus the next verse about &amp;ldquo;purple mountain majesty&amp;rdquo; would have to await another day.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Death Valley Road Trip</title>
-      <link>https://jeremyr.blog/posts/photos/2024-03-deathvalley/</link>
+      <link>http://localhost:1313/posts/photos/2024-03-deathvalley/</link>
       <pubDate>Mon, 25 Mar 2024 22:19:46 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2024-03-deathvalley/</guid>
+      <guid>http://localhost:1313/posts/photos/2024-03-deathvalley/</guid>
       <description>&lt;p&gt;We went out looking for life in Death Valley. We found long vistas of wide valleys and dry mountains;lakebeds that haven&amp;rsquo;t seen water in ages; and, ghost towns with tales to tell. We crossed the Tehachapi Pass and found some Golden State dreamscapes. Here&amp;rsquo;s our trip:&lt;/p&gt;
 &lt;h2 id=&#34;mojave-desert&#34;&gt;Mojave Desert&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/DeathValley-10.jpg&#34; alt=&#34;&amp;lt;# View of Desert Gold and dark clouds over the pass #&amp;gt;&#34;  /&gt;
@@ -1107,38 +1107,38 @@
     
     <item>
       <title>Marcus Miller at SF Jazz</title>
-      <link>https://jeremyr.blog/posts/jazz/2024-03-marcusmiller/</link>
+      <link>http://localhost:1313/posts/jazz/2024-03-marcusmiller/</link>
       <pubDate>Sat, 16 Mar 2024 08:39:36 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2024-03-marcusmiller/</guid>
+      <guid>http://localhost:1313/posts/jazz/2024-03-marcusmiller/</guid>
       <description>&lt;p&gt;Marcus Miller played a haunting version of Gorée on bass clarinet, after introducing this composition as inspired by his visit to the &lt;a href=&#34;https://whc.unesco.org/en/list/26/&#34;&gt;island&lt;/a&gt; in Africa that was a slave trading center. His tune for his mother-in-law, Bunny&amp;rsquo;s Dream, was also especially beautiful. His tribute to Jaco Pastorius, &amp;ldquo;Mr Pastorius,&amp;rdquo; was another highlight, featuring Russell Gunn on trumpet who played with a Miles Davis-inspired muted tone. The show had no shortage of jaw-dropping bass solos, but especially featured Marcus&amp;rsquo;s talents as a composer.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Julian Lage Tribute to Jim Hall</title>
-      <link>https://jeremyr.blog/posts/jazz/2024-01-julianlage/</link>
+      <link>http://localhost:1313/posts/jazz/2024-01-julianlage/</link>
       <pubDate>Mon, 22 Jan 2024 10:19:46 -0800</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2024-01-julianlage/</guid>
+      <guid>http://localhost:1313/posts/jazz/2024-01-julianlage/</guid>
       <description>&lt;p&gt;Julian Lage led a quartet through an inspiring take on Jazz Standards on a rainy Sunday evening at &lt;a href=&#34;https://www.sfjazz.org/&#34;&gt;SFJazz&lt;/a&gt;. The fourth member of the quartet, Chris Potter, was the guest sax player. I love when a band is having a great time, and the quartet seemed just overjoyed with how this set went.&lt;/p&gt;
 &lt;p&gt;Julian was playing a four-night stand at SFJazz and this was the final night. The show was organized as a tribute to seminal jazz guitarist Jim Hall, who was a mentor to Lage. It was also somewhat of a homecoming for Lage, as he grew up in Santa Rosa. Because it was a tribute show, Lage did not play his own compositions, but instead chose Standards like:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Jazzmeia Horn, New Year&#39;s Eve</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-12-jazzmeia/</link>
+      <link>http://localhost:1313/posts/jazz/2023-12-jazzmeia/</link>
       <pubDate>Mon, 01 Jan 2024 17:37:24 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-12-jazzmeia/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-12-jazzmeia/</guid>
       <description>&lt;p&gt;For New Year&amp;rsquo;s Eve and our Anniversary Eve as well, Audrey and I took Micah and Victoria to the Kennedy Center to hear vocalist Jazzmeia Horn and her Noble Force. The musical energy started high and stayed high, with Jazzmeia leading a full big band horn section with 5 saxes, 4 trombones and 4 trumpets through a series of her own compositions. &amp;ldquo;Strive&amp;rdquo; and &amp;ldquo;Freedom&amp;rdquo; were particularly powerful. (Listen to  &lt;a href=&#34;https://open.spotify.com/track/3HDNWUbi0F51aRdjru4vu4?si=e5c297f3581d49c7&#34;&gt;Freedom&lt;/a&gt; on Spotify.)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Alexandria Dog Walk</title>
-      <link>https://jeremyr.blog/posts/photos/2023-alexandria/</link>
+      <link>http://localhost:1313/posts/photos/2023-alexandria/</link>
       <pubDate>Sun, 17 Dec 2023 14:51:47 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2023-alexandria/</guid>
+      <guid>http://localhost:1313/posts/photos/2023-alexandria/</guid>
       <description>&lt;p&gt;On a sunny Saturday morning in December, we took the dogs for a stroll in Old Town Alexandria, about 25 minutes from our house. We enjoyed all the colonial-era houses, many with tasteful decorations. Sugar Baby and Ollie enjoyed the walk but reported better odds of finding dropped food on the ground near our house.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;click to see the photos larger&lt;/em&gt;&lt;/p&gt;
 
@@ -1184,18 +1184,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -1241,7 +1241,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2773426.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2773426.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1263,7 +1263,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AJ7a4v43uDPY3pVs&amp;#43;V/oz/IMnHb6VDZ6hcRXzPfW7YRNoLKUYEkdtordktLooyCfBtY4gVBP7w7hjp1zis7WbaaO&amp;#43;iQNIq3FwcvGoIwSo7jkDn24p&amp;#43;1n3BQj1Liarasx3RsOBgpzmnDU7dnCjeo5LNINoUAE5z&amp;#43;FY9pNErS&amp;#43;fOoKSsD5qYJAyARhfYH8e9ZXiCeIafJMLlDiRMJGG5GQSenHfr6Varz6m31aDjzJP9C54n12zhRoRdfvl05FXbn5Z92T/wAC4FN/tWLU49P03zAWtdKd23fK3mADaPTnPT2FQ&amp;#43;NyZrCaeU&amp;#43;ZMAgEjcsBu6ZrgRLIuus6yMHLn5geawTbIlGx22nzefpRnupdsyEgBVwG6jBrE1HU7VI5LVJ3mT7MY8&amp;#43;rdj19hWLq1xM8ahppGBbkFiaxyT61dru5XtLRUUj/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2773426_hu1089859066803755477.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2773426_hu1089859066803755477.jpg&#34;
 						
 
 						
@@ -1304,7 +1304,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2772425.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2772425.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1326,7 +1326,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ALegaxbQ6NJ9m0a4ldkKyXMUIx&amp;#43;ffnNXjfJPbKQpBKAhD1H1rmvD&amp;#43;o30NvaQWjEL5JkVgitjAZj1HHT9atrcs9y53Ddhxle43cfzqYloZJZreXUhurgR7VUr9CM0n9jWf/P6P0/wqnqsoW8HHWKPqM/wCqf2gei/98n/ABrVRXYybd9zHi1aS3tLVIHJ2wKG2nlTlvy4xW7b6hBcTTSRu2/zpMfL8rKT2P4frXL2FukyAFAR05FTzpNpkrTwIpVxgqazUbamjbOg1cyrdqGQqfKTgjH8I9ao7n/zirtj4q1QWkaqY7qID5GuIgxA9vTpVj/hKtU/587H/wABxV&amp;#43;0iZWZ/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2772425_hu7992742466972912730.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2772425_hu7992742466972912730.jpg&#34;
 						
 
 						
@@ -1367,7 +1367,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2771424.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2771424.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1389,7 +1389,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AIpxd2cfnMGCMcr79uPSqV7dkT2CtIeCC6bcnkfz46U/&amp;#43;07q/tOMH7Mpihii65C5BYY6fjVsaHH9osbm6KhmhEwjB6gK559W5/StnUvoRyPcr2E6ac9vJfOoEUHlblXoN3A9TyxrqhLb44S8I7FY1AP/AI9XLeK4vK0G2nWAxB4mPI5JEi5579K3m13TomMTXHKHaf3b9vwqXLsQoaann2mxTvpcsiXKo86kf60DjAGD&amp;#43;ArQ0i9&amp;#43;w6laG7d1aRJFURYZcMD3z1BOKydAv7SwDi4IUYG3CZz&amp;#43;Va83iuyjtZI4IZJGdSAdoAB7H1rn1udbS5brcmvtbTX9Fg0izMl5cWiSnzApBkDMG6Y7AH8q25PB&amp;#43;sTSNKI4sOS3&amp;#43;uTv&amp;#43;NcZ4PW4g1KIiOco8qb2SMhVAbPJ9Oter8e/51uknscspOO5/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2771424_hu4805821155911858747.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2771424_hu4805821155911858747.jpg&#34;
 						
 
 						
@@ -1430,7 +1430,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2766423.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2766423.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1452,7 +1452,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOW0x5bc275IV9oLI2MZHeui0y/uC0TT3MKRSNtVp8AMfqPfFcZf30celQxRsYpSoBO3rSxzreaaturGOdpNwAc7R0znI65x&amp;#43;tZzujWmk9z0211SJ7mOFBJHK/Csp479&amp;#43;vaodU8Y6x4d1VYJo4buCRQQXBRh&amp;#43;I/qK5Dw5qmprdxi9lnWGObaxkHBKAZ5/vY/z1ru/iLpkV14UtNTgAMlq&amp;#43;Xxwdrev5frVRJmrHi8rzsjRxyOpB4AbHH07057mWDUpYYyY4y5XGTjHTP4in3PFqCOCCMGrl8o3StgbvJXnv0FbOncyU3HYtaZe3F2r2yooEcpdyCcHjHQ/Tr1r0bSmfWtCe0k/wCWqeXgc5I4B/PmuH0xV/te4GBjdKOn1rtfCnCXAHQXB/8AQRR7NQ&amp;#43;Yc7m22f/Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2766423_hu17154604696134117861.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2766423_hu17154604696134117861.jpg&#34;
 						
 
 						
@@ -1493,7 +1493,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2765422.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2765422.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1515,7 +1515,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANPR9Z0XTdIggu7&amp;#43;P7ROn2iZSCw3yHce2AMnpWlp2raVfSy2un3kLThS4HlnAx&amp;#43;AzXl6QRXmpi0uJvKX7DGQwYA5wvHNbnhKyig8Xy2sU7OsUIfduzkkAnkdsk0WYG1DepPfyRx3cU85JDxjB5HXjHFaFrrLLc20MkC&amp;#43;WEEkzNKFYduB3Oa5Lw1d3S&amp;#43;OpoGXCg3HRcZ4bB9&amp;#43;xqfxVrsmmPHFDBGwvoJcbxkoc5yD61ak0KUU0V7/AFpbOeWE2MMuxlXLADPy59KtaL4jjl1e2gOnIPMfAYPypweRx&amp;#43;lYOu/8f9x/11X/ANAp2gf8jBYf9df8awu&amp;#43;ZorodD4U0kS&amp;#43;Lri/80KQ86soUksCGHXP9K57xXcJqCWheLDQhlB3djiuy8Hf8hi6/wCukn/s1cNrf&amp;#43;ri&amp;#43;p/kKbbukUkj/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2765422_hu15667468828478109222.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2765422_hu15667468828478109222.jpg&#34;
 						
 
 						
@@ -1556,7 +1556,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2764421.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2764421.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1578,7 +1578,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOsfUrO1tNs1wsbKANvf06VVh8TaXYxRyTTgMp&amp;#43;4ByeT2/z1rkLuRopJrq73TzzErHnoo68HvnNZTTMIZ9rbSp3B3bJGe3T&amp;#43;lJNWuE5vY9UsvGenajLJCW8oxEfe59f/AK1Zg8R29rrc0EsE3ksSBIVx&amp;#43;mOhrzbTNWEVrLctHLLLNJtPljjApLjXr&amp;#43;Z2EKyxpIcYjI7c4JqJVLvQhTktEdXq1vJPpkdxBAVYAMVX7wXuRjvgfr&amp;#43;FcNc307Wv2qO3WEec5VNvTnggH8uvrXpVoc2Fvn/nnWL4wt4RpbyiGMSH&amp;#43;MKM/nW/s1a6Lb97UyNBit9Rh&amp;#43;xSx7rdVCOwk8vc5P3F554B/Kp47vRLOWUWln5cMRAJd2IHA5Ctwc&amp;#43;vpzWdojH7FYpk7TM/y9uMEfzP51JqIA&amp;#43;0kAAmEkn161ySfYTS2P/Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2764421_hu6846225085974993283.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2764421_hu6846225085974993283.jpg&#34;
 						
 
 						
@@ -1619,7 +1619,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2762420.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2762420.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -1641,7 +1641,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AKNv4tdHijuLfAZWdtkhJkIyMY7AEVZE4mImDKuTtV1AyAOvPbrVxNKsz4gimsLHzAqtiWM7VjJXBGOw5PT1rm7ib7K1zBuz5cvlbQDgsSeAR&amp;#43;FNVWxulZXNO60GHUmN/azSWk6n&amp;#43;ByqN/gevI9ehrBXWtb8P3TPJPK8blfO3qp6DH3hkHjHJ56cVv6RqsF1E0blt5TCFV3YPbArktZ1N/tjRTqWbdteMjA/H3q&amp;#43;bS6M1HWzN5vEk&amp;#43;jxBpYpXvNzDy4SSgycj6jH9KyGv9UvJria0iSEzSh28yULjkN3PqP0q34pd4NT8uJ2jTaPlQ4H5VhGeYYPmvn/AHjWMdrm0nrY07S11S1jwkFseByJAenQ5z1rEvYma7P2najPIMuj7tv6043E5zmaQ/8AAjVWaWQocyMf&amp;#43;BGrVyHY/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/2023-alexandria/images/Alexandria%202023-2762420_hu10427433322615504593.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/2023-alexandria/images/Alexandria%202023-2762420_hu10427433322615504593.jpg&#34;
 						
 
 						
@@ -1708,19 +1708,19 @@
     
     <item>
       <title>Billy Joel at Madison Square Garden</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-11-billyjoel/</link>
+      <link>http://localhost:1313/posts/jazz/2023-11-billyjoel/</link>
       <pubDate>Sat, 25 Nov 2023 22:33:53 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-11-billyjoel/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-11-billyjoel/</guid>
       <description>&lt;p&gt;For a special pre-Thanksgiving treat, Audrey and I enjoyed Billy Joel&amp;rsquo;s 96th concert in his series at the Garden. His voice was as good as ever, and the band was tight. Billy Joel puts on a good show, with plenty of greatest hits, but also some unexpected covers. He pranced like Mick Jagger to the the Stone&amp;rsquo;s &amp;ldquo;Start me up&amp;rdquo; and crooned &amp;ldquo;The Lion Sleeps Tonight&amp;rdquo; among others. Of course, the crowd sang every word of &amp;ldquo;The Piano Man&amp;rdquo; &amp;ndash; the last song. But then he came back for three rocking encores.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Romeo and Juliet Opera</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</link>
+      <link>http://localhost:1313/posts/jazz/2023-11-romeoandjuliet/</link>
       <pubDate>Sun, 19 Nov 2023 18:33:38 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-11-romeoandjuliet/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-11-romeoandjuliet/</guid>
       <description>&lt;p&gt;We had a wonderful time among the Capulet and Montague families at the Kennedy Center. After the hopeful first half, Audrey wisely noted &amp;ldquo;This isn&amp;rsquo;t going to end well.&amp;rdquo; The closing scene was the best part of the opera, even if the lovers will only be together in the afterlife. The Kennedy Center is a great place to see an opera.&lt;/p&gt;
 &lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
 &lt;table&gt;
@@ -1749,78 +1749,78 @@
     
     <item>
       <title>Shakti 50th Anniversary Tour</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-09-shakti/</link>
+      <link>http://localhost:1313/posts/jazz/2023-09-shakti/</link>
       <pubDate>Wed, 13 Sep 2023 22:07:45 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-09-shakti/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-09-shakti/</guid>
       <description>&lt;p&gt;As the lights dimmed, members of &lt;a href=&#34;https://www.shakti50.com/&#34;&gt;Shakti&lt;/a&gt; entered the stage to a thunderous standing ovation. The minimal stage set (a low riser, draped in black, and spread with a few Indian carpets) gave few clues to the amazingly complex music soon to follow. As the musicians took their cross-legged seats, a subtle droning sound filled the room. The musicians tuned their instruments casually and settled into their places, like friends relaxing at home.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Portugal: Favorite Photos and Stories</title>
-      <link>https://jeremyr.blog/posts/photos/2023-portugalstories/</link>
+      <link>http://localhost:1313/posts/photos/2023-portugalstories/</link>
       <pubDate>Sun, 13 Aug 2023 22:42:20 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2023-portugalstories/</guid>
-      <description>&lt;p&gt;In May 2023, we returned from Portugal with over 400 photos. For this blog. I picked just a few favorites with a story to tell. A separate photo album covers our time in &lt;a href=&#34;https://jeremyr.blog/posts/photos/2023-madiera/&#34;&gt;Magical Madeira&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://localhost:1313/posts/photos/2023-portugalstories/</guid>
+      <description>&lt;p&gt;In May 2023, we returned from Portugal with over 400 photos. For this blog. I picked just a few favorites with a story to tell. A separate photo album covers our time in &lt;a href=&#34;http://localhost:1313/posts/photos/2023-madiera/&#34;&gt;Magical Madeira&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;arrival-in-cascais&#34;&gt;Arrival in Cascais&lt;/h2&gt;
 &lt;p&gt;The idea to visit Portugal began with an invitation from the Jacobs Foundation to attend a &lt;a href=&#34;https://jacobsfoundation.org/2023-jacobs-foundation-conference/&#34;&gt;conference&lt;/a&gt; on the theme of how learners can adapt to our changing world. As the timing fit my 60th, Audrey and I decided to make it a birthday trip.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Magical Madeira</title>
-      <link>https://jeremyr.blog/posts/photos/2023-madiera/</link>
+      <link>http://localhost:1313/posts/photos/2023-madiera/</link>
       <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2023-madiera/</guid>
+      <guid>http://localhost:1313/posts/photos/2023-madiera/</guid>
       <description>&lt;p&gt;Our May 2023 visit to Madeira was a magical experience. After arriving on a quick two hour flight south from Lisbon, we soon found ourselves in a paradise of flowers, butterflies, steep mountain landscapes, flowing water, and adventure.&lt;/p&gt;
 &lt;p&gt;Our first stop after picking up a rental car and checking into our hotel was to visit a lookout point, Cabo Girao. Here a skywalk juts out from a cliff, 580 meters above the ocean. The cliff drops straight down, especially as we looked through the glass floor of the skywalk. After taking in the spectacular views, we drove to a spot at sea level where a waterfall crashes down on the road; we watched some cars drive through the waterfall. Then we stopped at Porto Sol, a colorful beach town, where we enjoyed a cocktail at a cafe overlooking the ocean.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Marcus Miller</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-marcusmiller/</link>
+      <link>http://localhost:1313/posts/jazz/2023-marcusmiller/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-marcusmiller/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-marcusmiller/</guid>
       <description>&lt;p&gt;Bass players do not often lead bands, but then again, Marcus Miller is not your average bass player. It was a treat to bring Audrey&amp;rsquo;s brother&amp;rsquo;s family—Gene, Laem and Cliff—to the &lt;a href=&#34;https://www.birchmere.com/&#34;&gt;Birchmere Music Hall&lt;/a&gt; in Alexandria, VA to see Marcus Miller lead a long and energetic set.&lt;/p&gt;
 &lt;p&gt;A rendition of &lt;a href=&#34;https://youtu.be/km7GfqBcs0g&#34;&gt;Mr. Pastorius&lt;/a&gt; was a high point of the set, although it was also the only swing jazz tune. More typical to the set was &lt;a href=&#34;https://youtu.be/25uWdn1VJxU&#34;&gt;Detroit&lt;/a&gt;, a funky, energetic composition which Marcus renamed &amp;ldquo;Detroit DMV&amp;rdquo; for the evening.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>La Bohème</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-laboheme/</link>
+      <link>http://localhost:1313/posts/jazz/2023-laboheme/</link>
       <pubDate>Mon, 29 May 2023 08:09:26 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-laboheme/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-laboheme/</guid>
       <description>&lt;p&gt;A night at the opera! Audrey and I took Mom and Paul a double first: their first time at the Kennedy Center and our first time at the opera. The night was warm and beautiful, so we enjoyed people watching outdoors before the show. We also really enjoyed the opera. It was unexpectedly funny, and of course, romantic and tragic. The sets and costumes were not overdone, but still made for a spectacle. Audrey was ready to go again.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Petworth Porchfest &#39;23</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-petworthporchfest/</link>
+      <link>http://localhost:1313/posts/jazz/2023-petworthporchfest/</link>
       <pubDate>Sun, 30 Apr 2023 11:17:01 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-petworthporchfest/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-petworthporchfest/</guid>
       <description>&lt;p&gt;Porchfest brings music to the streets, as people stroll the local Petworth neighborhood and bands perform from the porches of houses. This year our friends Pilar and Darlene joined us, and we ran into Carolyn and Octavio. The music ranged from immigrant folk to psychadelic jam to random accordion and beyond. It was a nice cool day and we had fun people watching the crowds, checking out lots of bands, and catching up with friends.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>NEA Jazz Masters</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-neajazzmasters/</link>
+      <link>http://localhost:1313/posts/jazz/2023-neajazzmasters/</link>
       <pubDate>Sat, 01 Apr 2023 10:18:49 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-neajazzmasters/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-neajazzmasters/</guid>
       <description>&lt;p&gt;The National Endowment of the Arts honors four &lt;a href=&#34;https://www.arts.gov/honors/jazz&#34;&gt;Jazz Masters&lt;/a&gt; each year, and this year gave awards to Kenny Garrett, Regina Carter, Louis Hayes and Sue Mingus.&lt;/p&gt;
 &lt;p&gt;Although we didn&amp;rsquo;t have tickets, I hopped on a city bike and rode 27 minutes from our house to the Kennedy Center to wait for standby tickets. A fun group of earnest jazz fans began filling the line at 5:30 for a 7:15 ticket release. My patience was rewarded with two great front-row balcony seats, and Audrey soon joined for the concert.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2023 Cherry Blossoms, DC</title>
-      <link>https://jeremyr.blog/posts/photos/2023-cherry-blossoms/</link>
+      <link>http://localhost:1313/posts/photos/2023-cherry-blossoms/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/2023-cherry-blossoms/</guid>
+      <guid>http://localhost:1313/posts/photos/2023-cherry-blossoms/</guid>
       <description>&lt;p&gt;Peak cherry blossoms were waiting for us when we arrived this year in Washington, DC. After a few days of rain, we awoke to a glorious Sunday morning. Audrey and I hopped on the city bikes (with helmets, of course), and rode 30 minutes to the National Mall. We were greeted by peak crowds, all trying to get to Tidal Basin that surrounds the Jefferson Memorial.&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/peakcrowds.jpg&#34; alt=&#34;&amp;lt;# Crowded crosswalk as people seek to get close to the Tidal Basin #&amp;gt;&#34;  /&gt;
 &lt;/p&gt;</description>
@@ -1828,98 +1828,98 @@
     
     <item>
       <title>Jake Shimabukuru</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-jake/</link>
+      <link>http://localhost:1313/posts/jazz/2023-jake/</link>
       <pubDate>Thu, 09 Mar 2023 18:36:59 -0800</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-jake/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-jake/</guid>
       <description>&lt;p&gt;We tuned in to Jake Shimabukuru via streaming on Friday night, and to our surprise, we liked his music and entertaining style so much that we bought tickets for Sunday night. After a fun French dinner of crepes and French onion soup at Chez Maman West, we strolled over to SFJazz to catch the show. Jake performed a wide range of music from Flamenco-style to a rendition of Bohemian Rhapsody and While my Guitar Gently Weeps. His take was lighthearted yet virtuosic. Overall, good fun.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Maria Schneider Orchestra</title>
-      <link>https://jeremyr.blog/posts/jazz/2023-mariaschneider/</link>
+      <link>http://localhost:1313/posts/jazz/2023-mariaschneider/</link>
       <pubDate>Fri, 03 Mar 2023 23:47:12 -0800</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023-mariaschneider/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023-mariaschneider/</guid>
       <description>&lt;p&gt;We&amp;rsquo;ve enjoyed Maria Schneider several times now, but this is the first time we&amp;rsquo;ve heard the Orchestra in San Francisco. The compositions were lush and original, and ranged across many of her albums. We were glad to have time to catch a quick meal of Thai food beforehand with Micah and Victoria. &amp;ldquo;Sputnik&amp;rdquo; was my favorite tune this time, with the encore &amp;ldquo;Walking by Flashlight&amp;rdquo; a close second.&lt;/p&gt;
 &lt;p&gt;Audrey ordered a copy of the book of poems that inspired many compositions, &lt;a href=&#34;https://press.uchicago.edu/ucp/books/book/distributed/W/bo43505466.html&#34;&gt;100 Postcards to Jim Harrison&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mavis Staples</title>
-      <link>https://jeremyr.blog/posts/jazz/2023mavisstaples/</link>
+      <link>http://localhost:1313/posts/jazz/2023mavisstaples/</link>
       <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023mavisstaples/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023mavisstaples/</guid>
       <description>&lt;p&gt;&amp;ldquo;I&amp;rsquo;ll take you there&amp;rdquo; sings Mavis Staples, famously, and she did &amp;ndash; it was a soulful, happy place. The minimalist backup band, guitar-bass-drums, was outstanding &amp;ndash; filling the space with energy. We especially loved &lt;a href=&#34;https://en.wikipedia.org/wiki/Rick_Holmstrom&#34;&gt;Rick Holstrom&lt;/a&gt;, a blues guitar player. He made his Telecaster sing in every way it should, extracting a series of tasty, and thrilling  tones.&lt;/p&gt;
 &lt;p&gt;The church is still in Mavis Staples; we felt we were in a wonderful Sunday gospel service, with Mavis ever urging our spirits higher. The surprise song of the set was the Talking Heads cover, Slippery People ( &amp;ldquo;What&amp;rsquo;s a matter with him? He&amp;rsquo;s alright.&amp;rdquo;&amp;quot; ) It fit perfectly. &amp;ldquo;Friendship&amp;rdquo; was also a touching song.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Pride And Joy SF</title>
-      <link>https://jeremyr.blog/posts/jazz/2023prideandjoy/</link>
+      <link>http://localhost:1313/posts/jazz/2023prideandjoy/</link>
       <pubDate>Sat, 18 Feb 2023 17:48:24 -0800</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023prideandjoy/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023prideandjoy/</guid>
       <description>&lt;p&gt;Dance we must, as the motown groove of San Francisco favorite &amp;ldquo;Pride and Joy&amp;rdquo; is undeniable! And dance we did, all night long, with our friends Mike and Fong.&lt;/p&gt;
 &lt;p&gt;The packed house brought out every 55 year old in Menlo Park California who isn&amp;rsquo;t afraid to boogie. When they band closed with &amp;ldquo;Shout!&amp;rdquo; it was quite entertaining to look around and see everyone (including us) complaining that we can&amp;rsquo;t &amp;ldquo;get a little bit softer now; get a little bit lower now&amp;rdquo;—our knees hurt!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fred Armisen</title>
-      <link>https://jeremyr.blog/posts/jazz/2023fredarmisten/</link>
+      <link>http://localhost:1313/posts/jazz/2023fredarmisten/</link>
       <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023fredarmisten/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023fredarmisten/</guid>
       <description>&lt;p&gt;Fred Armisen introduced his show as &amp;ldquo;comedy for musicians&amp;rdquo; - and indeed, it featured lots of funny talk about music. An evening with Fred Armisen is a bit more like hanging out with a slightly off-kilter, ironic cousin than it is like traditional standup comedy. He did impressions of punk rock in every country across the world. He put trotted out a bass guitar and chomped on the headstock, which turned out to be a brownie. He played a great sounding Rickenbacker bass for a bit. Sitting at the drums, he did impressions of every punk rock band stretching across two decades. He&amp;rsquo;s smart and funny, and got us home in time for bed on a school night.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Petty Theft</title>
-      <link>https://jeremyr.blog/posts/jazz/2023pettytheft/</link>
+      <link>http://localhost:1313/posts/jazz/2023pettytheft/</link>
       <pubDate>Sat, 21 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2023pettytheft/</guid>
+      <guid>http://localhost:1313/posts/jazz/2023pettytheft/</guid>
       <description>&lt;p&gt;Walking into the newly remolded Guild in Menlo Park, we thought &amp;ldquo;we must know people here.&amp;rdquo; The crowd, how to put it? The crowd wore its age as well as we do.&lt;/p&gt;
 &lt;p&gt;Petty Theft had a great reputation as a Tom Petty cover band, and they delivered. We had a lot of fun dancing to the endless string of  greatest hits. It&amp;rsquo;s great to have a venue so near our house with music we enjoy. And yes, we did know people there &amp;ndash; Audrey&amp;rsquo;s ex-husband Raphael and his wife Stephanie!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Julian Lage Trio</title>
-      <link>https://jeremyr.blog/posts/jazz/2022julianlage/</link>
+      <link>http://localhost:1313/posts/jazz/2022julianlage/</link>
       <pubDate>Thu, 01 Dec 2022 07:31:51 -0500</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2022julianlage/</guid>
+      <guid>http://localhost:1313/posts/jazz/2022julianlage/</guid>
       <description>&lt;p&gt;The historic 6th and I Synagogue provided a beautiful setting for a stunning set by &lt;a href=&#34;http://www.julianlage.com/&#34;&gt;Julian Lage&lt;/a&gt; and his trio, featuring bassist Jorge Roeder and drummer Dave King. Words that come to mind to describe the music: virtuoso, intricate, emotive, warm, engaging. What we all noted after the set was how much fun the band was having, and we were having fun right along with them.&lt;/p&gt;
 &lt;p&gt;Before the set, I snapped this photo of the wonderous dome above us.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fall in Rock Creek</title>
-      <link>https://jeremyr.blog/posts/photos/202210-rockcreek/</link>
+      <link>http://localhost:1313/posts/photos/202210-rockcreek/</link>
       <pubDate>Sun, 30 Oct 2022 18:02:05 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202210-rockcreek/</guid>
+      <guid>http://localhost:1313/posts/photos/202210-rockcreek/</guid>
       <description>&lt;p&gt;Fall is breaking out all over, and no where better then nearby &lt;a href=&#34;https://www.nps.gov/rocr/index.htm&#34;&gt;Rock Creek Park&lt;/a&gt;. We love that Beach Dr is closed to cars; its the perfect weekend stroll. And because of the absense of cars anywhere nearby, it&amp;rsquo;s possible to experience complete quiet even though we&amp;rsquo;re in middle of DC.&lt;/p&gt;
 &lt;p&gt;A couple of weekends ago, we were walking here and Audrey spotted Justice Sonia Sotomayor walking by. A DC moment!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Autumn Leaves @ Cacoctin Mountain</title>
-      <link>https://jeremyr.blog/posts/photos/202210-cacoctin/</link>
+      <link>http://localhost:1313/posts/photos/202210-cacoctin/</link>
       <pubDate>Sun, 23 Oct 2022 21:28:15 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202210-cacoctin/</guid>
+      <guid>http://localhost:1313/posts/photos/202210-cacoctin/</guid>
       <description>&lt;p&gt;We&amp;rsquo;re really enjoying autumn in DC&amp;ndash;and so are Sugar Baby, Ollie, and Lola, who have gotten their humans to take them on many fun day trips. This time we ventured a little to Cacoctin Mountain Park in Maryland north of DC. (Pronounced &amp;ldquo;Ka-Kock-tin&amp;rdquo;).&lt;/p&gt;
 &lt;p&gt;A little over an hour of driving brought us to the beginning of our hike. The sky was a bit gray and the temperatures in the 60s. Ollie was especially excited and pulling hard on his leash. After a mile of downhill, we had a mile of steep uphill, on a trail of granite stones covered in leaves.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Annapolis on a Fall Day</title>
-      <link>https://jeremyr.blog/posts/photos/202210-annapolis/</link>
+      <link>http://localhost:1313/posts/photos/202210-annapolis/</link>
       <pubDate>Sun, 16 Oct 2022 16:48:15 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202210-annapolis/</guid>
+      <guid>http://localhost:1313/posts/photos/202210-annapolis/</guid>
       <description>&lt;p&gt;On a beautiful sunny fall day, Audrey, Carolyn and I ventured to Annapolis with Ollie, Sugar Baby and Lola. What&amp;rsquo;s a beautiful outing without three dogs? The dogs were especially delighted when we immediately came upon a Dog Treat Parlor on Main Street&amp;ndash;fresh biscuits for all!&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;AudCarDogs.jpg&#34; alt=&#34;&amp;lt;# Audrey, Carolyn and the dogs #&amp;gt;&#34;  title=&#34;Annapolis 2022-1191196.jpg&#34;  /&gt;
 &lt;/p&gt;
@@ -1928,38 +1928,38 @@
     
     <item>
       <title>The Chicks at Shoreline</title>
-      <link>https://jeremyr.blog/posts/jazz/the-chicks/</link>
+      <link>http://localhost:1313/posts/jazz/the-chicks/</link>
       <pubDate>Sun, 31 Jul 2022 08:41:10 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/the-chicks/</guid>
+      <guid>http://localhost:1313/posts/jazz/the-chicks/</guid>
       <description>&lt;p&gt;I pulled out my best western shirt to join Audrey and a sea of pink cowboy hats at the Chicks concert. &amp;ldquo;With 33 million certified albums sold and sales of 27.9 million albums in the US, the &lt;a href=&#34;https://thechicks.com/&#34;&gt;Chicks&lt;/a&gt; have become the best-selling female band and best-selling country group in the US.&amp;rdquo; (&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Chicks&#34;&gt;per Wikipedia&lt;/a&gt;) Audrey knew all the words and was not shy about singing and dancing along to the two hour set.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tierney Sutton Paris Sessions</title>
-      <link>https://jeremyr.blog/posts/jazz/tierneyparissessions/</link>
+      <link>http://localhost:1313/posts/jazz/tierneyparissessions/</link>
       <pubDate>Tue, 28 Jun 2022 10:59:25 -0700</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/tierneyparissessions/</guid>
+      <guid>http://localhost:1313/posts/jazz/tierneyparissessions/</guid>
       <description>&lt;p&gt;A beautiful Sunday took us to the beach just north of Half Moon Bay, to hear Tierney Sutton sing at the &lt;a href=&#34;https://bachddsoc.org/&#34;&gt;Bach Dynamite and Dancing Society&lt;/a&gt;. Her theme was &amp;ldquo;love.&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;To open the show, Tierney sang a song from her &amp;ldquo;Blue&amp;rdquo; album, which featured Joni Mitchell songs. She playfully combined the standard &amp;ldquo;April in Paris&amp;rdquo; with Joni&amp;rsquo;s &amp;ldquo;Free Man in Paris.&amp;rdquo; Later in the show, Tierney gave a tour-de-force performance of the Dry Cleaner from Des Moines, a Joni Mitchell song with a ton of very fast, very complex lyrics.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Micah&#39;s Delayed Commencement</title>
-      <link>https://jeremyr.blog/posts/photos/202205-micahcommence/</link>
+      <link>http://localhost:1313/posts/photos/202205-micahcommence/</link>
       <pubDate>Thu, 19 May 2022 22:18:44 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202205-micahcommence/</guid>
+      <guid>http://localhost:1313/posts/photos/202205-micahcommence/</guid>
       <description>&lt;p&gt;The Roschelle family happily converged at Morningside Heights to celebrate Micah&amp;rsquo;s commencement from Columbia University. He actually graduated two years ago, in May 2020. But that was the year of coming home for spring break and never returning to New York to finish senior year. So it was great to finally have a full on celebration two years later. My mother, Alice, has a master&amp;rsquo;s degree from Columbia, making it a multi-generational roar of the Columbia lion. And, of course, Victoria also graduated from Columbia, a year before Micah. Columbia blue was everywhere as were the big smiles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Womens March</title>
-      <link>https://jeremyr.blog/posts/photos/202205-womensmarch/</link>
+      <link>http://localhost:1313/posts/photos/202205-womensmarch/</link>
       <pubDate>Sat, 14 May 2022 21:24:17 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202205-womensmarch/</guid>
+      <guid>http://localhost:1313/posts/photos/202205-womensmarch/</guid>
       <description>&lt;p&gt;Audrey and I created some impromptu posters, hopped on the #54 bus, and joined the Washington DC Women&amp;rsquo;s March. We were protesting the Supreme Court&amp;rsquo;s draft decision to overturn Roe v Wade. Lots of people asked to take a photo of Audrey&amp;rsquo;s poster: &amp;ldquo;if men could get pregnant, abortions would be available at ATMs.&amp;rdquo;&lt;/p&gt;
 &lt;div class=&#34;flexflow&#34;&gt;
 &lt;img src=&#34;wm-1.jpg&#34; alt=&#34;if men could get pregnant, abortions would be available at ATMs.&#34;&gt;
@@ -1970,10 +1970,10 @@
     
     <item>
       <title>Danilo Peréz</title>
-      <link>https://jeremyr.blog/posts/jazz/202204-danilo/</link>
+      <link>http://localhost:1313/posts/jazz/202204-danilo/</link>
       <pubDate>Sun, 01 May 2022 11:15:18 -0400</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/202204-danilo/</guid>
+      <guid>http://localhost:1313/posts/jazz/202204-danilo/</guid>
       <description>&lt;h2 id=&#34;danilo-perézs-global-messengers&#34;&gt;Danilo Peréz&amp;rsquo;s Global Messengers&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve always been a huge fan of Wayne Shorter&amp;rsquo;s quartet with Danilo Peréz, John Pattituci and Brian Blade. And I enjoy each of the artists individually. So I leaped at a chance go hear the pianist, &lt;a href=&#34;https://www.daniloperez.com/&#34;&gt;Danilo Peréz&lt;/a&gt; lead his own group.&lt;/p&gt;
 &lt;p&gt;The setting could not be more beautiful. The 6th and I Synagogue is a historic building in downtown Washington DC, and its a Sephardic-style building. Rather than a long vault ending in an alter, the building is basically square, with a dome above four huge arches. The dome is pained a lovely sky blue. And the colors throughout the space are warm and inviting. I had been looking for an opportunity to show Audrey the space and it was a special bonus that Sarah was visiting us.&lt;/p&gt;</description>
@@ -1981,19 +1981,19 @@
     
     <item>
       <title>Stanley Jordan as Jimi</title>
-      <link>https://jeremyr.blog/posts/jazz/2022-04-stanleyjordan/</link>
+      <link>http://localhost:1313/posts/jazz/2022-04-stanleyjordan/</link>
       <pubDate>Thu, 14 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/2022-04-stanleyjordan/</guid>
+      <guid>http://localhost:1313/posts/jazz/2022-04-stanleyjordan/</guid>
       <description>&lt;p&gt;Stanley Jordan brought the house down at Blues Alley in Georgetown with his recreation of Jimi Hendrix&amp;rsquo;s music. The audience rose and soared with the Star Spangled Banner. We grooved to Foxy Lady. We were awed by Jordan&amp;rsquo;s amazing guitar techniques, including lots of high speed tapping. For the guitar nerds out there, he had a series of awesome guitar tones all night long, which must have been driven by some electronics, as there was no guitar amp anywhere in site. We left in a Purple Haze.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mingus</title>
-      <link>https://jeremyr.blog/posts/jazz/mingus/</link>
+      <link>http://localhost:1313/posts/jazz/mingus/</link>
       <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/jazz/mingus/</guid>
+      <guid>http://localhost:1313/posts/jazz/mingus/</guid>
       <description>&lt;h1 id=&#34;the-charles-mingus-big-band&#34;&gt;The Charles Mingus Big Band&lt;/h1&gt;
 &lt;p&gt;My birthday present this year was the &lt;a href=&#34;https://www.charlesmingus.com/mingus-big-band&#34;&gt;Charles Mingus Big Band&lt;/a&gt; live at Kennedy Center&amp;rsquo;s Terrace Theater. The band was there to celebrate &lt;a href=&#34;https://americanhistory.si.edu/smithsonian-jazz/jazz-appreciation-month&#34;&gt;Jazz Appreciation Month&lt;/a&gt; and the centential of the birth of iconic bass player and composer &lt;a href=&#34;https://www.charlesmingus.com/mingusbio&#34;&gt;Charles Mingus&lt;/a&gt;. We were treated to a dynamic concert, full of energy and contrast.&lt;/p&gt;
 &lt;h2 id=&#34;goodbye-pork-pie-hat&#34;&gt;Goodbye Pork Pie Hat&lt;/h2&gt;
@@ -2002,10 +2002,10 @@
     
     <item>
       <title>National Arboretum</title>
-      <link>https://jeremyr.blog/posts/photos/202204natarbor/</link>
+      <link>http://localhost:1313/posts/photos/202204natarbor/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/202204natarbor/</guid>
+      <guid>http://localhost:1313/posts/photos/202204natarbor/</guid>
       <description>&lt;p&gt;On a lovely spring Sunday, we took Lola, Ollie and Sugar Baby for a walk at the &lt;a href=&#34;https://www.usna.usda.gov/&#34;&gt;National Arboretum&lt;/a&gt; in Washington DC. It felt very spacious and quiet. Trees were blooming everywhere. We were surprised to find huge columns, which were &lt;a href=&#34;https://www.usna.usda.gov/discover/gardens-collections/national-capitol-columns&#34;&gt;moved here&lt;/a&gt; from the Capitol when it was expanded. The dogs loved their walk and so did we.&lt;/p&gt;
 
 
@@ -2050,18 +2050,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -2107,7 +2107,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20131.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20131.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2127,7 +2127,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOQtNyPILdfMUt8rEZ9q6G2v0traNXt5ZX6sXIXH&amp;#43;f6VdgeOOLOAqqPyrHu7yBnLmUNnqf8AHFOlXmndM1VCnP4jSn1dGtx9lt2WUkY3EevNZt3qmtSl/sloirngMPmA&amp;#43;vSoVaJ1HLbs5ZgckfQVowzRCEqozjqTzmrqYir3FLCUo6xRl6/qE1tbJDGcCQ4JHXpmsmzDSux3bTkcqMHP&amp;#43;R&amp;#43;tXPE/3YP97/2Wqmn9W&amp;#43;o/rWVPY0j8Vi5FvWMN5hzgE475pVuZElUKcBzihf8AUf8AAV/lUX/LaL/fNN7Fy&amp;#43;E//9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20131_hu6592095455181502390.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20131_hu6592095455181502390.jpg&#34;
 						
 
 						
@@ -2168,7 +2168,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20130.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20130.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2188,7 +2188,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOVt7VmIAFaMVhKC3y/dODVm2iSMH5lDEZAzUn9qI0iIVA6D3FenWxPs5WSOKlQ5ldkK274ztNU9QhTygWkEZHIJrT&amp;#43;1STTmNHVlA64xmlkFhcQYkmhKkZILjiiFeNWLT0FOk6bTWpzVlA92ZlEpjKJvzjOcc0zTJ5byWHG1DICScZ6YHr7/AKVZ0b/WXP8A1xb&amp;#43;Rqn4e/1tr/uv/Na8mW1z0FudCujhW8yW5d8c7RwP50yXT7ZAdsSjPoK1n/1ZqlP0NZJmtkf/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20130_hu14053916081284216099.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20130_hu14053916081284216099.jpg&#34;
 						
 
 						
@@ -2229,7 +2229,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20129.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20129.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2249,7 +2249,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOYktSWhZXZTuJwOhAHOfzFSm3lDKSq&amp;#43;WwODnnIx/jV6K3867lwMrCBH&amp;#43;P3j/MflVyWycMkYwdiDdx3OTj8sV7Kl17s89x6dkYLRf3gVOcYYYOaie3PpXUy6eDJeMw3MSQBjhcOuPx61UuNNWN9saYUqp9eSAT&amp;#43;uadKpzoVSHKYTLffbHktLpo42bd94jJ7nBq3q/iLUYWjCyIoPUhR82RgVJCSbQHJ6Vla1zCc8/MP618&amp;#43;5u6v0PTkkl6mjp/jCff5N0qSBick/e65H8q2brxDbxzBfszy7gMFOMcDg1wNhzrMf/Az&amp;#43;SnFdLITtbmnCpKl8GhHKqi94/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20129_hu4522305980247527755.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20129_hu4522305980247527755.jpg&#34;
 						
 
 						
@@ -2290,7 +2290,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20128.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20128.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2310,7 +2310,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOXTT5Ps/wBo&amp;#43;Xy9&amp;#43;zHfOM1IbWSPbviYbhlQBnI9eK6E2B/s6GMD/lo7H9BSzxQwXFksiEyS7Y0IXPfn8K9SVTlV/X/I4Iw5nb0MB7No4EO8szruBxjByR/SrP8Ab/8A0zH5VeuEht7VWnkVBG7Jyfo39TWV5mlf8/A/I1jUgppa7GtOTjfQ6uS31Uqv2N7dcjLed2ye2M8f/WrI1yzv476yknMcsaLtb59pQgZY9B0/pTfGHiq40G4t47a3VjLEQd5GFwfQfWuZu9YuL2ATpqyiSSFm2St82B/DkcZwD&amp;#43;Jx71w80rHWkrm/qWmSw2N1FdLL88oe2cfOFHQhse1c7/ZM3/PV/wDv0a6/w9q7xxC0vWify7feHibPOASPqO/NaP2ub/nrb/8Afb/40lIbR//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20128_hu17552680493364382161.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/202204natarbor/images/2022-04%20Nat%20Arboretum%20128_hu17552680493364382161.jpg&#34;
 						
 
 						
@@ -2377,10 +2377,10 @@
     
     <item>
       <title>Cherry Blossoms</title>
-      <link>https://jeremyr.blog/posts/photos/cherryblossom/</link>
+      <link>http://localhost:1313/posts/photos/cherryblossom/</link>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://jeremyr.blog/posts/photos/cherryblossom/</guid>
+      <guid>http://localhost:1313/posts/photos/cherryblossom/</guid>
       <description>&lt;p&gt;We were lucky to be in Washington DC for the cherry blossoms. We decided to take a morning off from work and picked the perfect sunny morning. It was so festive: lots of people taking photos in fancy dresses, people dancing, and everyone just having a great time!&lt;/p&gt;
 
 
@@ -2425,18 +2425,18 @@
 	
 
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -2491,7 +2491,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_140533430.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_140533430.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2513,7 +2513,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANLXzaaTp85t48OsT8yYdiQpOPboap3SC3sfM24gGcSK&amp;#43;eV69MYrmtavGu7KRFu9rhDgISWc7WGCTjruNWYL0XdrFbmZ2WP5nEpILknPqAfy6ZqWNIWG/iluZYwcvEoLyKd3U8Hr0FWxqUsEZRlPIzlOQemCR/KqlrYwuiQQywnJwHDldvHJyB68j6Umpo&amp;#43;lNGt4FDOwKsrYDjpkgHHbr700DOts7SygBDW445Yywgn/AArM1KBboPHAsKEfKDEmxjz0yBz/APXrcn&amp;#43;7J/u1jp/x8N/12/wrMsyVsEt7MXazLGE&amp;#43;WSOcgngeoIIrlNXvI9RuSEwsSZCbRgfWur1X/kD33&amp;#43;838q4ROtaIhn//2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_140533430_hu993118151722411403.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_140533430_hu993118151722411403.jpg&#34;
 						
 
 						
@@ -2563,7 +2563,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_134047319.PORTRAIT.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_134047319.PORTRAIT.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2585,7 +2585,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABcAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AHqdIyY5btnl27RK&amp;#43;Sq854H4/WsS9jnDGCR0miifaZ0yytnnqe/X361ralb/AOiwR&amp;#43;QqsM5kJHAHbPSojYFNHllS8gFtw8gdskHoOADjP1r0qfJBKTe/c46jnJuKW3YgXSdIexWVr14pFUbwFDAk/j6/59M26tbeJkFvOZgUy5K7cN6e/atXUNCutNRGlKPG5&amp;#43;Vo2yDxVEQV10YXXNzXRzVJ2duWzOq86GaeS1vMKVbCsq9eOMnr2/zmqdtDqOk&amp;#43;IIPs8K3Nq5ZZQ7hQS4GMj1G3rg0T/wDIXk/3/wChrVl/4/Y/&amp;#43;uqfzrwFJ25eh7Lir3LHimdJ9NjSSARPFIpJBzxgjHT6VybvBHL5TEg4z04rp/FP/HnJ/vrXH3f/AB/N/wBcx/6Ca9bB1HGjp3PNxME6nyP/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_134047319.PORTRAIT_hu15697406811160029310.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_134047319.PORTRAIT_hu15697406811160029310.jpg&#34;
 						
 
 						
@@ -2635,7 +2635,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_133916552.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_133916552.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2657,7 +2657,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AKyrscRxR4AAYJI3OPX/AOvWh5ZbLYIMijKH&amp;#43;HB6fp&amp;#43;tVrzfHLHMvlrFtX5h1I7jHf0qxa3QWLcD5hJDMpI445wfpW9GcYSuyKsJSjoSJbYGTwKtRW3tUE2pWhgaBleOeWFiFYD5Tjpn15rcgFrIu9LiEqOpDjivSVaD2ZwOnJbo83gv8RtGWVJHbG7lgQc5yCeeprQjkcFUlK7S33lwOv8AKucj/wBclb0n&amp;#43;qi/D/0KvIUT0&amp;#43;YlvLDzgWlJc7SQ/O5R6dPQmrllo&amp;#43;nx8yyO5PbccfzqWX/j3b6f&amp;#43;yiki6/gK0pJPczqtrY//9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_133916552_hu968309578793598545.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_133916552_hu968309578793598545.jpg&#34;
 						
 
 						
@@ -2707,7 +2707,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_133336640.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_133336640.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2729,7 +2729,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AKlvp07IHkuMMDjc0RXaPr07j/IrStDbtJJL5iOUOC4wSfbGfQ9K8wOp39zi382TZMcGNOFODxwK6PRDNduInChIlBcvFgIcj9SeaYdTu7fWGt5cMwZVwFwCN3anFIy6Dzn3P8zfLyOee3Tn&amp;#43;VcnrMjaNcRq&amp;#43;25guC0kaIdg6549OvH9O77PxLFK0cN1uQFhyFyScdCe1HM1sDjumYNno2sW/wC&amp;#43;jiSIhshnC&amp;#43;oP8xQ081he7rySN3lwrELnA7HGOcHmuxuP&amp;#43;PM/571xHiH/AI/F&amp;#43;g/rWNOTnuV8OqLzTT6pDAyzozwZ&amp;#43;cR4LE8cg56AfrUEMEabllVHfP8AAwH8x/Kn6F/x7N/wKol/4&amp;#43;F/3hVyWrQrtq7P/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_133336640_hu7467935371261795274.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_133336640_hu7467935371261795274.jpg&#34;
 						
 
 						
@@ -2779,7 +2779,7 @@
 				
 					
 				
-				&lt;a href=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_132744039.jpg&#34; 
+				&lt;a href=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_132744039.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -2801,7 +2801,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AObjaN5Ig2dsh/hPbvyePzq49jbSPIba6URpz&amp;#43;94Pv0/D61Fp1kby8cllUQR7fK3YLHGTj9P1rUbSla08po0iuV5D&amp;#43;YCrjnjjjdyPyFerGrza3OFwa6GY9lLAgd8YPp/n6fnUkSmpYHkj4JYMOM&amp;#43;nbofbP51IqliPlAx6DFddNS6nLNx6F7RReXWhrPeXmGdf9Wqjlc8Zx3/ACqe4gCyD9243L83GM57/lio9I/5BMP/AFyX&amp;#43;laF9/r1/wB0fyry8ElOpys9DFXjC6Mr7JlieSTySeualS0x2qwOtSL1r3kjyWz/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;https://jeremyr.blog/posts/photos/cherryblossom/images/PXL_20220325_132744039_hu11295788799097215026.jpg&#34;
+							data-src=&#34;http://localhost:1313/posts/photos/cherryblossom/images/PXL_20220325_132744039_hu11295788799097215026.jpg&#34;
 						
 
 						
