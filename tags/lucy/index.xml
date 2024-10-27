@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Lucy on Jeremy Roschelle</title>
-    <link>http://localhost:1313/tags/lucy/</link>
+    <link>https://jeremyr.blog/tags/lucy/</link>
     <description>Recent content in Lucy on Jeremy Roschelle</description>
     <image>
       <title>Jeremy Roschelle</title>
-      <url>http://localhost:1313/</url>
-      <link>http://localhost:1313/</link>
+      <url>https://jeremyr.blog/</url>
+      <link>https://jeremyr.blog/</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/lucy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://jeremyr.blog/tags/lucy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey&#39;s Birthday in Madison</title>
-      <link>http://localhost:1313/posts/photos/2024-09-audreybirthday/</link>
+      <link>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</link>
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/photos/2024-09-audreybirthday/</guid>
+      <guid>https://jeremyr.blog/posts/photos/2024-09-audreybirthday/</guid>
       <description>&lt;p&gt;We celebrated Audrey&amp;rsquo;s 60th Birthday with a gathering of friends and family in Madison, Wisconsin. A weekend of fun!&lt;/p&gt;
 &lt;h1 id=&#34;friday&#34;&gt;Friday&lt;/h1&gt;
 &lt;p&gt;We started the morning with Molly and Jeff, who were first to arrive. We enjoyed a delicious breakfast at &lt;a href=&#34;http://marigoldkitchen.com/&#34;&gt;Marigold Kitchen&lt;/a&gt;, across from the state capitol. After a walk to see Audrey&amp;rsquo;s office in WisDems HQ, we toured the capitol which has spectacular marble and is generally grand.&lt;/p&gt;
@@ -26,20 +26,20 @@
     
     <item>
       <title>Rallying in Madison</title>
-      <link>http://localhost:1313/posts/photos/2024-09-kamala/</link>
+      <link>https://jeremyr.blog/posts/photos/2024-09-kamala/</link>
       <pubDate>Sat, 21 Sep 2024 17:25:10 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/photos/2024-09-kamala/</guid>
+      <guid>https://jeremyr.blog/posts/photos/2024-09-kamala/</guid>
       <description>&lt;p&gt;A high point of Audrey&amp;rsquo;s birthday celebration weekend was a family trip to the Kamala Harris rally in Madison, Wisconsin. We were in the 4th row, behind the podium. It was loud, colorful and exciting.&lt;/p&gt;
 &lt;p&gt;Getting in required a very long walk around the stadium perimeter to get to the security screening area. Secret service dogs were sniffing people as they entered. We had to show id to check in, and then passed through an airport screening machine. No bags were allowed. Jacob arrived late and they had closed the doors and wouldn&amp;rsquo;t let anyone else in.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Prairie Flowers</title>
-      <link>http://localhost:1313/posts/photos/2024-07-prairieflowers/</link>
+      <link>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</link>
       <pubDate>Fri, 05 Jul 2024 15:34:45 -0500</pubDate>
       
-      <guid>http://localhost:1313/posts/photos/2024-07-prairieflowers/</guid>
+      <guid>https://jeremyr.blog/posts/photos/2024-07-prairieflowers/</guid>
       <description>&lt;p&gt;In July, the fields of Wisconsin are filled with flowers. We&amp;rsquo;re delighted to have Lucy visiting with us from LA. Last night we watched fireworks all around Lake Monona. Today we went to a dog park and had a great hike among these lovely flowers.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Click any photo for larger images&lt;/em&gt;&lt;/p&gt;
 
@@ -85,18 +85,18 @@
 	
 
 	
-		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/jquery-3.6.0.min.js&#34;&gt;&lt;/script&gt;
 	
 	
 	
-		&lt;script src=&#34;http://localhost:1313/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
+		&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/lazy/jquery.lazy.min.js&#34;&gt;&lt;/script&gt;
 	
 
-	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
+	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/js/jquery.swipebox.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/swipebox/css/swipebox.min.css&#34;&gt;
 
-	&lt;script src=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
-	&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
+	&lt;script src=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js&#34;&gt;&lt;/script&gt;
+	&lt;link rel=&#34;stylesheet&#34; href=&#34;https://jeremyr.blog/shortcode-gallery/justified_gallery/justifiedGallery.min.css&#34;/&gt;
 
 
 &lt;style&gt;
@@ -142,7 +142,7 @@
 				
 					
 				
-				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425.jpg&#34; 
+				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -164,7 +164,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AMe&amp;#43;sba4tRIroHGFWNhzs5wcfgay4/tELmL5SO7oB8o71fvLlVmGxSWjUAcZ&amp;#43;pGa0fDksd1qkXnhWRn4&amp;#43;UEE9q4F78kjmtd2KX2dVwzzJEZAFQPk5PvxWbNazNIptYA7eYBLtY5Jz6/416Hrywy6RN5ltFIYeYQMgA8Y6cgdOMelcVe6bqOm2Yv2Q2pmUDa7DduIJI/DB/T1rSth3B6alzp8jEhhTULq3hiKiWUeW&amp;#43;c4478VsXOkw6TZo0U2yXd82043PjBI/H6fjXM2V0dNuYrol2kRzGRuI5IwORzjFX5dci1tIopo8Q88swOw8YOO/wDOhKDg31J0tqLe319DcLB9tuJYdmWxghmAHp7DH41J4g8UXt/pzxQWyyZUCQrHuB7nrnt/OnWHh/UpMzWtzEEEgMQMuQ4x1GM/Qg89xms29Npe6xAlwrLCs22eJHGSwJHbqDxyKE5x36jXN1P/2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425_hu14659288365899272934.jpg&#34;
+							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3425_hu14659288365899272934.jpg&#34;
 						
 
 						
@@ -205,7 +205,7 @@
 				
 					
 				
-				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426.jpg&#34; 
+				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -227,7 +227,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AK7SySuFLW4DIhVSvLHk7eeM5PvU8cd28SLGbcKJQWBUABBwcY6ckEfWl0yUXsT3yw8op8vK/Nn6ccYPWqmmXZvbF7lIphIzmFwxwBkg59&amp;#43;R&amp;#43;deHBSSu1oiYp2va6LcdnMs93e3gRYFcqj5GWQYyTj&amp;#43;LpSx&amp;#43;VLG0kO14WG4ODkde3tVjTnkkiCyIXilXPl7eDxwcHoM5pl7PGbeC0t4hCV/g24&amp;#43;XPfHoMUqkoP3loypODV1oMknisn8uMu7S8kKePQ/n9OgA7VZ&amp;#43;3WyKskEZZBAu7K9Xzk47H/EVFdsSksixREKNjEkBAMYP06nP1qml/HagrGimMLgllxnucDHGR0Pf3oUpWt0JjKyt0HWV9PqFq2obTGhkK/MOQeeBgcjBpktxiCQpIGkZwgZhtwBng/57VJc3nnSNHbGSOOX94CF5B749&amp;#43;PX19acs1talx5JkSMdWHTGRknv1x9TxRUUeb3Qnyt&amp;#43;6f//Z&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426_hu13009083807138578257.jpg&#34;
+							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3426_hu13009083807138578257.jpg&#34;
 						
 
 						
@@ -268,7 +268,7 @@
 				
 					
 				
-				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429.jpg&#34; 
+				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -290,7 +290,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/ANa2gRreKC5t5UjVQIzCfT2/CmS6Msy&amp;#43;bbq6BTtZHOSD61HL8QrK3jRDBcxFjxlEPPoPmpI/iLpwlbdFcjOMhVRf5sa61XjumcnI&amp;#43;pp2llqdlEQI/N3/AHcgnj&amp;#43;lBt9Xyf3cY9tw/wAax3&amp;#43;IFkZS6NehsdBtJ/Ld/KoD4otHO7yb7nn7g/8Ai6XtodbDUWYTQ2su3fGj7emVBx9OKnVo1GQseffGaxLfUC0LlcjkEZJp5vkicNnB65POfY5rwmprY6Lo1jcQLJgou7nPyDimG8tsn5B/3zWetysi7g&amp;#43;/dwrEc5FIDkD92x9&amp;#43;aFfqK5//2Q==&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429_hu6827163290274002938.jpg&#34;
+							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3429_hu6827163290274002938.jpg&#34;
 						
 
 						
@@ -331,7 +331,7 @@
 				
 					
 				
-				&lt;a href=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432.jpg&#34; 
+				&lt;a href=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432.jpg&#34; 
 					class=&#34;galleryImg&#34;
 					
 						
@@ -353,7 +353,7 @@
 								src=&#34;data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&amp;#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&amp;#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&amp;#43;Tl5ufo6ery8/T19vf4&amp;#43;fr/2gAMAwEAAhEDEQA/AOabUJxFHDHcOY3woBbGD7j8q1LHVZ4IEgS/c&amp;#43;U7YUHIU9yP8axr3Rmm1mOP7Ws7XU0m&amp;#43;KAFni&amp;#43;YjcR0qxPpcmmROokaK4C70t5kOdncsSB69Oa5tdydB&amp;#43;oQ3Y0k6sZcW0svk7N3JAzhgM&amp;#43;xH4VgyXiSRsGz8pBRgvTH/wBY11F3pM9z4Ygs7O0DSNcK0jZOFPIznoBg9/eszWfCP9l6bG8kref5xEsiFpI1TPXhc9Mf54qaeurHp0OgEc8esSXKySWwYDaX4YnpnB&amp;#43;vT1/Orl/Z2uoWqQTNHM6jnEZBUdMfXHP1x1rPl1HzlixHk7QS6qdze5JJ54x0piXqruMbAEcnnJ6Vk5MybOjS4Nlp5W2V4w52jed3GMYPtWXqsTyqjTzeaAu3zBnOCRnHo2e5onlibTIGeRY8qSrSHBLYB28Z96rtLFPDGIpHDv8ALndwWzkg8dqzUmO5/9k=&#34;
 							
 							class=&#34;lazy&#34;
-							data-src=&#34;http://localhost:1313/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432_hu5940641197457552733.jpg&#34;
+							data-src=&#34;https://jeremyr.blog/posts/photos/2024-07-prairieflowers/images/PrairieDog2%2024-3432_hu5940641197457552733.jpg&#34;
 						
 
 						
