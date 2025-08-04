@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Jul 2025 21:20:35 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 21:50:22 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Audrey</title>
+      <link>https://jeremyr.blog/tags/audrey/</link>
+      <pubDate>Sun, 03 Aug 2025 21:50:22 -0700</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/audrey/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Jacob</title>
       <link>https://jeremyr.blog/tags/jacob/</link>
@@ -27,15 +36,6 @@
       <pubDate>Fri, 25 Jul 2025 21:20:35 -0700</pubDate>
       
       <guid>https://jeremyr.blog/tags/micah/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audrey</title>
-      <link>https://jeremyr.blog/tags/audrey/</link>
-      <pubDate>Mon, 21 Jul 2025 21:40:18 -0700</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/audrey/</guid>
       <description></description>
     </item>
     
