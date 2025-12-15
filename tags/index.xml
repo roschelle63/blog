@@ -11,13 +11,40 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Nov 2025 19:18:11 -0800</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 18:26:29 -0800</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey</title>
       <link>https://jeremyr.blog/tags/audrey/</link>
-      <pubDate>Tue, 18 Nov 2025 19:18:11 -0800</pubDate>
+      <pubDate>Sun, 14 Dec 2025 18:26:29 -0800</pubDate>
       
       <guid>https://jeremyr.blog/tags/audrey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kirk</title>
+      <link>https://jeremyr.blog/tags/kirk/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/kirk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grace</title>
+      <link>https://jeremyr.blog/tags/grace/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/grace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Susan</title>
+      <link>https://jeremyr.blog/tags/susan/</link>
+      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/susan/</guid>
       <description></description>
     </item>
     
@@ -63,15 +90,6 @@
       <pubDate>Sun, 10 Aug 2025 07:50:51 -0700</pubDate>
       
       <guid>https://jeremyr.blog/tags/jacob/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kirk</title>
-      <link>https://jeremyr.blog/tags/kirk/</link>
-      <pubDate>Mon, 09 Jun 2025 21:58:59 -0400</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/kirk/</guid>
       <description></description>
     </item>
     
@@ -180,15 +198,6 @@
       <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
       
       <guid>https://jeremyr.blog/tags/sarah/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Susan</title>
-      <link>https://jeremyr.blog/tags/susan/</link>
-      <pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/susan/</guid>
       <description></description>
     </item>
     
