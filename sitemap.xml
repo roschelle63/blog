@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2026-07-03T08:37:37-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2026-07-03T08:37:37-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2026-06seoul-top-ten/</loc>
+    <lastmod>2026-07-03T08:37:37-07:00</lastmod>
+  </url><url>
     <loc>https://jeremyr.blog/posts/photos/2026-06-greenport/</loc>
     <lastmod>2026-06-09T08:20:26-04:00</lastmod>
   </url><url>
@@ -9,12 +18,6 @@
     <lastmod>2026-06-09T08:20:26-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/grace/</loc>
-    <lastmod>2026-06-09T08:20:26-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2026-06-09T08:20:26-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/posts/</loc>
     <lastmod>2026-06-09T08:20:26-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/tags/</loc>
