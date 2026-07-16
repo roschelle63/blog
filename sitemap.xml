@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeremyr.blog/</loc>
-    <lastmod>2026-07-03T18:09:44-07:00</lastmod>
+    <loc>https://jeremyr.blog/tags/audrey/</loc>
+    <lastmod>2026-07-12T07:15:10-07:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/posts/photos/2026-06-seoul-palace/</loc>
-    <lastmod>2026-07-03T18:09:44-07:00</lastmod>
+    <loc>https://jeremyr.blog/</loc>
+    <lastmod>2026-07-12T07:15:10-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2026-07-silva/</loc>
+    <lastmod>2026-07-12T07:15:10-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/</loc>
+    <lastmod>2026-07-12T07:15:10-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/</loc>
+    <lastmod>2026-07-12T07:15:10-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/jazz/2026-07-dennisjohnson/</loc>
+    <lastmod>2026-07-09T07:46:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/tags/roy/</loc>
+    <lastmod>2026-07-09T07:46:50-07:00</lastmod>
+  </url><url>
+    <loc>https://jeremyr.blog/posts/photos/2026-06-seoul-palace/</loc>
     <lastmod>2026-07-03T18:09:44-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2026-06seoul-top-ten/</loc>
@@ -17,13 +32,7 @@
     <loc>https://jeremyr.blog/posts/photos/2026-06-greenport/</loc>
     <lastmod>2026-06-09T08:20:26-04:00</lastmod>
   </url><url>
-    <loc>https://jeremyr.blog/tags/audrey/</loc>
-    <lastmod>2026-06-09T08:20:26-04:00</lastmod>
-  </url><url>
     <loc>https://jeremyr.blog/tags/grace/</loc>
-    <lastmod>2026-06-09T08:20:26-04:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/</loc>
     <lastmod>2026-06-09T08:20:26-04:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2026-05-kennygarrett/</loc>
@@ -100,9 +109,6 @@
   </url><url>
     <loc>https://jeremyr.blog/posts/photos/2025-09-olliebeach/</loc>
     <lastmod>2025-09-24T06:23:15-07:00</lastmod>
-  </url><url>
-    <loc>https://jeremyr.blog/tags/roy/</loc>
-    <lastmod>2025-09-22T15:20:35-07:00</lastmod>
   </url><url>
     <loc>https://jeremyr.blog/posts/jazz/2025-09-thewho/</loc>
     <lastmod>2025-09-22T15:20:35-07:00</lastmod>

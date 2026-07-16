@@ -11,13 +11,22 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 08:20:26 -0400</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jul 2026 07:15:10 -0700</lastBuildDate><atom:link href="https://jeremyr.blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Audrey</title>
       <link>https://jeremyr.blog/tags/audrey/</link>
-      <pubDate>Tue, 09 Jun 2026 08:20:26 -0400</pubDate>
+      <pubDate>Sun, 12 Jul 2026 07:15:10 -0700</pubDate>
       
       <guid>https://jeremyr.blog/tags/audrey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roy</title>
+      <link>https://jeremyr.blog/tags/roy/</link>
+      <pubDate>Thu, 09 Jul 2026 07:46:50 -0700</pubDate>
+      
+      <guid>https://jeremyr.blog/tags/roy/</guid>
       <description></description>
     </item>
     
@@ -99,15 +108,6 @@
       <pubDate>Tue, 18 Nov 2025 19:18:11 -0800</pubDate>
       
       <guid>https://jeremyr.blog/tags/victoria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roy</title>
-      <link>https://jeremyr.blog/tags/roy/</link>
-      <pubDate>Mon, 22 Sep 2025 15:20:35 -0700</pubDate>
-      
-      <guid>https://jeremyr.blog/tags/roy/</guid>
       <description></description>
     </item>
     
