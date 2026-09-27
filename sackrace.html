@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Amazing Sack Race</title>
+<style>
+:root {
+  --orange: #f39c2c;
+  --purple: #6a4fb3;
+  --control-dot: #222;
+  --btn-blue: #4a6fd3;
+  --field-green: #4c9a4c;
+  --field-green-light: #5aa85a;
+  --sky: #b7e0ee;
+  --panel-border: #999;
+  --title-bg: #c9d6e8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #e9e9ee;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.app-title {
+  font-size: 22px;
+  margin: 0 0 12px;
+  text-align: center;
+  color: #333;
+}
+
+.panel {
+  border: 1px solid var(--panel-border);
+  background: #fff;
+  margin-bottom: 16px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.panel-title {
+  background: var(--title-bg);
+  border-bottom: 1px solid var(--panel-border);
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 10px;
+  color: #223;
+}
+
+.world-wrap {
+  width: 100%;
+  line-height: 0;
+}
+
+#world-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.graph-panel {
+  width: 78%;
+  margin: 0 auto 16px;
+  min-width: 320px;
+}
+
+.graph-wrap {
+  width: 100%;
+  line-height: 0;
+}
+
+.graph-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.graph-svg .hit-graph { cursor: ns-resize; }
+.graph-svg .hit-axis { cursor: ew-resize; }
+.graph-svg.playing .hit { cursor: default; }
+
+.axis-title {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  fill: #111;
+}
+
+.tick-label {
+  font-family: Arial, Helvetica, sans-serif;
+  fill: #222;
+}
+
+.selected-fn-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-top: 1px solid #ccc;
+  font-size: 13px;
+  background: #f7f7f9;
+}
+
+.red-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #d33;
+  display: inline-block;
+}
+
+.fn-name { font-weight: bold; }
+.orange-text { color: var(--orange); }
+
+.controller-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+  padding: 12px 18px;
+  overflow-x: auto;
+}
+
+.ctrl-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+  color: #555;
+}
+
+.deco-select {
+  font-size: 12px;
+  padding: 2px 4px;
+  color: #777;
+}
+
+.deco-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.time-readout {
+  background: #111;
+  color: #3f3;
+  font-family: "Courier New", monospace;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 6px 16px;
+  border-radius: 6px;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  min-width: 110px;
+  text-align: center;
+}
+
+.ctrl-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.ctrl-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--btn-blue);
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.ctrl-btn:hover { background: #dde6fb; }
+.ctrl-btn:active { background: #c7d6f7; }
+.ctrl-btn span { color: #555; margin-top: 2px; }
+
+.deco-fields {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.deco-fields label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.deco-input {
+  width: 36px;
+  font-size: 12px;
+  color: #888;
+  padding: 2px 4px;
+}
+
+.hint {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+@media (max-width: 700px) {
+  .graph-panel { width: 100%; }
+  .controller-panel { justify-content: center; }
+}
+</style>
+</head>
+<body>
+  <div class="page">
+    <h1 class="app-title">The Amazing Sack Race</h1>
+
+    <!-- ============ WORLD PANEL ============ -->
+    <div class="panel">
+      <div class="panel-title">World</div>
+      <div class="world-wrap">
+        <svg id="world-svg" viewBox="0 0 1040 200" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+    </div>
+
+    <!-- ============ POSITION GRAPH PANEL ============ -->
+    <div class="panel graph-panel">
+      <div class="panel-title">Position Graph</div>
+      <div class="graph-wrap">
+        <svg id="graph-svg" class="graph-svg" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+      <div class="selected-fn-row">
+        <span class="red-dot"></span>
+        <input type="checkbox" checked disabled>
+        <span>Selected Function: <span class="fn-name orange-text">Jenna (orange)</span></span>
+      </div>
+    </div>
+
+    <!-- ============ CONTROLLER PANEL ============ -->
+    <div class="panel controller-panel">
+      <div class="ctrl-group">
+        <select disabled class="deco-select">
+          <option>Animation</option>
+        </select>
+        <label class="deco-checkbox"><input type="checkbox" disabled> Allow Negative Time</label>
+      </div>
+
+      <div id="time-readout" class="time-readout">00.00</div>
+
+      <div class="ctrl-buttons">
+        <button id="btn-reset" class="ctrl-btn" aria-label="Reset to zero seconds">
+          <svg viewBox="0 0 24 24" width="30" height="30">
+            <rect x="3" y="3" width="3" height="18" fill="currentColor"/>
+            <polygon points="21,3 21,21 8,12" fill="currentColor"/>
+          </svg>
+          <span>Reset</span>
+        </button>
+        <button id="btn-back" class="ctrl-btn" aria-label="Back one second">
+          <svg viewBox="0 0 24 24" width="30" height="30">
+            <polygon points="12,12 22,4 22,20" fill="currentColor"/>
+            <polygon points="2,12 12,4 12,20" fill="currentColor"/>
+          </svg>
+          <span>Back</span>
+        </button>
+        <button id="btn-start" class="ctrl-btn" aria-label="Start or pause the race">
+          <svg id="start-icon" viewBox="0 0 24 24" width="30" height="30">
+            <polygon points="5,3 21,12 5,21" fill="currentColor"/>
+          </svg>
+          <span id="start-label">Start</span>
+        </button>
+        <button id="btn-step" class="ctrl-btn" aria-label="Step forward one second">
+          <svg viewBox="0 0 24 24" width="30" height="30">
+            <polygon points="2,4 12,12 2,20" fill="currentColor"/>
+            <polygon points="12,4 22,12 12,20" fill="currentColor"/>
+          </svg>
+          <span>Step</span>
+        </button>
+      </div>
+
+      <div class="ctrl-group deco-fields">
+        <label>Start <input type="text" value="0" disabled class="deco-input"></label>
+        <label>End <input type="text" value="15" disabled class="deco-input"></label>
+        <label>Step <input type="text" value="1" disabled class="deco-input"></label>
+        <label class="deco-checkbox"><input type="checkbox" disabled> Set Domain</label>
+      </div>
+    </div>
+
+    <p class="hint">Space: start/pause &nbsp;•&nbsp; ←: back &nbsp;•&nbsp; →: step &nbsp;•&nbsp; Home or R: reset &nbsp;•&nbsp; Drag the black squares on the orange graph to change Jenna's race.</p>
+  </div>
+
+  <script>
+'use strict';
+
+/* ============================================================
+   1. CONSTANTS  (see PLAN.md section 3)
+   ============================================================ */
+const T_MIN = 0;
+const T_MAX = 15;
+const Y_MIN = 0;
+const Y_MAX = 55;
+
+const GRAPH_T_LO = -1, GRAPH_T_HI = 16;
+const GRAPH_Y_LO = -10, GRAPH_Y_HI = 55;
+
+const PLAY_RATE = 1; // simulated seconds per real second
+
+const SHOW_GRID = false;
+
+// Position-graph plot rectangle in the 800x460 viewBox
+const PLOT = { left: 55, top: 20, right: 780, bottom: 390 };
+const PLOT_W = PLOT.right - PLOT.left;
+const PLOT_H = PLOT.bottom - PLOT.top;
+
+// World number-line span in the 1040x200 viewBox
+const NL_LEFT = 30, NL_RIGHT = 1010, NL_Y = 160;
+
+/* ============================================================
+   2. MODEL  (see PLAN.md section 4)
+   ============================================================ */
+const purple = {
+  name: 'Sam',
+  color: '#6a4fb3',
+  editable: false,
+  points: [ { t: 0, y: 0 }, { t: 15, y: 45 } ]
+};
+
+const orange = {
+  name: 'Jenna',
+  color: '#f39c2c',
+  editable: true,
+  points: [
+    { t: 0, y: 0 },
+    { t: 4, y: 30 },
+    { t: 10, y: 20 },
+    { t: 13, y: 28 },
+    { t: 15, y: 45 }
+  ]
+};
+
+const sim = {
+  time: 0,
+  playing: false,
+  lastFrameMs: 0,
+  pausing: false,      // true once Pause is clicked, until playback actually halts
+  pauseTarget: null    // the whole second playback will stop at
+};
+
+/* ============================================================
+   3. MATH HELPERS
+   ============================================================ */
+function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
+
+function positionAt(fn, t) {
+  const p = fn.points;
+  if (t <= p[0].t) return p[0].y;
+  for (let i = 0; i < p.length - 1; i++) {
+    const a = p[i], b = p[i + 1];
+    if (t >= a.t && t <= b.t) {
+      const frac = (b.t === a.t) ? 0 : (t - a.t) / (b.t - a.t);
+      return a.y + frac * (b.y - a.y);
+    }
+  }
+  return p[p.length - 1].y;
+}
+
+function segmentVelocity(fn, t) {
+  const p = fn.points;
+  for (let i = 0; i < p.length - 1; i++) {
+    const a = p[i], b = p[i + 1];
+    if (t >= a.t && t <= b.t) {
+      return (b.t === a.t) ? 0 : (b.y - a.y) / (b.t - a.t);
+    }
+  }
+  return 0; // holding before the first point or after the last
+}
+
+/* ============================================================
+   4. COORDINATE TRANSFORMS
+   ============================================================ */
+function tToPx(t) { return PLOT.left + (t - GRAPH_T_LO) / (GRAPH_T_HI - GRAPH_T_LO) * PLOT_W; }
+function yToPx(y) { return PLOT.top + (GRAPH_Y_HI - y) / (GRAPH_Y_HI - GRAPH_Y_LO) * PLOT_H; }
+function pxToT(px) { return GRAPH_T_LO + (px - PLOT.left) / PLOT_W * (GRAPH_T_HI - GRAPH_T_LO); }
+function pxToY(py) { return GRAPH_Y_HI - (py - PLOT.top) / PLOT_H * (GRAPH_Y_HI - GRAPH_Y_LO); }
+
+function posToWorldPx(pos) { return NL_LEFT + (pos - 0) / (55 - 0) * (NL_RIGHT - NL_LEFT); }
+
+function clientToSvgPoint(svg, clientX, clientY) {
+  const pt = svg.createSVGPoint();
+  pt.x = clientX;
+  pt.y = clientY;
+  const ctm = svg.getScreenCTM();
+  return pt.matrixTransform(ctm.inverse());
+}
+
+/* ============================================================
+   5. SMALL SVG BUILDER HELPER
+   ============================================================ */
+const SVG_NS = 'http://www.w3.org/2000/svg';
+function svgEl(tag, attrs) {
+  const el = document.createElementNS(SVG_NS, tag);
+  if (attrs) {
+    for (const k in attrs) el.setAttribute(k, attrs[k]);
+  }
+  return el;
+}
+function svgText(x, y, str, cls, extra) {
+  const el = svgEl('text', Object.assign({ x, y, class: cls || '' }, extra || {}));
+  el.textContent = str;
+  return el;
+}
+
+/* ============================================================
+   6. WORLD BUILD  (PLAN.md section 6.1)
+   ============================================================ */
+const worldSvg = document.getElementById('world-svg');
+let orangeRunner, purpleRunner;
+
+function buildWorld() {
+  // --- sky ---
+  worldSvg.appendChild(svgEl('rect', { x: 0, y: 0, width: 1040, height: 30, fill: '#b7e0ee' }));
+
+  // --- field ---
+  worldSvg.appendChild(svgEl('rect', { x: 0, y: 30, width: 1040, height: 170, fill: '#4c9a4c' }));
+
+  // mowed stripes (decorative)
+  const stripeColors = ['#4c9a4c', '#5aa85a'];
+  const stripeW = 1040 / 8;
+  for (let i = 0; i < 8; i++) {
+    worldSvg.appendChild(svgEl('rect', {
+      x: i * stripeW, y: 30, width: stripeW, height: 130,
+      fill: stripeColors[i % 2], opacity: 0.6
+    }));
+  }
+
+  // bushes (decorative)
+  const bushSpots = [300, 550, 800, 950];
+  bushSpots.forEach(bx => {
+    for (let k = 0; k < 3; k++) {
+      worldSvg.appendChild(svgEl('ellipse', {
+        cx: bx + k * 14 - 14, cy: 48 - (k % 2) * 6, rx: 16, ry: 12, fill: '#2f6b34'
+      }));
+    }
+  });
+
+  // halfway line
+  worldSvg.appendChild(svgEl('line', { x1: 0, y1: 80, x2: 1040, y2: 80, stroke: '#fff', 'stroke-width': 4 }));
+
+  // vertical line + arc near right (penalty-area style decoration)
+  worldSvg.appendChild(svgEl('line', { x1: 860, y1: 30, x2: 860, y2: 160, stroke: '#fff', 'stroke-width': 4 }));
+  worldSvg.appendChild(svgEl('path', {
+    d: 'M 860,90 A 45,45 0 0 1 860,150', fill: 'none', stroke: '#fff', 'stroke-width': 4
+  }));
+
+  // white stripe behind the "0" mark
+  worldSvg.appendChild(svgEl('rect', {
+    x: posToWorldPx(0) - 6, y: 30, width: 12, height: 130, fill: '#fff', opacity: 0.85
+  }));
+
+  // number line
+  worldSvg.appendChild(svgEl('line', {
+    x1: posToWorldPx(0), y1: NL_Y, x2: posToWorldPx(55), y2: NL_Y, stroke: '#111', 'stroke-width': 2
+  }));
+  for (let m = 0; m <= 55; m += 5) {
+    const x = posToWorldPx(m);
+    worldSvg.appendChild(svgEl('line', { x1: x, y1: NL_Y - 4, x2: x, y2: NL_Y + 4, stroke: '#111', 'stroke-width': 2 }));
+    worldSvg.appendChild(svgText(x, NL_Y + 22, String(m), 'tick-label', { 'text-anchor': 'middle', 'font-size': 16, 'font-weight': 'bold' }));
+  }
+
+  // runners: purple first (behind), orange second (in front, on top)
+  purpleRunner = buildRunner(worldSvg, purple.color, 152);
+  orangeRunner = buildRunner(worldSvg, orange.color, 160);
+}
+
+function buildRunner(svg, color, groundY) {
+  const skin = '#caa47a';
+  const outer = svgEl('g', { transform: `translate(0, ${groundY})` });
+  const inner = svgEl('g');
+  outer.appendChild(inner);
+
+  const legBack = svgEl('line', { x1: 0, y1: -22, x2: -4, y2: 0, stroke: skin, 'stroke-width': 5, 'stroke-linecap': 'round' });
+  const legFront = svgEl('line', { x1: 0, y1: -22, x2: 4, y2: 0, stroke: skin, 'stroke-width': 5, 'stroke-linecap': 'round' });
+  const shorts = svgEl('rect', { x: -7, y: -25, width: 14, height: 8, rx: 2, fill: '#3a3a3a' });
+  const torso = svgEl('rect', { x: -6, y: -45, width: 12, height: 20, rx: 3, fill: color });
+  const backArm = svgEl('line', { x1: 0, y1: -40, x2: -8, y2: -34, stroke: skin, 'stroke-width': 4, 'stroke-linecap': 'round' });
+  const head = svgEl('circle', { cx: 0, cy: -52, r: 7, fill: skin });
+  const hair = svgEl('path', { d: 'M -7,-54 A 7,7 0 0 1 7,-54 Z', fill: '#3a2a1a' });
+  const frontArm = svgEl('line', { x1: 0, y1: -40, x2: 16, y2: -38, stroke: skin, 'stroke-width': 4, 'stroke-linecap': 'round' });
+  const marker = svgEl('rect', { x: 11, y: -43, width: 10, height: 10, fill: color, stroke: '#000', 'stroke-width': 1 });
+
+  [legBack, legFront, shorts, torso, backArm, head, hair, frontArm, marker].forEach(el => inner.appendChild(el));
+  svg.appendChild(outer);
+
+  const poses = {
+    stand: { leg1: [-4, 0], leg2: [4, 0], arm: [-8, -34] },
+    runA: { leg1: [-10, 0], leg2: [9, 0], arm: [-12, -28] },
+    runB: { leg1: [9, 0], leg2: [-10, 0], arm: [-6, -44] }
+  };
+
+  function setPose(name) {
+    const p = poses[name] || poses.stand;
+    legBack.setAttribute('x2', p.leg1[0]);
+    legBack.setAttribute('y2', p.leg1[1]);
+    legFront.setAttribute('x2', p.leg2[0]);
+    legFront.setAttribute('y2', p.leg2[1]);
+    backArm.setAttribute('x2', p.arm[0]);
+    backArm.setAttribute('y2', p.arm[1]);
+  }
+  setPose('stand');
+
+  return { outer, inner, markerLocalX: 16, setPose };
+}
+
+function currentPoseName(fn, t, playing) {
+  const v = segmentVelocity(fn, t);
+  if (!playing || v === 0) return 'stand';
+  return (Math.floor(t * 1000 / 150) % 2 === 0) ? 'runA' : 'runB';
+}
+
+/* ============================================================
+   7. GRAPH BUILD  (PLAN.md section 6.2)
+   ============================================================ */
+const graphSvg = document.getElementById('graph-svg');
+
+const ui = {
+  orangePolyline: null,
+  purplePolyline: null,
+  orangeGraphPoints: [],
+  orangeAxisPoints: [],
+  originMarker: null,
+  sweepLine: null,
+  sweepDotOrange: null,
+  sweepDotPurple: null
+};
+
+function buildGraph() {
+  // background
+  graphSvg.appendChild(svgEl('rect', { x: 0, y: 0, width: 800, height: 460, fill: '#fff' }));
+  graphSvg.appendChild(svgEl('rect', {
+    x: PLOT.left, y: PLOT.top, width: PLOT_W, height: PLOT_H, fill: 'none', stroke: '#ddd'
+  }));
+
+  if (SHOW_GRID) {
+    for (let y = GRAPH_Y_LO; y <= GRAPH_Y_HI; y += 5) {
+      graphSvg.appendChild(svgEl('line', { x1: PLOT.left, x2: PLOT.right, y1: yToPx(y), y2: yToPx(y), stroke: '#eee' }));
+    }
+    for (let t = 0; t <= GRAPH_T_HI; t += 1) {
+      graphSvg.appendChild(svgEl('line', { x1: tToPx(t), x2: tToPx(t), y1: PLOT.top, y2: PLOT.bottom, stroke: '#eee' }));
+    }
+  }
+
+  // axes (through the origin, spanning the plot frame)
+  const axisX = tToPx(0);
+  const axisY = yToPx(0);
+  graphSvg.appendChild(svgEl('line', { x1: axisX, y1: PLOT.top, x2: axisX, y2: PLOT.bottom, stroke: '#111', 'stroke-width': 1.5 }));
+  graphSvg.appendChild(svgEl('line', { x1: PLOT.left, y1: axisY, x2: PLOT.right, y2: axisY, stroke: '#111', 'stroke-width': 1.5 }));
+
+  // y ticks/labels
+  for (let y = GRAPH_Y_LO; y <= GRAPH_Y_HI; y += 5) {
+    const py = yToPx(y);
+    graphSvg.appendChild(svgEl('line', { x1: axisX - 6, x2: axisX + 6, y1: py, y2: py, stroke: '#111' }));
+    if (y !== 0) {
+      graphSvg.appendChild(svgText(axisX - 10, py + 4, String(y), 'tick-label', { 'text-anchor': 'end', 'font-size': 14 }));
+    }
+  }
+
+  // x ticks/labels (every second, 1..16, skip labeling 0)
+  for (let t = 1; t <= GRAPH_T_HI; t += 1) {
+    const px = tToPx(t);
+    graphSvg.appendChild(svgEl('line', { x1: px, x2: px, y1: axisY - 6, y2: axisY + 6, stroke: '#111' }));
+    graphSvg.appendChild(svgText(px, axisY + 18, String(t), 'tick-label', { 'text-anchor': 'middle', 'font-size': 14 }));
+  }
+
+  // axis titles
+  graphSvg.appendChild(svgText(PLOT.left + 10, PLOT.top + 24, 'Position (meters)', 'axis-title', { 'font-size': 19 }));
+  graphSvg.appendChild(svgText(PLOT.right - 6, PLOT.bottom + 42, 'Time (seconds)', 'axis-title', { 'text-anchor': 'end', 'font-size': 19 }));
+
+  // purple line (fixed, not editable, no control points)
+  ui.purplePolyline = svgEl('polyline', {
+    points: purple.points.map(p => `${tToPx(p.t)},${yToPx(p.y)}`).join(' '),
+    fill: 'none', stroke: purple.color, 'stroke-width': 3
+  });
+  graphSvg.appendChild(ui.purplePolyline);
+
+  // orange line
+  ui.orangePolyline = svgEl('polyline', { fill: 'none', stroke: orange.color, 'stroke-width': 3 });
+  graphSvg.appendChild(ui.orangePolyline);
+
+  // sweep indicator (drawn above the lines, below control points)
+  ui.sweepLine = svgEl('line', { y1: PLOT.top, y2: PLOT.bottom, stroke: '#555', 'stroke-width': 1, 'stroke-dasharray': '4,3' });
+  graphSvg.appendChild(ui.sweepLine);
+  ui.sweepDotPurple = svgEl('circle', { r: 5, fill: purple.color, stroke: '#fff', 'stroke-width': 1 });
+  graphSvg.appendChild(ui.sweepDotPurple);
+  ui.sweepDotOrange = svgEl('circle', { r: 5, fill: orange.color, stroke: '#fff', 'stroke-width': 1 });
+  graphSvg.appendChild(ui.sweepDotOrange);
+
+  // control points for the orange function
+  for (let i = 1; i < orange.points.length; i++) {
+    // graph point (vertical drag)
+    const gRect = svgEl('rect', { width: 10, height: 10, fill: '#222' });
+    const gHit = svgEl('circle', { r: 12, fill: 'transparent', class: 'hit hit-graph' });
+    graphSvg.appendChild(gRect);
+    graphSvg.appendChild(gHit);
+    gHit.addEventListener('pointerdown', (e) => onPointerDown(e, 'graph', i));
+    ui.orangeGraphPoints.push({ rect: gRect, hit: gHit });
+
+    // axis point (horizontal drag)
+    const aRect = svgEl('rect', { width: 10, height: 10, fill: '#222' });
+    const aHit = svgEl('circle', { r: 12, fill: 'transparent', class: 'hit hit-axis' });
+    graphSvg.appendChild(aRect);
+    graphSvg.appendChild(aHit);
+    aHit.addEventListener('pointerdown', (e) => onPointerDown(e, 'axis', i));
+    ui.orangeAxisPoints.push({ rect: aRect, hit: aHit });
+  }
+
+  // fixed origin marker (not draggable)
+  ui.originMarker = svgEl('rect', {
+    x: tToPx(0) - 5, y: yToPx(0) - 5, width: 10, height: 10, fill: '#222'
+  });
+  graphSvg.appendChild(ui.originMarker);
+
+  graphSvg.addEventListener('pointermove', onPointerMove);
+  graphSvg.addEventListener('pointerup', onPointerUp);
+  graphSvg.addEventListener('pointercancel', onPointerUp);
+}
+
+/* ============================================================
+   8. DRAG HANDLING  (PLAN.md section 5)
+   ============================================================ */
+let drag = null; // { kind: 'graph' | 'axis', index: number }
+
+function onPointerDown(e, kind, index) {
+  if (sim.playing) return;
+  e.preventDefault();
+  drag = { kind, index };
+  graphSvg.setPointerCapture(e.pointerId);
+}
+
+function onPointerMove(e) {
+  if (!drag) return;
+  const pt = clientToSvgPoint(graphSvg, e.clientX, e.clientY);
+  const pts = orange.points;
+  const i = drag.index;
+
+  if (drag.kind === 'graph') {
+    let y = Math.round(pxToY(pt.y));
+    y = clamp(y, Y_MIN, Y_MAX);
+    pts[i].y = y;
+  } else {
+    let t = Math.round(pxToT(pt.x));
+    const prev = pts[i - 1].t;
+    const next = (i + 1 < pts.length) ? pts[i + 1].t : T_MAX + 1;
+    const lo = Math.max(1, prev + 1);
+    const hi = Math.min(15, next - 1);
+    t = clamp(t, lo, hi);
+    pts[i].t = t;
+  }
+  render();
+}
+
+function onPointerUp(e) {
+  if (drag) {
+    try { graphSvg.releasePointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+  }
+  drag = null;
+}
+
+/* ============================================================
+   9. CONTROLLER  (PLAN.md section 7)
+   ============================================================ */
+function doReset() {
+  sim.playing = false;
+  sim.pausing = false;
+  sim.pauseTarget = null;
+  sim.time = 0;
+  render();
+}
+function doBack() {
+  sim.playing = false;
+  sim.pausing = false;
+  sim.pauseTarget = null;
+  sim.time = Math.max(0, Math.ceil(sim.time) - 1);
+  render();
+}
+function doStep() {
+  sim.playing = false;
+  sim.pausing = false;
+  sim.pauseTarget = null;
+  sim.time = Math.min(T_MAX, Math.floor(sim.time) + 1);
+  render();
+}
+function toggleStart() {
+  if (!sim.playing) {
+    // Start: begin playing now, from the current time.
+    if (sim.time >= T_MAX) return;
+    sim.playing = true;
+    sim.pausing = false;
+    sim.pauseTarget = null;
+    sim.lastFrameMs = performance.now();
+    requestAnimationFrame(frame);
+  } else {
+    // Pause: keep playing smoothly until the next whole second, then stop there.
+    // (A small epsilon guards against floating-point time values that land just
+    // a hair above an integer, which would otherwise push the target a full
+    // second too far.)
+    sim.pausing = true;
+    sim.pauseTarget = Math.ceil(sim.time - 1e-4);
+  }
+  render();
+}
+function frame(nowMs) {
+  if (!sim.playing) return;
+  const dt = (nowMs - sim.lastFrameMs) / 1000;
+  sim.lastFrameMs = nowMs;
+  let next = sim.time + dt * PLAY_RATE;
+
+  if (sim.pausing && next >= sim.pauseTarget) {
+    next = sim.pauseTarget;
+    sim.playing = false;
+    sim.pausing = false;
+    sim.pauseTarget = null;
+  }
+
+  sim.time = Math.min(T_MAX, next);
+  if (sim.time >= T_MAX) {
+    sim.playing = false;
+    sim.pausing = false;
+    sim.pauseTarget = null;
+  }
+  render();
+  if (sim.playing) requestAnimationFrame(frame);
+}
+
+function buildController() {
+  document.getElementById('btn-reset').addEventListener('click', doReset);
+  document.getElementById('btn-back').addEventListener('click', doBack);
+  document.getElementById('btn-step').addEventListener('click', doStep);
+  document.getElementById('btn-start').addEventListener('click', toggleStart);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.code === 'Space') { e.preventDefault(); toggleStart(); }
+    else if (e.code === 'ArrowRight') { e.preventDefault(); doStep(); }
+    else if (e.code === 'ArrowLeft') { e.preventDefault(); doBack(); }
+    else if (e.code === 'Home' || e.key === 'r' || e.key === 'R') { e.preventDefault(); doReset(); }
+  });
+}
+
+function formatTime(rawT) {
+  const t = Math.round(clamp(rawT, 0, T_MAX) * 100) / 100;
+  let whole = Math.floor(t);
+  let frac = Math.round((t - whole) * 100);
+  if (frac >= 100) { frac -= 100; whole += 1; }
+  return String(whole).padStart(2, '0') + '.' + String(frac).padStart(2, '0');
+}
+
+function updateStartButton() {
+  const icon = document.getElementById('start-icon');
+  const label = document.getElementById('start-label');
+  if (sim.playing) {
+    icon.innerHTML = '<rect x="4" y="3" width="6" height="18" fill="currentColor"></rect><rect x="14" y="3" width="6" height="18" fill="currentColor"></rect>';
+    label.textContent = 'Pause';
+  } else {
+    icon.innerHTML = '<polygon points="5,3 21,12 5,21" fill="currentColor"></polygon>';
+    label.textContent = 'Start';
+  }
+}
+
+/* ============================================================
+   10. RENDER  (PLAN.md section 8)
+   ============================================================ */
+function render() {
+  // orange polyline + control points
+  ui.orangePolyline.setAttribute('points', orange.points.map(p => `${tToPx(p.t)},${yToPx(p.y)}`).join(' '));
+
+  for (let i = 1; i < orange.points.length; i++) {
+    const p = orange.points[i];
+    const px = tToPx(p.t);
+    const py = yToPx(p.y);
+    const g = ui.orangeGraphPoints[i - 1];
+    g.rect.setAttribute('x', px - 5);
+    g.rect.setAttribute('y', py - 5);
+    g.hit.setAttribute('cx', px);
+    g.hit.setAttribute('cy', py);
+
+    const a = ui.orangeAxisPoints[i - 1];
+    const ay = yToPx(0);
+    a.rect.setAttribute('x', px - 5);
+    a.rect.setAttribute('y', ay - 5);
+    a.hit.setAttribute('cx', px);
+    a.hit.setAttribute('cy', ay);
+  }
+
+  // sweep indicator
+  const sx = tToPx(sim.time);
+  ui.sweepLine.setAttribute('x1', sx);
+  ui.sweepLine.setAttribute('x2', sx);
+  const orangeY = clamp(positionAt(orange, sim.time), Y_MIN, Y_MAX);
+  const purpleY = clamp(positionAt(purple, sim.time), Y_MIN, Y_MAX);
+  ui.sweepDotOrange.setAttribute('cx', sx);
+  ui.sweepDotOrange.setAttribute('cy', yToPx(orangeY));
+  ui.sweepDotPurple.setAttribute('cx', sx);
+  ui.sweepDotPurple.setAttribute('cy', yToPx(purpleY));
+
+  // world runners
+  const orangeWorldX = posToWorldPx(orangeY);
+  const purpleWorldX = posToWorldPx(purpleY);
+  orangeRunner.inner.setAttribute('transform', `translate(${orangeWorldX - orangeRunner.markerLocalX},0)`);
+  purpleRunner.inner.setAttribute('transform', `translate(${purpleWorldX - purpleRunner.markerLocalX},0)`);
+  orangeRunner.setPose(currentPoseName(orange, sim.time, sim.playing));
+  purpleRunner.setPose(currentPoseName(purple, sim.time, sim.playing));
+
+  // controller
+  document.getElementById('time-readout').textContent = formatTime(sim.time);
+  updateStartButton();
+  graphSvg.classList.toggle('playing', sim.playing);
+}
+
+/* ============================================================
+   11. INIT
+   ============================================================ */
+function init() {
+  buildWorld();
+  buildGraph();
+  buildController();
+  render();
+}
+
+init();
+  </script>
+</body>
+</html>
