@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Balloon Pop</title>
+<style>
+:root {
+  --navy: #1b2a4a;
+  --panel: #fffaf0;
+  --gold: #ffcc33;
+  --gap-color: #d7263d;
+  --pin-color: #333333;
+  --error: #d7263d;
+  --blue: #1982c4;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--navy);
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-family: "Arial Black", Impact, "Helvetica Neue", sans-serif;
+  color: var(--gold);
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  margin: 8px 0 4px;
+  text-shadow: 2px 2px 0 #8f1020, -1px -1px 0 #000;
+}
+
+.title .pop-letters {
+  color: #ff595e;
+}
+
+.instruction {
+  color: #fff8ec;
+  font-size: 1.05rem;
+  margin: 0 0 12px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.stage-wrap {
+  flex: 0 0 auto;
+  width: min(480px, 55vw);
+  height: min(760px, calc(100vh - 160px));
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 4px solid #7a4a1f;
+}
+
+#stage-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.stage-label {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: 18px;
+  fill: #222;
+}
+
+.curtain-mark {
+  font-family: "Arial Black", Impact, sans-serif;
+  font-size: 140px;
+  fill: #f2c14e;
+  opacity: 0.85;
+}
+
+#balloon.faded {
+  opacity: 0.35;
+}
+
+#balloon.faded #balloon-body {
+  stroke: #333333;
+  stroke-width: 2;
+  stroke-dasharray: 5,4;
+}
+
+.pop-text {
+  font-family: "Arial Black", Impact, sans-serif;
+  font-size: 70px;
+  fill: #ff595e;
+  stroke: #8f1020;
+  stroke-width: 2px;
+  transform: rotate(-8deg);
+  transform-origin: 300px 400px;
+}
+
+.controls {
+  flex: 1 1 340px;
+  max-width: 360px;
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 18px;
+  border: 3px solid #7a4a1f;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.info-block {
+  flex: 1 1 auto;
+}
+
+.info-line {
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.frac-disp {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 2px 6px;
+}
+
+.frac-disp .bar-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  margin: 1px 0;
+}
+
+.gap-color { color: var(--gap-color); }
+.pin-color {
+  color: var(--pin-color);
+  background: #f2c14e;
+  border-radius: 4px;
+}
+
+.frac-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.frac-entry input {
+  width: 2.6ch;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+  border: 2px solid #999;
+  border-radius: 4px;
+  padding: 4px 2px;
+  background: #fff;
+}
+
+.frac-entry input.error {
+  border-color: var(--error);
+  outline: none;
+  background: #ffecec;
+}
+
+.frac-entry input:disabled {
+  background: #eee;
+  color: #888;
+}
+
+.frac-bar {
+  width: 100%;
+  height: 3px;
+  background: #222;
+  margin: 6px 0;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  flex: 1 1 auto;
+  padding: 12px 10px;
+  font-size: 1.05rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--blue);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #1568a0;
+}
+
+.btn-secondary {
+  background: #6a4c93;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: #573d7a;
+}
+
+.level-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.level-label {
+  font-weight: bold;
+}
+
+.level-group {
+  display: flex;
+  gap: 6px;
+}
+
+.level-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  background: #fff;
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.level-btn[aria-checked="true"] {
+  background: var(--blue);
+  color: #fff;
+}
+
+.level-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.level3-panel {
+  background: #f4f0e2;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+}
+
+.level3-stats {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-family: "Courier New", monospace;
+  font-size: 1.1rem;
+}
+
+.l3-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.l3-chip {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+.feedback {
+  min-height: 2.4em;
+  font-size: 0.95rem;
+  margin: 0;
+  color: #333;
+}
+
+@media (max-width: 820px) {
+  .layout {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stage-wrap {
+    width: min(420px, 90vw);
+    height: min(600px, 90vh);
+  }
+  .controls {
+    max-width: 420px;
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <h1 class="title">BALLOON <span class="pop-letters">POP!</span></h1>
+      <p id="instruction" class="instruction">Choose a fraction to make the balloon pop.</p>
+    </header>
+
+    <div class="layout">
+      <!-- ============ STAGE ============ -->
+      <div class="stage-wrap">
+        <svg id="stage-svg" viewBox="0 0 600 760" preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <radialGradient id="spotlight" cx="50%" cy="30%" r="75%">
+              <stop offset="0%" stop-color="#fffdf5"/>
+              <stop offset="100%" stop-color="#fff1cf"/>
+            </radialGradient>
+            <pattern id="awning-stripes" width="80" height="60" patternUnits="userSpaceOnUse">
+              <rect x="0" y="0" width="40" height="60" fill="#d7263d"/>
+              <rect x="40" y="0" width="40" height="60" fill="#fff8ec"/>
+            </pattern>
+          </defs>
+
+          <!-- back wall -->
+          <rect id="wall" x="0" y="0" width="600" height="760" fill="url(#spotlight)"/>
+
+          <!-- posts -->
+          <rect x="84" y="60" width="16" height="670" fill="#7a4a1f"/>
+          <rect x="500" y="60" width="16" height="670" fill="#7a4a1f"/>
+
+          <!-- floor -->
+          <g id="floor">
+            <rect x="0" y="730" width="600" height="30" fill="#b07a3c"/>
+            <line x1="0" y1="740" x2="600" y2="740" stroke="#8f5c28" stroke-width="2"/>
+            <line x1="0" y1="750" x2="600" y2="750" stroke="#8f5c28" stroke-width="2"/>
+          </g>
+
+          <!-- balloon (drawn behind the bar / pins / screen so it can wedge or hide) -->
+          <g id="balloon">
+            <path id="balloon-string" d="" fill="none" stroke="#444" stroke-width="2"/>
+            <polygon id="balloon-knot" points="" fill="#ff595e"/>
+            <ellipse id="balloon-body" cx="300" cy="700" rx="50" ry="57" fill="#ff595e"/>
+            <ellipse id="balloon-shine" cx="280" cy="670" rx="9" ry="8" fill="#ffffff" opacity="0.5"/>
+          </g>
+
+          <!-- gap bar -->
+          <g id="bar">
+            <rect id="bar-left" x="100" y="300" width="140" height="20" fill="#d7263d" stroke="#8f1020" stroke-width="2"/>
+            <rect id="bar-right" x="360" y="300" width="140" height="20" fill="#d7263d" stroke="#8f1020" stroke-width="2"/>
+            <text id="bar-label" x="480" y="295" text-anchor="end" class="stage-label">gap 3/4</text>
+          </g>
+
+          <!-- awning -->
+          <g id="awning">
+            <rect x="0" y="0" width="600" height="60" fill="url(#awning-stripes)"/>
+            <rect x="0" y="56" width="600" height="4" fill="#8f1020"/>
+          </g>
+
+          <!-- pins (in front of the balloon) -->
+          <g id="pins">
+            <line id="pin-left" x1="225" y1="60" x2="225" y2="130" stroke="#333" stroke-width="3"/>
+            <circle id="pin-left-head" cx="225" cy="60" r="5" fill="#f2c14e" stroke="#333" stroke-width="1"/>
+            <polygon id="pin-left-tip" points="" fill="#333"/>
+            <line id="pin-right" x1="375" y1="60" x2="375" y2="130" stroke="#333" stroke-width="3"/>
+            <circle id="pin-right-head" cx="375" cy="60" r="5" fill="#f2c14e" stroke="#333" stroke-width="1"/>
+            <polygon id="pin-right-tip" points="" fill="#333"/>
+            <text id="pin-label" x="300" y="145" text-anchor="middle" class="stage-label">1/4</text>
+          </g>
+
+          <!-- level 2 mystery curtain -->
+          <g id="screen" style="display:none">
+            <rect x="100" y="326" width="400" height="416" fill="#a4132c"/>
+            <line x1="140" y1="326" x2="140" y2="742" stroke="#7c0e21" stroke-width="4"/>
+            <line x1="220" y1="326" x2="220" y2="742" stroke="#7c0e21" stroke-width="4"/>
+            <line x1="300" y1="326" x2="300" y2="742" stroke="#7c0e21" stroke-width="4"/>
+            <line x1="380" y1="326" x2="380" y2="742" stroke="#7c0e21" stroke-width="4"/>
+            <line x1="460" y1="326" x2="460" y2="742" stroke="#7c0e21" stroke-width="4"/>
+            <rect x="100" y="326" width="400" height="14" fill="#f2c14e"/>
+            <text x="300" y="560" text-anchor="middle" class="curtain-mark">?</text>
+          </g>
+
+          <!-- effects -->
+          <g id="confetti"></g>
+          <text id="pop-text" x="300" y="400" text-anchor="middle" class="pop-text" style="display:none">POP!</text>
+        </svg>
+      </div>
+
+      <!-- ============ CONTROLS ============ -->
+      <div class="controls">
+        <div class="info-row">
+          <div class="info-block">
+            <div class="info-line">
+              <span class="info-label">gap =</span>
+              <span id="gap-display" class="frac-disp gap-color"></span>
+            </div>
+            <div class="info-line">
+              <span class="info-label">pin spacing =</span>
+              <span id="pin-display" class="frac-disp pin-color"></span>
+            </div>
+          </div>
+
+          <div class="frac-entry">
+            <input id="num" type="text" inputmode="numeric" maxlength="2" autocomplete="off" aria-label="numerator">
+            <div class="frac-bar" aria-hidden="true"></div>
+            <input id="den" type="text" inputmode="numeric" maxlength="2" autocomplete="off" aria-label="denominator">
+          </div>
+        </div>
+
+        <div class="btn-row">
+          <button id="btn-main" class="btn btn-primary">Release</button>
+          <button id="btn-new" class="btn btn-secondary">New</button>
+        </div>
+
+        <div class="level-row">
+          <span class="level-label">Level</span>
+          <div id="level-group" class="level-group" role="radiogroup" aria-label="Level">
+            <button class="level-btn" data-level="1" role="radio" aria-checked="true">1</button>
+            <button class="level-btn" data-level="2" role="radio" aria-checked="false">2</button>
+            <button class="level-btn" data-level="3" role="radio" aria-checked="false">3</button>
+            <button class="level-btn" data-level="4" role="radio" aria-checked="false">4</button>
+          </div>
+        </div>
+
+        <div id="level3-panel" class="level3-panel" style="display:none">
+          <div class="level3-stats">
+            <span id="l3-timer" class="l3-timer">1:00</span>
+            <span id="l3-pops" class="l3-pops">Pops: 0</span>
+          </div>
+          <div id="l3-chips" class="l3-chips"></div>
+        </div>
+
+        <p id="feedback" class="feedback" aria-live="polite"></p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+'use strict';
+
+/* ======================================================================
+   1. CONSTANTS
+   ====================================================================== */
+
+const STAGE_W = 600, STAGE_H = 760;
+
+const UNIT_X0 = 100, UNIT_W = 400;
+const CENTER_X = UNIT_X0 + UNIT_W / 2; // 300
+
+const CEILING_Y = 60;
+const PIN_LEN = 70;
+const PIN_TIP_Y = CEILING_Y + PIN_LEN; // 130
+const BAR_TOP_Y = 300, BAR_H = 20;
+const BAR_BOTTOM_Y = BAR_TOP_Y + BAR_H; // 320
+const FLOOR_Y = 730;
+const REST_BOTTOM_Y = 722;
+
+const BALLOON_ASPECT = 1.15;
+const RISE_SPEED = 260; // viewBox units / second
+
+// Half-height cap: for very wide balloons (w close to 1) the natural aspect-ratio height
+// would be taller than the gap between the bar and the Level 2 curtain's bottom edge, so
+// the balloon would poke out below the curtain. Cap the height only (never the width,
+// which must always be exactly w * UNIT_W) once w exceeds about 0.9.
+const MAX_HALF_HEIGHT = 200;
+
+const PALETTE = ['#ff595e', '#ffca3a', '#8ac926', '#1982c4', '#6a4c93', '#ff924c'];
+
+const SIMPLE = [
+  { n: 1, d: 8 }, { n: 1, d: 4 }, { n: 1, d: 3 }, { n: 3, d: 8 }, { n: 1, d: 2 },
+  { n: 5, d: 8 }, { n: 2, d: 3 }, { n: 3, d: 4 }, { n: 7, d: 8 }
+];
+
+const INSTRUCTIONS = {
+  1: 'Choose a fraction to make the balloon pop.',
+  2: 'Choose a fraction to make the balloon pop.',
+  3: 'Make as many fractions that pop as you can in one minute.',
+  4: 'Choose a fraction to make the balloon pop.'
+};
+
+/* ======================================================================
+   2. FRACTION MATH
+   ====================================================================== */
+
+function cmp(a, b) { return a.n * b.d - b.n * a.d; }
+function lt(a, b) { return cmp(a, b) < 0; }
+function eq(a, b) { return cmp(a, b) === 0; }
+function toFloat(f) { return f.n / f.d; }
+function fmt(f) { return `${f.n}/${f.d}`; }
+
+function judge(w, g, p) {
+  if (cmp(w, g) >= 0) return 'stuck';
+  if (cmp(w, p) > 0) return 'pop';
+  return 'nestle';
+}
+
+function validate(numStr, denStr) {
+  if (numStr === '' || denStr === '') return { ok: null };
+  const n = parseInt(numStr, 10), d = parseInt(denStr, 10);
+  if (d === 0) return { ok: false, message: 'The denominator cannot be 0.' };
+  if (n === 0) return { ok: false, message: 'The numerator cannot be 0.' };
+  if (n >= d) return { ok: false, message: 'The numerator must be smaller than the denominator.' };
+  return { ok: true, w: { n, d } };
+}
+
+// Exact comparison of (w - p) against (g - w). Ties go to 'g'.
+function closerEnd(w, p, g) {
+  const distP = (w.n * p.d - p.n * w.d) * g.d;
+  const distG = (g.n * w.d - w.n * g.d) * p.d;
+  return distP < distG ? 'p' : 'g';
+}
+
+function existsBetween(p, g, maxD) {
+  maxD = maxD || 99;
+  for (let d = 1; d <= maxD; d++) {
+    const nMin = Math.floor((p.n * d) / p.d) + 1;
+    const nMax = Math.ceil((g.n * d) / g.d) - 1;
+    if (nMin <= nMax && nMin <= 99) return true;
+  }
+  return false;
+}
+
+function randInt(n) { return Math.floor(Math.random() * n); }
+
+function newChallenge(prev) {
+  while (true) {
+    const i = randInt(SIMPLE.length), j = randInt(SIMPLE.length);
+    if (i === j) continue;
+    let p = SIMPLE[i], g = SIMPLE[j];
+    if (lt(g, p)) { const tmp = p; p = g; g = tmp; }
+    if (cmp(g, p) * 8 < g.d * p.d) continue; // need g - p >= 1/8
+    if (prev && eq(p, prev.p) && eq(g, prev.g)) continue;
+    return { g, p };
+  }
+}
+
+/* ======================================================================
+   3. GEOMETRY
+   ====================================================================== */
+
+function balloonDims(w) {
+  const bw = toFloat(w) * UNIT_W;
+  const bh = bw * BALLOON_ASPECT;
+  return { a: bw / 2, b: Math.min(bh / 2, MAX_HALF_HEIGHT) };
+}
+
+function restCy(dims) {
+  return Math.max(REST_BOTTOM_Y - dims.b, BAR_BOTTOM_Y + 8 + dims.b);
+}
+
+function stopCy(outcome, w, g, p, dims) {
+  const b = dims.b;
+  let stop;
+  if (outcome === 'stuck') {
+    const r = toFloat(g) / toFloat(w);
+    stop = BAR_BOTTOM_Y + b * Math.sqrt(Math.max(0, 1 - r * r));
+  } else if (outcome === 'pop') {
+    const r = toFloat(p) / toFloat(w);
+    stop = PIN_TIP_Y + b * Math.sqrt(Math.max(0, 1 - r * r));
+  } else {
+    stop = CEILING_Y + b;
+  }
+  return Math.min(stop, restCy(dims));
+}
+
+/* ======================================================================
+   4. STATE
+   ====================================================================== */
+
+const state = {
+  level: 1,
+  g: null, p: null,
+  numStr: '', denStr: '',
+  w: null,
+  lastValidW: { n: 1, d: 4 },
+  validity: { ok: null },
+  phase: 'idle', // idle | rising | stuck | popped | nestled
+  released: null,
+  flight: null,
+  balloon: { cy: 0, sway: 0, color: PALETTE[0] },
+  l3: { startMs: null, over: false, found: [], autoResetId: null },
+  l4: { pending: null, beaten: false },
+  prevChallenge: null,
+  effectId: null,
+  popTextTimeoutId: null
+};
+
+/* ======================================================================
+   5. UI CACHE
+   ====================================================================== */
+
+const ui = {};
+
+function cacheUi() {
+  ui.instruction = document.getElementById('instruction');
+  ui.gapDisplay = document.getElementById('gap-display');
+  ui.pinDisplay = document.getElementById('pin-display');
+  ui.numInput = document.getElementById('num');
+  ui.denInput = document.getElementById('den');
+  ui.fracEntry = document.querySelector('.frac-entry');
+  ui.btnMain = document.getElementById('btn-main');
+  ui.btnNew = document.getElementById('btn-new');
+  ui.levelGroup = document.getElementById('level-group');
+  ui.levelBtns = Array.from(document.querySelectorAll('.level-btn'));
+  ui.level3Panel = document.getElementById('level3-panel');
+  ui.l3Timer = document.getElementById('l3-timer');
+  ui.l3Pops = document.getElementById('l3-pops');
+  ui.l3Chips = document.getElementById('l3-chips');
+  ui.feedback = document.getElementById('feedback');
+
+  ui.balloonGroup = document.getElementById('balloon');
+  ui.balloonBody = document.getElementById('balloon-body');
+  ui.balloonShine = document.getElementById('balloon-shine');
+  ui.balloonKnot = document.getElementById('balloon-knot');
+  ui.balloonString = document.getElementById('balloon-string');
+
+  ui.barLeft = document.getElementById('bar-left');
+  ui.barRight = document.getElementById('bar-right');
+  ui.barLabel = document.getElementById('bar-label');
+
+  ui.pinLeft = document.getElementById('pin-left');
+  ui.pinLeftHead = document.getElementById('pin-left-head');
+  ui.pinLeftTip = document.getElementById('pin-left-tip');
+  ui.pinRight = document.getElementById('pin-right');
+  ui.pinRightHead = document.getElementById('pin-right-head');
+  ui.pinRightTip = document.getElementById('pin-right-tip');
+  ui.pinLabel = document.getElementById('pin-label');
+
+  ui.screen = document.getElementById('screen');
+  ui.confetti = document.getElementById('confetti');
+  ui.popText = document.getElementById('pop-text');
+}
+
+/* ======================================================================
+   6. FRACTION DISPLAY HELPER
+   ====================================================================== */
+
+function setFracDisplay(el, frac) {
+  el.innerHTML = '';
+  const num = document.createElement('span');
+  num.textContent = frac.n;
+  const bar = document.createElement('span');
+  bar.className = 'bar-line';
+  const den = document.createElement('span');
+  den.textContent = frac.d;
+  el.appendChild(num);
+  el.appendChild(bar);
+  el.appendChild(den);
+}
+
+/* ======================================================================
+   7. INPUT HANDLING
+   ====================================================================== */
+
+function filterDigits(str) {
+  return str.replace(/\D/g, '').slice(0, 2);
+}
+
+function onFracInput() {
+  state.numStr = filterDigits(ui.numInput.value);
+  state.denStr = filterDigits(ui.denInput.value);
+  ui.numInput.value = state.numStr;
+  ui.denInput.value = state.denStr;
+
+  const result = validate(state.numStr, state.denStr);
+  state.validity = result;
+  if (result.ok === true) {
+    state.w = result.w;
+    state.lastValidW = result.w;
+  } else {
+    state.w = null;
+  }
+
+  if (result.ok === false) {
+    setFeedback(result.message);
+  } else {
+    clearFeedback();
+  }
+
+  render();
+}
+
+function onFracKeydown(e) {
+  // Tab stays trapped between the two fraction boxes; it never reaches the buttons.
+  if (e.key === 'Tab') {
+    e.preventDefault();
+    const other = (e.target === ui.numInput) ? ui.denInput : ui.numInput;
+    other.focus();
+    other.select();
+    return;
+  }
+
+  // Enter and the 'n' shortcut are handled by the global keydown listener (see onGlobalKeydown);
+  // just let them bubble past the digit filter here without being blocked.
+  const allowed = ['Backspace', 'Delete', 'ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Home', 'End', 'Enter', 'n', 'N'];
+  if (allowed.includes(e.key)) return;
+  if (e.ctrlKey || e.metaKey || e.altKey) return; // allow copy/paste shortcuts
+  if (!/^[0-9]$/.test(e.key)) {
+    e.preventDefault();
+  }
+}
+
+// Global shortcuts: Enter triggers Release/Reset (whichever the main button currently shows),
+// and 'n' triggers New. Skipped when a <button> already has focus, since its own native
+// Enter/Space activation would otherwise fire the action a second time.
+function onGlobalKeydown(e) {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const activeIsButton = document.activeElement && document.activeElement.tagName === 'BUTTON';
+
+  if (e.key === 'Enter') {
+    if (activeIsButton) return;
+    e.preventDefault();
+    mainButtonClicked();
+    return;
+  }
+  if (e.key === 'n' || e.key === 'N') {
+    if (activeIsButton) return;
+    e.preventDefault();
+    if (!ui.btnNew.disabled) newRound();
+  }
+}
+
+/* ======================================================================
+   8. ROUND / RESET LIFECYCLE
+   ====================================================================== */
+
+function clearEffects() {
+  if (state.effectId) { cancelAnimationFrame(state.effectId); state.effectId = null; }
+  if (state.popTextTimeoutId) { clearTimeout(state.popTextTimeoutId); state.popTextTimeoutId = null; }
+  ui.confetti.innerHTML = '';
+  ui.popText.style.display = 'none';
+  ui.balloonGroup.style.display = '';
+  ui.balloonBody.setAttribute('transform', '');
+}
+
+function clearL3AutoReset() {
+  if (state.l3.autoResetId) { clearTimeout(state.l3.autoResetId); state.l3.autoResetId = null; }
+}
+
+function pickColor() {
+  return PALETTE[randInt(PALETTE.length)];
+}
+
+function newRound() {
+  clearL3AutoReset();
+  clearEffects();
+
+  state.prevChallenge = (state.g && state.p) ? { g: state.g, p: state.p } : null;
+  const challenge = newChallenge(state.prevChallenge);
+  state.g = challenge.g;
+  state.p = challenge.p;
+
+  state.phase = 'idle';
+  state.released = null;
+  state.flight = null;
+  state.balloon.color = pickColor();
+  state.balloon.sway = 0;
+
+  const dims = balloonDims(state.w || state.lastValidW);
+  state.balloon.cy = restCy(dims);
+
+  state.l3 = { startMs: null, over: false, found: [], autoResetId: null };
+  state.l4 = { pending: null, beaten: false };
+
+  clearFeedback();
+  enableInputs();
+  render();
+  focusNumerator();
+}
+
+function reset() {
+  clearL3AutoReset();
+  clearEffects();
+
+  state.phase = 'idle';
+  state.released = null;
+  state.flight = null;
+  state.balloon.sway = 0;
+  state.balloon.color = pickColor();
+
+  let feedbackMsg = '';
+
+  if (state.level === 4 && state.l4.pending) {
+    const pend = state.l4.pending;
+    state[pend.which] = pend.value;
+    state.l4.pending = null;
+    if (state.l4.beaten) {
+      feedbackMsg = 'You beat Level 4! Press New to play again.';
+    } else if (pend.which === 'p') {
+      feedbackMsg = `Now the pins are ${fmt(pend.value)} apart.`;
+    } else {
+      feedbackMsg = `Now the gap is ${fmt(pend.value)}.`;
+    }
+  } else if (state.level === 3 && state.l3.over) {
+    feedbackMsg = l3SummaryMessage();
+  }
+
+  const dims = balloonDims(state.w || state.lastValidW);
+  state.balloon.cy = restCy(dims);
+
+  enableInputs();
+  render();
+  setFeedback(feedbackMsg);
+  focusNumerator();
+}
+
+function focusNumerator() {
+  if (state.phase === 'idle' && !ui.numInput.disabled) {
+    ui.numInput.focus();
+    ui.numInput.select();
+  }
+}
+
+function enableInputs() {
+  ui.numInput.disabled = false;
+  ui.denInput.disabled = false;
+}
+
+function disableInputs() {
+  ui.numInput.disabled = true;
+  ui.denInput.disabled = true;
+}
+
+function clearFeedback() {
+  ui.feedback.textContent = '';
+}
+
+function setFeedback(msg) {
+  ui.feedback.textContent = msg;
+}
+
+/* ======================================================================
+   9. LEVEL SWITCHING
+   ====================================================================== */
+
+function setLevel(level) {
+  if (state.phase === 'rising') return;
+  state.level = level;
+  ui.levelBtns.forEach(btn => {
+    const isSel = Number(btn.dataset.level) === level;
+    btn.setAttribute('aria-checked', isSel ? 'true' : 'false');
+  });
+  ui.screen.style.display = (level === 2) ? '' : 'none';
+  ui.level3Panel.style.display = (level === 3) ? '' : 'none';
+  ui.instruction.textContent = INSTRUCTIONS[level];
+  newRound();
+}
+
+/* ======================================================================
+   10. MAIN BUTTON (Release / Reset)
+   ====================================================================== */
+
+function mainButtonClicked() {
+  if (state.phase === 'idle') {
+    if (canRelease()) release();
+  } else if (state.phase === 'stuck' || state.phase === 'popped' || state.phase === 'nestled') {
+    reset();
+  }
+}
+
+function canRelease() {
+  if (state.phase !== 'idle') return false;
+  if (state.validity.ok !== true) return false;
+  if (state.level === 3 && state.l3.over) return false;
+  if (state.level === 4 && state.l4.beaten) return false;
+  return true;
+}
+
+function release() {
+  const w = state.w;
+  state.released = { n: w.n, d: w.d };
+  const dims = balloonDims(w);
+  const outcome = judge(w, state.g, state.p);
+  state.flight = {
+    outcome: outcome,
+    stopY: stopCy(outcome, w, state.g, state.p, dims),
+    lastMs: performance.now(),
+    t: 0
+  };
+  state.phase = 'rising';
+  disableInputs();
+
+  if (state.level === 3 && state.l3.startMs === null) {
+    state.l3.startMs = performance.now();
+  }
+
+  render();
+  requestAnimationFrame(flightFrame);
+}
+
+/* ======================================================================
+   11. FLIGHT ANIMATION
+   ====================================================================== */
+
+function flightFrame(nowMs) {
+  if (state.phase !== 'rising') return;
+  const f = state.flight;
+  const dt = (nowMs - f.lastMs) / 1000;
+  f.lastMs = nowMs;
+  f.t += dt;
+
+  state.balloon.cy = Math.max(f.stopY, state.balloon.cy - RISE_SPEED * dt);
+  state.balloon.sway = 5 * Math.sin(f.t * 4);
+
+  render();
+
+  if (state.balloon.cy <= f.stopY) {
+    arrive();
+    return;
+  }
+  requestAnimationFrame(flightFrame);
+}
+
+function arrive() {
+  state.balloon.sway = 0;
+  const outcome = state.flight.outcome;
+  const w = state.released;
+
+  if (outcome === 'stuck') {
+    state.phase = 'stuck';
+    setFeedback(`Stuck!  ${fmt(w)} ≥ ${fmt(state.g)} (the gap). Too wide.`);
+    startWobble();
+  } else if (outcome === 'nestle') {
+    state.phase = 'nestled';
+    setFeedback(`Safe landing.  ${fmt(w)} ≤ ${fmt(state.p)} (the pin spacing). Too narrow to pop.`);
+    startBob();
+  } else {
+    state.phase = 'popped';
+    handlePopBookkeeping(w);
+  }
+
+  render();
+
+  if (state.level === 3) {
+    clearL3AutoReset();
+    state.l3.autoResetId = setTimeout(() => {
+      state.l3.autoResetId = null;
+      reset();
+    }, 1000);
+  }
+}
+
+function handlePopBookkeeping(w) {
+  let msg = `POP!  ${fmt(state.p)} < ${fmt(w)} < ${fmt(state.g)}`;
+
+  if (state.level === 3) {
+    const already = state.l3.found.some(f => f.n === w.n && f.d === w.d);
+    if (already) {
+      msg = `Pop! You already found ${fmt(w)}.`;
+    } else {
+      state.l3.found.push({ n: w.n, d: w.d });
+    }
+  }
+
+  if (state.level === 4) {
+    const which = closerEnd(w, state.p, state.g);
+    const nextP = which === 'p' ? w : state.p;
+    const nextG = which === 'g' ? w : state.g;
+    state.l4.pending = { which, value: { n: w.n, d: w.d } };
+    if (!existsBetween(nextP, nextG)) {
+      state.l4.beaten = true;
+      msg = `POP! You beat Level 4! No fraction with two-digit numbers fits between ${fmt(nextP)} and ${fmt(nextG)}.`;
+    }
+  }
+
+  setFeedback(msg);
+  spawnConfetti(state.l4.beaten);
+  showPopText();
+}
+
+/* ======================================================================
+   12. EFFECTS
+   ====================================================================== */
+
+function startWobble() {
+  const start = performance.now();
+  const duration = 400;
+  function step(now) {
+    const t = Math.min(1, (now - start) / duration);
+    const wob = Math.sin(t * Math.PI * 4) * (1 - t);
+    const sx = 1 + 0.03 * wob;
+    const sy = 1 - 0.03 * wob;
+    ui.balloonBody.setAttribute('transform', `translate(${CENTER_X} ${state.balloon.cy}) scale(${sx} ${sy}) translate(${-CENTER_X} ${-state.balloon.cy})`);
+    if (t < 1) {
+      state.effectId = requestAnimationFrame(step);
+    } else {
+      ui.balloonBody.setAttribute('transform', '');
+      state.effectId = null;
+    }
+  }
+  state.effectId = requestAnimationFrame(step);
+}
+
+function startBob() {
+  const start = performance.now();
+  const duration = 600;
+  const baseCy = state.balloon.cy;
+  function step(now) {
+    const t = Math.min(1, (now - start) / duration);
+    const bob = Math.sin(t * Math.PI * 3) * (1 - t) * 3;
+    state.balloon.cy = baseCy + bob;
+    render();
+    if (t < 1) {
+      state.effectId = requestAnimationFrame(step);
+    } else {
+      state.balloon.cy = baseCy;
+      render();
+      state.effectId = null;
+    }
+  }
+  state.effectId = requestAnimationFrame(step);
+}
+
+function showPopText() {
+  ui.popText.style.display = '';
+  state.popTextTimeoutId = setTimeout(() => {
+    ui.popText.style.display = 'none';
+    state.popTextTimeoutId = null;
+  }, 1200);
+}
+
+function spawnConfetti(big) {
+  ui.balloonGroup.style.display = 'none';
+  const count = big ? 240 : 120;
+  const life = big ? 2500 : 1600;
+  const cx = CENTER_X + state.balloon.sway;
+  const cy = state.balloon.cy;
+
+  const particles = [];
+  for (let i = 0; i < count; i++) {
+    const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+    const w = 6 + Math.random() * 4;
+    const h = 3 + Math.random() * 3;
+    const color = PALETTE[randInt(PALETTE.length)];
+    rect.setAttribute('width', w);
+    rect.setAttribute('height', h);
+    rect.setAttribute('x', -w / 2);
+    rect.setAttribute('y', -h / 2);
+    rect.setAttribute('fill', color);
+    ui.confetti.appendChild(rect);
+
+    particles.push({
+      el: rect,
+      x: cx, y: cy,
+      vx: (Math.random() * 2 - 1) * 350,
+      vy: -150 - Math.random() * 500,
+      rot: Math.random() * 360,
+      spin: (Math.random() * 2 - 1) * 360,
+      born: performance.now()
+    });
+  }
+
+  const start = performance.now();
+  let lastT = start;
+  function step(now) {
+    const dt = (now - lastT) / 1000;
+    lastT = now;
+    let anyAlive = false;
+    for (const p of particles) {
+      const age = now - p.born;
+      if (age > life) { p.el.style.opacity = 0; continue; }
+      anyAlive = true;
+      p.vy += 900 * dt;
+      p.x += p.vx * dt;
+      p.y += p.vy * dt;
+      p.rot += p.spin * dt;
+      let opacity = 1;
+      if (age > life - 500) opacity = Math.max(0, (life - age) / 500);
+      p.el.setAttribute('transform', `translate(${p.x} ${p.y}) rotate(${p.rot})`);
+      p.el.style.opacity = opacity;
+    }
+    if (anyAlive) {
+      state.effectId = requestAnimationFrame(step);
+    } else {
+      ui.confetti.innerHTML = '';
+      state.effectId = null;
+    }
+  }
+  state.effectId = requestAnimationFrame(step);
+}
+
+/* ======================================================================
+   13. LEVEL 3 TIMER
+   ====================================================================== */
+
+function l3RemainingMs() {
+  if (state.l3.startMs === null) return 60000;
+  return Math.max(0, 60000 - (performance.now() - state.l3.startMs));
+}
+
+function l3TimerLabel() {
+  const remaining = l3RemainingMs();
+  const totalSec = Math.ceil(remaining / 1000);
+  const mm = Math.floor(totalSec / 60);
+  const ss = totalSec % 60;
+  return `${mm}:${String(ss).padStart(2, '0')}`;
+}
+
+function l3SummaryMessage() {
+  const list = state.l3.found.map(fmt).join(', ');
+  return `Time! You found ${state.l3.found.length} fraction${state.l3.found.length === 1 ? '' : 's'} that pop: ${list}.`;
+}
+
+setInterval(() => {
+  if (state.level !== 3) return;
+  if (state.l3.startMs === null || state.l3.over) { renderLevel3Panel(); return; }
+  if (l3RemainingMs() <= 0 && !state.l3.over) {
+    state.l3.over = true;
+    if (state.phase === 'idle') {
+      setFeedback(l3SummaryMessage());
+    }
+  }
+  renderLevel3Panel();
+  updateMainButtonState();
+}, 100);
+
+/* ======================================================================
+   14. RENDER
+   ====================================================================== */
+
+function render() {
+  renderStage();
+  renderInfoPanel();
+  renderMainButton();
+  renderNewButton();
+  renderLevelButtons();
+  renderInputsAppearance();
+  renderLevel3Panel();
+}
+
+function renderStage() {
+  const w = state.w || state.lastValidW;
+  const dims = balloonDims(w);
+
+  // While at rest, keep the balloon sitting on the floor (bottom-anchored) as its size
+  // changes with each keystroke, rather than leaving cy fixed and letting the balloon grow
+  // downward past the floor / Level 2 curtain.
+  if (state.phase === 'idle') {
+    state.balloon.cy = restCy(dims);
+  }
+
+  const cx = CENTER_X + state.balloon.sway;
+  const cy = state.balloon.cy;
+  const a = dims.a, b = dims.b;
+
+  ui.balloonBody.setAttribute('cx', cx);
+  ui.balloonBody.setAttribute('cy', cy);
+  ui.balloonBody.setAttribute('rx', a);
+  ui.balloonBody.setAttribute('ry', b);
+  ui.balloonBody.setAttribute('fill', state.balloon.color);
+
+  ui.balloonShine.setAttribute('cx', cx - 0.4 * a);
+  ui.balloonShine.setAttribute('cy', cy - 0.45 * b);
+  ui.balloonShine.setAttribute('rx', 0.18 * a);
+  ui.balloonShine.setAttribute('ry', 0.14 * b);
+
+  const knotY = cy + b;
+  const knotPts = `${cx - 0.06 * a},${knotY} ${cx + 0.06 * a},${knotY} ${cx},${knotY + 0.12 * a}`;
+  ui.balloonKnot.setAttribute('points', knotPts);
+  ui.balloonKnot.setAttribute('fill', state.balloon.color);
+
+  const stringStartY = knotY + 0.12 * a;
+  const stringEndY = Math.min(stringStartY + 45, FLOOR_Y - 2);
+  const stringMidY = stringStartY + (stringEndY - stringStartY) / 2;
+  const sway2 = state.balloon.sway * 0.6;
+  ui.balloonString.setAttribute('d', `M ${cx} ${stringStartY} Q ${cx + sway2} ${stringMidY} ${cx} ${stringEndY}`);
+
+  const isValid = state.validity.ok === true;
+  ui.balloonGroup.classList.toggle('faded', !isValid);
+  if (state.phase !== 'popped') {
+    ui.balloonGroup.style.display = '';
+  }
+
+  const gapHalf = toFloat(state.g) * UNIT_W / 2;
+  ui.barLeft.setAttribute('x', UNIT_X0);
+  ui.barLeft.setAttribute('width', Math.max(0, (CENTER_X - gapHalf) - UNIT_X0));
+  ui.barRight.setAttribute('x', CENTER_X + gapHalf);
+  ui.barRight.setAttribute('width', Math.max(0, (UNIT_X0 + UNIT_W) - (CENTER_X + gapHalf)));
+  ui.barLabel.textContent = `gap ${fmt(state.g)}`;
+  ui.barLabel.setAttribute('x', UNIT_X0 + UNIT_W - 4);
+
+  const pinHalf = toFloat(state.p) * UNIT_W / 2;
+  const pinLx = CENTER_X - pinHalf, pinRx = CENTER_X + pinHalf;
+  ui.pinLeft.setAttribute('x1', pinLx); ui.pinLeft.setAttribute('x2', pinLx);
+  ui.pinLeftHead.setAttribute('cx', pinLx);
+  ui.pinLeftTip.setAttribute('points', `${pinLx - 5},${PIN_TIP_Y} ${pinLx + 5},${PIN_TIP_Y} ${pinLx},${PIN_TIP_Y + 8}`);
+  ui.pinRight.setAttribute('x1', pinRx); ui.pinRight.setAttribute('x2', pinRx);
+  ui.pinRightHead.setAttribute('cx', pinRx);
+  ui.pinRightTip.setAttribute('points', `${pinRx - 5},${PIN_TIP_Y} ${pinRx + 5},${PIN_TIP_Y} ${pinRx},${PIN_TIP_Y + 8}`);
+  ui.pinLabel.textContent = fmt(state.p);
+}
+
+function renderInfoPanel() {
+  setFracDisplay(ui.gapDisplay, state.g);
+  setFracDisplay(ui.pinDisplay, state.p);
+}
+
+function renderMainButton() {
+  const isOutcome = (state.phase === 'stuck' || state.phase === 'popped' || state.phase === 'nestled');
+  ui.btnMain.textContent = isOutcome ? 'Reset' : 'Release';
+  ui.btnMain.disabled = isOutcome ? false : !canRelease();
+}
+
+function updateMainButtonState() {
+  renderMainButton();
+}
+
+function renderNewButton() {
+  ui.btnNew.disabled = (state.phase === 'rising');
+}
+
+function renderLevelButtons() {
+  ui.levelBtns.forEach(btn => {
+    btn.disabled = (state.phase === 'rising');
+  });
+}
+
+function renderInputsAppearance() {
+  const showError = state.validity.ok === false;
+  ui.numInput.classList.toggle('error', showError);
+  ui.denInput.classList.toggle('error', showError);
+}
+
+function renderLevel3Panel() {
+  if (state.level !== 3) return;
+  ui.l3Timer.textContent = l3TimerLabel();
+  ui.l3Pops.textContent = `Pops: ${state.l3.found.length}`;
+  ui.l3Chips.innerHTML = '';
+  state.l3.found.forEach(f => {
+    const chip = document.createElement('span');
+    chip.className = 'l3-chip';
+    chip.textContent = fmt(f);
+    ui.l3Chips.appendChild(chip);
+  });
+}
+
+/* ======================================================================
+   15. INIT
+   ====================================================================== */
+
+function init() {
+  cacheUi();
+
+  ui.numInput.addEventListener('input', onFracInput);
+  ui.denInput.addEventListener('input', onFracInput);
+  ui.numInput.addEventListener('keydown', onFracKeydown);
+  ui.denInput.addEventListener('keydown', onFracKeydown);
+
+  ui.btnMain.addEventListener('click', mainButtonClicked);
+  ui.btnNew.addEventListener('click', newRound);
+
+  ui.levelBtns.forEach(btn => {
+    btn.addEventListener('click', () => setLevel(Number(btn.dataset.level)));
+  });
+
+  document.addEventListener('keydown', onGlobalKeydown);
+
+  state.validity = { ok: null };
+  ui.screen.style.display = 'none';
+  ui.level3Panel.style.display = 'none';
+  ui.instruction.textContent = INSTRUCTIONS[1];
+
+  newRound();
+}
+
+document.addEventListener('DOMContentLoaded', init);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Globs</title>
+<style>
+:root {
+  --bg:        #05070a;   /* screen black, very slightly blue */
+  --grid:      #1d3a2a;   /* faint grid lines */
+  --axis:      #8fa8b8;   /* axes and ticks */
+  --text:      #c8d8e0;   /* status text */
+  --glob:      #2ee06a;   /* the globs */
+  --glob-dark: #16813c;   /* glob shading */
+  --graph:     #ffb339;   /* the plotted curve, amber */
+  --flash:     #f4fff6;   /* explosion flash */
+  --panel:     #0b1118;   /* hint overlay background */
+  --bezel:     #14171c;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bezel {
+  background: var(--bezel);
+  padding: 1.2vmin;
+  border-radius: 1vmin;
+  box-shadow: 0 0 4vmin rgba(0,0,0,0.6) inset, 0 1vmin 3vmin rgba(0,0,0,0.5);
+}
+
+.screen {
+  position: relative;
+  width: min(96vw, calc(96vh * 4 / 3));
+  aspect-ratio: 4 / 3;
+  background: var(--bg);
+  border-radius: 0.4vmin;
+  overflow: hidden;
+}
+
+#gg-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#gg-bg { fill: var(--bg); }
+
+.gg-grid-line {
+  stroke: var(--grid);
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+.gg-axis-line {
+  stroke: var(--axis);
+  stroke-width: 2;
+  shape-rendering: crispEdges;
+}
+
+.gg-tick {
+  stroke: var(--axis);
+  stroke-width: 1.5;
+  shape-rendering: crispEdges;
+}
+
+.gg-axis-label {
+  fill: var(--axis);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+.gg-status {
+  fill: var(--text);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+
+.gg-status-right { text-anchor: end; }
+
+.gg-message {
+  fill: var(--graph);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  text-anchor: middle;
+}
+
+.gg-glob-pixel { fill: var(--glob); shape-rendering: crispEdges; }
+.gg-glob-pixel-dark { fill: var(--glob-dark); shape-rendering: crispEdges; }
+
+.gg-curve {
+  fill: none;
+  stroke: var(--graph);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.gg-curve-live { opacity: 1; }
+.gg-curve-dim { opacity: 0.35; }
+
+.gg-flash {
+  fill: none;
+  stroke: var(--flash);
+  stroke-width: 2;
+}
+
+#gg-hint-bg {
+  fill: var(--panel);
+  fill-opacity: 0.95;
+  stroke: var(--axis);
+  stroke-width: 1;
+}
+
+.gg-hint-title {
+  fill: var(--text);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  text-anchor: middle;
+  letter-spacing: 1px;
+}
+
+.gg-hint-eq {
+  fill: var(--graph);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.gg-hint-curve-line {
+  fill: none;
+  stroke: var(--graph);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.gg-hint-prompt {
+  fill: var(--text);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  text-anchor: middle;
+}
+
+.gg-hint-controls {
+  fill: var(--axis);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 13px;
+  text-anchor: middle;
+}
+
+.input-row {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 95.3%;
+  height: 4.2%;
+  display: flex;
+  align-items: center;
+  gap: 1.2%;
+  color: var(--text);
+  font-size: min(2.2vw, 2.933vh);
+  white-space: nowrap;
+}
+
+.input-label {
+  color: var(--text);
+  flex: 0 0 auto;
+}
+
+.input-field {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: inherit;
+  caret-color: var(--graph);
+}
+
+.input-field::selection { background: var(--graph); color: var(--bg); }
+.input-field:disabled { opacity: 0.4; }
+
+.input-counter {
+  flex: 0 0 auto;
+  color: var(--text);
+  opacity: 0.7;
+  width: 2em;
+  text-align: right;
+}
+
+.gg-counter-warn { color: var(--graph); opacity: 1; }
+.gg-counter-danger { color: #ff5a4d; opacity: 1; }
+
+.hint-affordance {
+  flex: 0 0 auto;
+  color: var(--axis);
+  border: 1px solid var(--axis);
+  border-radius: 3px;
+  padding: 0 0.4em;
+  font-size: 0.85em;
+}
+
+</style>
+</head>
+<body>
+<div class="bezel">
+  <div class="screen" id="screen">
+    <svg id="gg-svg" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <rect id="gg-bg" x="0" y="0" width="800" height="600"></rect>
+
+      <g id="gg-grid"></g>
+      <g id="gg-axes"></g>
+      <g id="gg-prev-shots"></g>
+      <g id="gg-cur-shot"></g>
+      <g id="gg-globs"></g>
+      <g id="gg-explosions"></g>
+
+      <text id="gg-score" class="gg-status" x="20" y="30">Score: 0</text>
+      <text id="gg-shotcount" class="gg-status gg-status-right" x="780" y="30">Shot 1</text>
+      <text id="gg-message" class="gg-message" x="400" y="554">GREEN GLOBS — after Dugdale &amp; Kibbey, 1981</text>
+
+      <defs>
+        <!-- Keeps the hint curve clear of its own title/equation/prompt text
+             (sections 9.1/9.4): the curve is plotted across the full
+             500x500 graph square, but only the middle band is visible,
+             leaving quiet bands top and bottom for the fixed text. -->
+        <clipPath id="gg-hint-clip">
+          <rect x="150" y="145" width="500" height="330"></rect>
+        </clipPath>
+      </defs>
+
+      <g id="gg-hint-layer" style="display:none">
+        <rect id="gg-hint-bg" x="150" y="50" width="500" height="500"></rect>
+        <text id="gg-hint-title" class="gg-hint-title" x="400" y="80"></text>
+        <text id="gg-hint-eq" class="gg-hint-eq" x="400" y="115"></text>
+        <g id="gg-hint-curve" clip-path="url(#gg-hint-clip)"></g>
+        <text id="gg-hint-prompt" class="gg-hint-prompt" x="400" y="500"></text>
+        <text id="gg-hint-controls" class="gg-hint-controls" x="400" y="530"></text>
+      </g>
+    </svg>
+
+    <div class="input-row">
+      <label for="gg-input" class="input-label">Your shot:</label>
+      <input id="gg-input" class="input-field" type="text" maxlength="30"
+             autocomplete="off" autocapitalize="off" spellcheck="false">
+      <span id="gg-counter" class="input-counter">30</span>
+      <span class="hint-affordance">H = HINTS</span>
+    </div>
+  </div>
+</div>
+<script>
+// Green Globs — after Dugdale & Kibbey, 1981.
+// See PLAN.md for the full specification. Section numbers in comments below
+// refer to that document.
+//
+// This file is organized in two parts:
+//   PART 1 — the pure engine (lexer, parser, compiler, plotters, scoring,
+//            board generation, the hint list). No DOM dependency. Exported
+//            via `module.exports` when running under Node, so it can be
+//            tested headlessly.
+//   PART 2 — the game and its DOM/SVG wiring. Only runs in a browser.
+
+(function () {
+  'use strict';
+
+  // ======================================================================
+  // PART 1 — THE ENGINE  (PLAN.md sections 3–6, 9.3)
+  // ======================================================================
+
+  var MAX_EQUATION_CHARS = 30;
+  var GLOB_COUNT = 13;
+  var GLOB_RADIUS = 0.35; // graph units (0.7 diameter, section 5.1 / 6)
+  var GRAPH_MIN = -10, GRAPH_MAX = 10;
+
+  // ---- error messages (section 8.3) ----
+  var MSG_PAREN = 'CHECK YOUR PARENTHESES.';
+  var MSG_TRIG = 'TRIG FUNCTIONS ARE NOT ALLOWED IN THIS GAME.';
+  var MSG_MULTI_EQUALS = 'USE ONLY ONE EQUALS SIGN.';
+  var MSG_GENERIC = "I CAN'T GRAPH THAT. CHECK THE EQUATION.";
+  function msgUnknownFunc(name) {
+    return 'I DON\'T KNOW THE FUNCTION "' + name.toUpperCase() + '".';
+  }
+
+  function ggError(userMessage) {
+    var e = new Error(userMessage);
+    e.userMessage = userMessage;
+    return e;
+  }
+
+  // ---- 3.1 input normalization ----
+  var SUPERSCRIPTS = { '²': '2', '³': '3', '⁴': '4', '⁵': '5',
+    '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9' };
+
+  function normalizeInput(raw) {
+    var s = raw.replace(/\s+/g, '').toLowerCase();
+    s = s.replace(/[²³⁴-⁹]/g, function (ch) {
+      return '^' + SUPERSCRIPTS[ch];
+    });
+    return s;
+  }
+
+  // ---- 3.2 lexer ----
+  function lex(str) {
+    var tokens = [];
+    var i = 0, n = str.length;
+    while (i < n) {
+      var c = str.charAt(i);
+      if (c >= '0' && c <= '9' || c === '.') {
+        var j = i, seenDot = false, sawDigit = false;
+        while (j < n) {
+          var cj = str.charAt(j);
+          if (cj >= '0' && cj <= '9') { sawDigit = true; j++; }
+          else if (cj === '.' && !seenDot) { seenDot = true; j++; }
+          else break;
+        }
+        if (!sawDigit) throw ggError(MSG_GENERIC);
+        tokens.push({ type: 'NUM', value: parseFloat(str.slice(i, j)) });
+        i = j;
+      } else if (c >= 'a' && c <= 'z') {
+        var j2 = i;
+        while (j2 < n && str.charAt(j2) >= 'a' && str.charAt(j2) <= 'z') j2++;
+        tokens.push({ type: 'IDENT', value: str.slice(i, j2) });
+        i = j2;
+      } else if (c === '+') { tokens.push({ type: 'PLUS' }); i++; }
+      else if (c === '-') { tokens.push({ type: 'MINUS' }); i++; }
+      else if (c === '*') { tokens.push({ type: 'STAR' }); i++; }
+      else if (c === '/') { tokens.push({ type: 'SLASH' }); i++; }
+      else if (c === '^') { tokens.push({ type: 'CARET' }); i++; }
+      else if (c === '(') { tokens.push({ type: 'LPAREN' }); i++; }
+      else if (c === ')') { tokens.push({ type: 'RPAREN' }); i++; }
+      else if (c === '=') { tokens.push({ type: 'EQUALS' }); i++; }
+      else { throw ggError(MSG_GENERIC); }
+    }
+    tokens.push({ type: 'EOF' });
+    return tokens;
+  }
+
+  // ---- 3.3 / 3.4 / 3.5 parser ----
+  var TRIG_NAMES = { sin: 1, cos: 1, tan: 1, log: 1, ln: 1, exp: 1 };
+  var FUNC_NAMES = { abs: 1, sqrt: 1 };
+
+  function Parser(tokens) {
+    this.tokens = tokens;
+    this.pos = 0;
+  }
+  Parser.prototype.peek = function () { return this.tokens[this.pos]; };
+  Parser.prototype.next = function () { return this.tokens[this.pos++]; };
+  Parser.prototype.expect = function (type, msg) {
+    if (this.peek().type !== type) throw ggError(msg || MSG_GENERIC);
+    return this.next();
+  };
+  Parser.prototype.checkTrailing = function () {
+    var t = this.peek().type;
+    if (t === 'EOF') return;
+    if (t === 'RPAREN') throw ggError(MSG_PAREN);
+    throw ggError(MSG_GENERIC);
+  };
+
+  // equation := expr ('=' expr)?   (bare expr means y = expr)
+  Parser.prototype.parseEquation = function () {
+    var first = this.parseExpr();
+    if (this.peek().type === 'EQUALS') {
+      this.next();
+      var rhs = this.parseExpr();
+      if (this.peek().type === 'EQUALS') throw ggError(MSG_MULTI_EQUALS);
+      this.checkTrailing();
+      return { lhs: first, rhs: rhs };
+    }
+    this.checkTrailing();
+    return { lhs: { type: 'var', name: 'y' }, rhs: first };
+  };
+
+  Parser.prototype.parseExpr = function () {
+    var node = this.parseTerm();
+    while (this.peek().type === 'PLUS' || this.peek().type === 'MINUS') {
+      var op = this.next().type;
+      var rhs = this.parseTerm();
+      node = { type: op === 'PLUS' ? 'add' : 'sub', a: node, b: rhs };
+    }
+    return node;
+  };
+
+  Parser.prototype.startsAtom = function () {
+    var t = this.peek().type;
+    return t === 'LPAREN' || t === 'IDENT';
+  };
+
+  Parser.prototype.parseTerm = function () {
+    var node = this.parseUnary();
+    for (;;) {
+      var t = this.peek().type;
+      if (t === 'STAR' || t === 'SLASH') {
+        var op = this.next().type;
+        var rhs = this.parseUnary();
+        node = { type: op === 'STAR' ? 'mul' : 'div', a: node, b: rhs };
+      } else if (this.startsAtom()) {
+        var rhs2 = this.parseUnary();
+        node = { type: 'mul', a: node, b: rhs2 };
+      } else break;
+    }
+    return node;
+  };
+
+  Parser.prototype.parseUnary = function () {
+    if (this.peek().type === 'MINUS') { this.next(); return { type: 'neg', a: this.parseUnary() }; }
+    if (this.peek().type === 'PLUS') { this.next(); return this.parseUnary(); }
+    return this.parsePower();
+  };
+
+  Parser.prototype.parsePower = function () {
+    var node = this.parseAtom();
+    if (this.peek().type === 'CARET') {
+      this.next();
+      var exp = this.parseUnary();
+      node = { type: 'pow', base: node, exp: exp };
+    }
+    return node;
+  };
+
+  // atom := atomBase POSTFIX_DIGITS?   (rule B, section 3.4)
+  Parser.prototype.parseAtom = function () {
+    var node = this.parseAtomBase();
+    if (this.peek().type === 'NUM') {
+      var expTok = this.next();
+      node = { type: 'pow', base: node, exp: { type: 'num', value: expTok.value } };
+    }
+    return node;
+  };
+
+  Parser.prototype.parseAtomBase = function () {
+    var tok = this.peek();
+    if (tok.type === 'NUM') { this.next(); return { type: 'num', value: tok.value }; }
+    if (tok.type === 'LPAREN') {
+      this.next();
+      var inner = this.parseExpr();
+      this.expect('RPAREN', MSG_PAREN);
+      return inner;
+    }
+    if (tok.type === 'IDENT') {
+      this.next();
+      return this.resolveIdent(tok.value);
+    }
+    throw ggError(MSG_GENERIC);
+  };
+
+  Parser.prototype.resolveIdent = function (name) {
+    var followedByParen = this.peek().type === 'LPAREN';
+    // 'e' (Euler's number) is disallowed per section 3.5, including when it
+    // appears fused with variables in one letter run (e.g. "ex" for e*x),
+    // since the lexer groups consecutive letters into a single IDENT token.
+    if (name.indexOf('e') !== -1 && /^[exy]+$/.test(name)) throw ggError(MSG_TRIG);
+    if (TRIG_NAMES.hasOwnProperty(name) && followedByParen) throw ggError(MSG_TRIG);
+    if (FUNC_NAMES.hasOwnProperty(name) && followedByParen) {
+      this.next(); // consume '('
+      var arg = this.parseExpr();
+      this.expect('RPAREN', MSG_PAREN);
+      return { type: name, a: arg };
+    }
+    if (/^[xy]+$/.test(name)) {
+      var node = { type: 'var', name: name.charAt(0) };
+      for (var k = 1; k < name.length; k++) {
+        node = { type: 'mul', a: node, b: { type: 'var', name: name.charAt(k) } };
+      }
+      return node;
+    }
+    if (followedByParen) throw ggError(msgUnknownFunc(name));
+    throw ggError(MSG_GENERIC);
+  };
+
+  // ---- 3.6 compiler ----
+  function containsVar(node, name) {
+    switch (node.type) {
+      case 'num': return false;
+      case 'var': return node.name === name;
+      case 'add': case 'sub': case 'mul': case 'div':
+        return containsVar(node.a, name) || containsVar(node.b, name);
+      case 'pow': return containsVar(node.base, name) || containsVar(node.exp, name);
+      case 'neg': case 'abs': case 'sqrt': return containsVar(node.a, name);
+      default: return false;
+    }
+  }
+
+  function compile(node) {
+    switch (node.type) {
+      case 'num': { var v = node.value; return function () { return v; }; }
+      case 'var': {
+        var nm = node.name;
+        return nm === 'x' ? function (x, y) { return x; } : function (x, y) { return y; };
+      }
+      case 'add': { var a1 = compile(node.a), b1 = compile(node.b); return function (x, y) { return a1(x, y) + b1(x, y); }; }
+      case 'sub': { var a2 = compile(node.a), b2 = compile(node.b); return function (x, y) { return a2(x, y) - b2(x, y); }; }
+      case 'mul': { var a3 = compile(node.a), b3 = compile(node.b); return function (x, y) { return a3(x, y) * b3(x, y); }; }
+      case 'div': { var a4 = compile(node.a), b4 = compile(node.b); return function (x, y) { return a4(x, y) / b4(x, y); }; }
+      case 'pow': {
+        var base = compile(node.base), exp = compile(node.exp);
+        return function (x, y) {
+          var bv = base(x, y), ev = exp(x, y);
+          if (bv < 0 && !Number.isInteger(ev)) return NaN;
+          return Math.pow(bv, ev);
+        };
+      }
+      case 'neg': { var a5 = compile(node.a); return function (x, y) { return -a5(x, y); }; }
+      case 'abs': { var a6 = compile(node.a); return function (x, y) { return Math.abs(a6(x, y)); }; }
+      case 'sqrt': { var a7 = compile(node.a); return function (x, y) { return Math.sqrt(a7(x, y)); }; }
+      default: throw new Error('unknown node type: ' + node.type);
+    }
+  }
+
+  // ---- 3.7 classification ----
+  function classify(eq) {
+    var lhs = eq.lhs, rhs = eq.rhs;
+    if (lhs.type === 'var' && lhs.name === 'y' && !containsVar(rhs, 'y')) {
+      return { kind: 'y-of-x', fn: compile(rhs) };
+    }
+    if (lhs.type === 'var' && lhs.name === 'x' && !containsVar(rhs, 'x')) {
+      return { kind: 'x-of-y', fn: compile(rhs) };
+    }
+    var fLhs = compile(lhs), fRhs = compile(rhs);
+    return { kind: 'implicit', F: function (x, y) { return fLhs(x, y) - fRhs(x, y); } };
+  }
+
+  function parseEquation(rawInput) {
+    var normalized = normalizeInput(rawInput);
+    var tokens = lex(normalized);
+    var parser = new Parser(tokens);
+    var eq = parser.parseEquation();
+    return classify(eq);
+  }
+
+  // ======================================================================
+  // Plotting (section 4)
+  // ======================================================================
+
+  function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+  function shouldBreak(vPrev, vCur, lo, hi) {
+    if (Number.isNaN(vPrev) || Number.isNaN(vCur)) return true;
+    if (!Number.isFinite(vPrev) || !Number.isFinite(vCur)) return true;
+    var outPrev = vPrev < lo || vPrev > hi;
+    var outCur = vCur < lo || vCur > hi;
+    if (outPrev && outCur) {
+      var sPrev = vPrev === 0 ? 0 : (vPrev > 0 ? 1 : -1);
+      var sCur = vCur === 0 ? 0 : (vCur > 0 ? 1 : -1);
+      if (sPrev !== 0 && sCur !== 0 && sPrev !== sCur) return true;
+    }
+    return false;
+  }
+
+  // A steep-but-continuous crossing (e.g. a high-degree "super polynomial"
+  // near one of its roots) can jump clean across the visible window between
+  // two adjacent coarse samples, which looks identical to a true pole to the
+  // simple out-of-range/opposite-sign test above. Before accepting that as a
+  // real break, bisect the gap: a true asymptote keeps diverging as you zoom
+  // in; a merely-steep polynomial root has a nearby point that comes back
+  // in range. This keeps the break test correct for arbitrarily steep finite
+  // curves without needing an arbitrarily fine fixed sample count.
+  function findBridgePoint(fn, mode, tA, vA, tB, vB, depthLeft) {
+    if (depthLeft <= 0) return null;
+    var tm = (tA + tB) / 2;
+    var vm = mode === 'y-of-x' ? fn(tm, 0) : fn(0, tm);
+    if (Number.isNaN(vm) || !Number.isFinite(vm)) return null;
+    if (vm >= GRAPH_MIN && vm <= GRAPH_MAX) return { t: tm, v: vm };
+    var signA = vA === 0 ? 0 : (vA > 0 ? 1 : -1);
+    var signM = vm === 0 ? 0 : (vm > 0 ? 1 : -1);
+    if (signM === signA) return findBridgePoint(fn, mode, tm, vm, tB, vB, depthLeft - 1);
+    return findBridgePoint(fn, mode, tA, vA, tm, vm, depthLeft - 1);
+  }
+
+  // 4.1 explicit plotting: mode 'y-of-x' samples x in [GRAPH_MIN,GRAPH_MAX],
+  // evaluating fn(x,0); mode 'x-of-y' samples y, evaluating fn(0,y).
+  function plotExplicit(fn, mode) {
+    var N = 2000;
+    var lines = [];
+    var current = null;
+    var prevRaw = null;
+    var prevT = null;
+    for (var i = 0; i < N; i++) {
+      var t = GRAPH_MIN + (GRAPH_MAX - GRAPH_MIN) * i / (N - 1);
+      var raw = mode === 'y-of-x' ? fn(t, 0) : fn(0, t);
+      var isBad = Number.isNaN(raw) || !Number.isFinite(raw);
+      var doBreak = i > 0 && shouldBreak(prevRaw, raw, GRAPH_MIN, GRAPH_MAX);
+      if (doBreak && !isBad && prevRaw !== null && !Number.isNaN(prevRaw) && Number.isFinite(prevRaw)) {
+        var bridge = findBridgePoint(fn, mode, prevT, prevRaw, t, raw, 12);
+        if (bridge) {
+          if (!current) { current = []; lines.push(current); }
+          var bpt = mode === 'y-of-x' ? { x: bridge.t, y: bridge.v } : { x: bridge.v, y: bridge.t };
+          current.push(bpt);
+          doBreak = false;
+        }
+      }
+      if (doBreak) current = null;
+      if (isBad) {
+        current = null;
+      } else {
+        if (!current) { current = []; lines.push(current); }
+        var clamped = clamp(raw, -1000, 1000);
+        var pt = mode === 'y-of-x' ? { x: t, y: clamped } : { x: clamped, y: t };
+        current.push(pt);
+      }
+      prevRaw = raw;
+      prevT = t;
+    }
+    return lines;
+  }
+
+  // 4.2 implicit plotting via marching squares.
+  function marchingSquaresCell(v00, v10, v11, v01, x0, y0, x1, y1) {
+    var vals = [v00, v10, v11, v01];
+    for (var k = 0; k < 4; k++) {
+      var v = vals[k];
+      if (Number.isNaN(v) || !Number.isFinite(v) || Math.abs(v) > 1e3) return null;
+    }
+    var s00 = v00 >= 0, s10 = v10 >= 0, s11 = v11 >= 0, s01 = v01 >= 0;
+    var P00 = { x: x0, y: y0 }, P10 = { x: x1, y: y0 }, P11 = { x: x1, y: y1 }, P01 = { x: x0, y: y1 };
+    function interp(pA, pB, vA, vB) {
+      var t = vA / (vA - vB);
+      return { x: pA.x + t * (pB.x - pA.x), y: pA.y + t * (pB.y - pA.y) };
+    }
+    var e0 = s00 !== s10 ? interp(P00, P10, v00, v10) : null; // bottom
+    var e1 = s10 !== s11 ? interp(P10, P11, v10, v11) : null; // right
+    var e2 = s11 !== s01 ? interp(P11, P01, v11, v01) : null; // top
+    var e3 = s01 !== s00 ? interp(P01, P00, v01, v00) : null; // left
+    var edges = [e0, e1, e2, e3].filter(function (e) { return e !== null; });
+    var segments = [];
+    if (edges.length === 2) {
+      segments.push([edges[0], edges[1]]);
+    } else if (edges.length === 4) {
+      // ambiguous saddle: fixed arbitrary pairing (section 4.2)
+      segments.push([e0, e3]);
+      segments.push([e1, e2]);
+    }
+    return segments;
+  }
+
+  function plotImplicit(F) {
+    var N = 512;
+    var size = N + 1;
+    var step = (GRAPH_MAX - GRAPH_MIN) / N;
+    var vals = new Float64Array(size * size);
+    for (var j = 0; j < size; j++) {
+      var y = GRAPH_MIN + j * step;
+      for (var i = 0; i < size; i++) {
+        var x = GRAPH_MIN + i * step;
+        vals[j * size + i] = F(x, y);
+      }
+    }
+    var lines = [];
+    for (var jj = 0; jj < N; jj++) {
+      var y0 = GRAPH_MIN + jj * step, y1 = y0 + step;
+      for (var ii = 0; ii < N; ii++) {
+        var x0 = GRAPH_MIN + ii * step, x1 = x0 + step;
+        var v00 = vals[jj * size + ii];
+        var v10 = vals[jj * size + ii + 1];
+        var v11 = vals[(jj + 1) * size + ii + 1];
+        var v01 = vals[(jj + 1) * size + ii];
+        var segs = marchingSquaresCell(v00, v10, v11, v01, x0, y0, x1, y1);
+        if (segs) for (var s = 0; s < segs.length; s++) lines.push(segs[s]);
+      }
+    }
+    return lines;
+  }
+
+  function plotEquation(descriptor) {
+    if (descriptor.kind === 'y-of-x') return plotExplicit(descriptor.fn, 'y-of-x');
+    if (descriptor.kind === 'x-of-y') return plotExplicit(descriptor.fn, 'x-of-y');
+    return plotImplicit(descriptor.F);
+  }
+
+  // ======================================================================
+  // Hit detection and scoring (section 5)
+  // ======================================================================
+
+  function distPointSegment(px, py, ax, ay, bx, by) {
+    var dx = bx - ax, dy = by - ay;
+    var len2 = dx * dx + dy * dy;
+    var t = len2 === 0 ? 0 : ((px - ax) * dx + (py - ay) * dy) / len2;
+    t = Math.max(0, Math.min(1, t));
+    var qx = ax + t * dx, qy = ay + t * dy;
+    return Math.hypot(px - qx, py - qy);
+  }
+
+  function globIsHit(glob, polylines) {
+    for (var li = 0; li < polylines.length; li++) {
+      var line = polylines[li];
+      for (var pi = 0; pi < line.length - 1; pi++) {
+        var d = distPointSegment(glob.x, glob.y, line[pi].x, line[pi].y, line[pi + 1].x, line[pi + 1].y);
+        if (d <= GLOB_RADIUS) return true;
+      }
+    }
+    return false;
+  }
+
+  function scoreForHits(n) {
+    return n === 0 ? 0 : Math.pow(2, n) - 1;
+  }
+
+  // ======================================================================
+  // Board generation (section 6)
+  // ======================================================================
+
+  function randCoord() {
+    var n = Math.floor(Math.random() * 39); // 39 multiples of 0.5 in [-9.5, 9.5]
+    return -9.5 + n * 0.5;
+  }
+
+  function generateBoard() {
+    var globs = [];
+    for (var k = 0; k < GLOB_COUNT; k++) {
+      var placed = false;
+      var localAttempts = 0;
+      while (!placed) {
+        localAttempts++;
+        var minDist = localAttempts > 500 ? 0.75 : 1.0;
+        var x = randCoord(), y = randCoord();
+        if (Math.hypot(x, y) < 0.75) continue;
+        var ok = true;
+        for (var g = 0; g < globs.length; g++) {
+          if (Math.hypot(x - globs[g].x, y - globs[g].y) < minDist) { ok = false; break; }
+        }
+        if (ok) { globs.push({ x: x, y: y, alive: true }); placed = true; }
+      }
+    }
+    return globs;
+  }
+
+  // ======================================================================
+  // Hints (section 9.3) — fixed, in this exact order. Do not shuffle.
+  // ======================================================================
+
+  var HINTS = [
+    'y=4',
+    'x=-3',
+    'y=2x-5',
+    'y=1+2x/3',
+    'y=(x-1)2-6',
+    'y=-.5(x+4)2+7',
+    'x=(y+2)2/5-6',
+    'x2+y2=36',
+    'x2/25+y2/9=1',
+    'xy=8',
+    'y=(x-1)(x-3)(x+2)',
+    'y=20(x-1)(x-3)(x+2)',
+    'y=20(x2-9)(x2-4)',
+    'y=(x+2)2-7+1/(x-3.5)2',
+    'x=-.066(y+2)8+7'
+  ];
+  var HINT_PROMPT = 'WHAT WOULD MOVE THIS ONTO YOUR GLOBS?';
+
+  // ======================================================================
+  // Export the engine for headless testing under Node.
+  // ======================================================================
+
+  var ENGINE = {
+    MAX_EQUATION_CHARS: MAX_EQUATION_CHARS,
+    GLOB_COUNT: GLOB_COUNT,
+    GLOB_RADIUS: GLOB_RADIUS,
+    GRAPH_MIN: GRAPH_MIN,
+    GRAPH_MAX: GRAPH_MAX,
+    MSG_PAREN: MSG_PAREN,
+    MSG_TRIG: MSG_TRIG,
+    MSG_MULTI_EQUALS: MSG_MULTI_EQUALS,
+    MSG_GENERIC: MSG_GENERIC,
+    msgUnknownFunc: msgUnknownFunc,
+    normalizeInput: normalizeInput,
+    lex: lex,
+    Parser: Parser,
+    classify: classify,
+    compile: compile,
+    containsVar: containsVar,
+    parseEquation: parseEquation,
+    plotEquation: plotEquation,
+    plotExplicit: plotExplicit,
+    plotImplicit: plotImplicit,
+    marchingSquaresCell: marchingSquaresCell,
+    distPointSegment: distPointSegment,
+    globIsHit: globIsHit,
+    scoreForHits: scoreForHits,
+    generateBoard: generateBoard,
+    HINTS: HINTS,
+    HINT_PROMPT: HINT_PROMPT
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = ENGINE;
+  }
+  if (typeof window !== 'undefined') {
+    window.GG_ENGINE = ENGINE;
+  }
+
+  // ======================================================================
+  // PART 2 — THE GAME  (only runs with a document present)
+  // ======================================================================
+
+  if (typeof document === 'undefined') return;
+
+  var SVGNS = 'http://www.w3.org/2000/svg';
+
+  // ---- layout constants (section 7) ----
+  var PLOT_SIZE = 500;
+  var PLOT_X = 150, PLOT_Y = 50; // top-left of the 500x500 plot square
+  var UNIT_PX = PLOT_SIZE / (GRAPH_MAX - GRAPH_MIN); // 25 px per graph unit
+  var PIXEL = 5; // virtual pixel size for chunky globs, screen px
+
+  function toScreenX(gx) { return PLOT_X + (gx - GRAPH_MIN) * UNIT_PX; }
+  function toScreenY(gy) { return PLOT_Y + (GRAPH_MAX - gy) * UNIT_PX; }
+
+  function svgEl(tag, attrs) {
+    var el = document.createElementNS(SVGNS, tag);
+    if (attrs) {
+      for (var k in attrs) {
+        if (Object.prototype.hasOwnProperty.call(attrs, k)) el.setAttribute(k, attrs[k]);
+      }
+    }
+    return el;
+  }
+
+  var DEFAULT_MESSAGE = 'GREEN GLOBS — after Dugdale & Kibbey, 1981';
+
+  // ---- game state (section 10) ----
+  var state = {
+    globs: [],
+    shots: [],
+    score: 0,
+    phase: 'input', // 'input' | 'animating' | 'hints' | 'gameover'
+    message: '',
+    messageHint: '', // optional second line under `message`
+    input: '',
+    hintIndex: 0,
+    history: [],       // every equation submitted with Return, oldest first
+    historyCursor: null // index into `history` while browsing with Up, else null
+  };
+
+  var anim = null; // in-flight shot animation, or null
+  var explosions = []; // active explosion records
+
+  // ---- DOM refs, filled in on init ----
+  var dom = {};
+
+  function initGame() {
+    dom.svg = document.getElementById('gg-svg');
+    dom.gridLayer = document.getElementById('gg-grid');
+    dom.axesLayer = document.getElementById('gg-axes');
+    dom.prevShotsLayer = document.getElementById('gg-prev-shots');
+    dom.curShotLayer = document.getElementById('gg-cur-shot');
+    dom.globsLayer = document.getElementById('gg-globs');
+    dom.explosionsLayer = document.getElementById('gg-explosions');
+    dom.scoreText = document.getElementById('gg-score');
+    dom.shotText = document.getElementById('gg-shotcount');
+    dom.messageText = document.getElementById('gg-message');
+    dom.hintLayer = document.getElementById('gg-hint-layer');
+    dom.hintTitle = document.getElementById('gg-hint-title');
+    dom.hintEq = document.getElementById('gg-hint-eq');
+    dom.hintCurve = document.getElementById('gg-hint-curve');
+    dom.hintPrompt = document.getElementById('gg-hint-prompt');
+    dom.hintControls = document.getElementById('gg-hint-controls');
+    dom.input = document.getElementById('gg-input');
+    dom.counter = document.getElementById('gg-counter');
+    dom.screen = document.getElementById('screen');
+
+    buildStaticGrid();
+    wireInput();
+    newGame();
+    requestAnimationFrame(tick);
+  }
+
+  // ---- static grid / axes (section 7.4), built once ----
+  function buildStaticGrid() {
+    for (var i = GRAPH_MIN; i <= GRAPH_MAX; i++) {
+      var sx = toScreenX(i), sy = toScreenY(i);
+      dom.gridLayer.appendChild(svgEl('line', {
+        x1: sx, y1: PLOT_Y, x2: sx, y2: PLOT_Y + PLOT_SIZE,
+        class: 'gg-grid-line'
+      }));
+      dom.gridLayer.appendChild(svgEl('line', {
+        x1: PLOT_X, y1: sy, x2: PLOT_X + PLOT_SIZE, y2: sy,
+        class: 'gg-grid-line'
+      }));
+    }
+    // axes
+    var ox = toScreenX(0), oy = toScreenY(0);
+    dom.axesLayer.appendChild(svgEl('line', {
+      x1: PLOT_X, y1: oy, x2: PLOT_X + PLOT_SIZE, y2: oy, class: 'gg-axis-line'
+    }));
+    dom.axesLayer.appendChild(svgEl('line', {
+      x1: ox, y1: PLOT_Y, x2: ox, y2: PLOT_Y + PLOT_SIZE, class: 'gg-axis-line'
+    }));
+    // ticks
+    for (var t = GRAPH_MIN; t <= GRAPH_MAX; t++) {
+      if (t === 0) continue;
+      var len = (t % 5 === 0) ? 6 : 3;
+      var tx = toScreenX(t);
+      dom.axesLayer.appendChild(svgEl('line', {
+        x1: tx, y1: oy - len / 2, x2: tx, y2: oy + len / 2, class: 'gg-tick'
+      }));
+      var ty = toScreenY(t);
+      dom.axesLayer.appendChild(svgEl('line', {
+        x1: ox - len / 2, y1: ty, x2: ox + len / 2, y2: ty, class: 'gg-tick'
+      }));
+    }
+    // sparse labels at the extremes only
+    dom.axesLayer.appendChild(labelText(toScreenX(GRAPH_MIN) + 4, oy + 14, '-10'));
+    dom.axesLayer.appendChild(labelText(toScreenX(GRAPH_MAX) - 16, oy + 14, '10'));
+    dom.axesLayer.appendChild(labelText(ox + 4, toScreenY(GRAPH_MAX) + 12, '10'));
+    dom.axesLayer.appendChild(labelText(ox + 4, toScreenY(GRAPH_MIN) - 4, '-10'));
+  }
+
+  function labelText(x, y, str) {
+    var el = svgEl('text', { x: x, y: y, class: 'gg-axis-label' });
+    el.textContent = str;
+    return el;
+  }
+
+  // ---- globs (section 7.5): chunky pixel discs ----
+  function buildGlobGraphic(glob, index) {
+    var g = svgEl('g', { class: 'gg-glob', 'data-index': index });
+    var cx = toScreenX(glob.x), cy = toScreenY(glob.y);
+    var rPx = GLOB_RADIUS * UNIT_PX;
+    var cell = PIXEL;
+    var range = Math.ceil(rPx / cell) + 1;
+    for (var dyI = -range; dyI <= range; dyI++) {
+      for (var dxI = -range; dxI <= range; dxI++) {
+        var cellCx = dxI * cell + cell / 2;
+        var cellCy = dyI * cell + cell / 2;
+        var d = Math.hypot(cellCx, cellCy);
+        if (d <= rPx) {
+          var dark = d > rPx * 0.62;
+          g.appendChild(svgEl('rect', {
+            x: cx + dxI * cell, y: cy + dyI * cell,
+            width: cell, height: cell,
+            class: dark ? 'gg-glob-pixel-dark' : 'gg-glob-pixel'
+          }));
+        }
+      }
+    }
+    return g;
+  }
+
+  function renderGlobs() {
+    dom.globsLayer.innerHTML = '';
+    state.globs.forEach(function (glob, i) {
+      if (!glob.alive) return;
+      dom.globsLayer.appendChild(buildGlobGraphic(glob, i));
+    });
+  }
+
+  // ---- board / new game ----
+  // Note: state.history is NOT reset here -- a fresh board is a new round,
+  // not a reason to forget equations the player already knows how to write.
+  function newGame() {
+    state.globs = generateBoard();
+    state.shots = [];
+    state.score = 0;
+    state.phase = 'input';
+    state.message = DEFAULT_MESSAGE;
+    state.messageHint = '';
+    state.input = '';
+    state.hintIndex = 0;
+    state.historyCursor = null;
+    anim = null;
+    explosions = [];
+    dom.prevShotsLayer.innerHTML = '';
+    dom.curShotLayer.innerHTML = '';
+    dom.explosionsLayer.innerHTML = '';
+    dom.input.value = '';
+    dom.input.disabled = false;
+    render();
+    focusInput();
+  }
+
+  function focusInput() {
+    try { dom.input.focus(); } catch (e) { /* ignore */ }
+  }
+
+  // ---- rendering (section 11) ----
+  function polylineToPointsAttr(line) {
+    return line.map(function (p) { return toScreenX(p.x) + ',' + toScreenY(p.y); }).join(' ');
+  }
+
+  // The message line occasionally needs a second line (the up-arrow hint
+  // below "Press RETURN..."), which a plain textContent string can't do in
+  // SVG -- it takes an explicit <tspan> per line.
+  function setMessageLines(line1, line2) {
+    while (dom.messageText.firstChild) dom.messageText.removeChild(dom.messageText.firstChild);
+    var t1 = svgEl('tspan', { x: 400, dy: 0 });
+    t1.textContent = line1 || '';
+    dom.messageText.appendChild(t1);
+    if (line2) {
+      var t2 = svgEl('tspan', { x: 400, dy: 13 });
+      t2.textContent = line2;
+      dom.messageText.appendChild(t2);
+    }
+  }
+
+  function render() {
+    renderGlobs();
+    dom.scoreText.textContent = 'Score: ' + state.score;
+    dom.shotText.textContent = 'Shot ' + (state.phase === 'gameover' ? state.shots.length : state.shots.length + 1);
+    setMessageLines(state.message, state.messageHint);
+
+    dom.counter.textContent = String(MAX_EQUATION_CHARS - state.input.length);
+    dom.counter.classList.remove('gg-counter-warn', 'gg-counter-danger');
+    var remaining = MAX_EQUATION_CHARS - state.input.length;
+    if (remaining <= 0) dom.counter.classList.add('gg-counter-danger');
+    else if (remaining <= 5) dom.counter.classList.add('gg-counter-warn');
+
+    dom.hintLayer.style.display = state.phase === 'hints' ? '' : 'none';
+    if (state.phase === 'hints') renderHints();
+
+    dom.globsLayer.style.display = state.phase === 'hints' ? 'none' : '';
+    dom.prevShotsLayer.style.display = state.phase === 'hints' ? 'none' : '';
+  }
+
+  function renderPrevShots() {
+    dom.prevShotsLayer.innerHTML = '';
+    state.shots.forEach(function (shot) {
+      shot.polylines.forEach(function (line) {
+        if (line.length < 2) return;
+        dom.prevShotsLayer.appendChild(svgEl('polyline', {
+          points: polylineToPointsAttr(line),
+          class: 'gg-curve gg-curve-dim'
+        }));
+      });
+    });
+  }
+
+  // ---- hints overlay (section 9) ----
+  function renderHints() {
+    var eqText = HINTS[state.hintIndex];
+    dom.hintTitle.textContent = 'SHOTS OTHER PLAYERS HAVE USED   ' + (state.hintIndex + 1) + ' / ' + HINTS.length;
+    dom.hintEq.textContent = eqText;
+    dom.hintPrompt.textContent = HINT_PROMPT;
+    dom.hintControls.textContent = String.fromCharCode(8592) + ' ' + String.fromCharCode(8594) +
+      ' BROWSE | RETURN USE IT | ESC BACK';
+    dom.hintCurve.innerHTML = '';
+    try {
+      var descriptor = ENGINE.parseEquation(eqText);
+      var polylines = ENGINE.plotEquation(descriptor);
+      polylines.forEach(function (line) {
+        if (line.length < 2) return;
+        dom.hintCurve.appendChild(svgEl('polyline', {
+          points: polylineToPointsAttr(line),
+          class: 'gg-curve gg-hint-curve-line'
+        }));
+      });
+    } catch (e) {
+      // a hint should never fail to parse; if it does, fail silently
+      // rather than crash the game (see PLAN.md section 9.4 / 12 step 1).
+    }
+  }
+
+  function openHints() {
+    if (state.phase !== 'input') return;
+    state.phase = 'hints';
+    dom.input.disabled = true;
+    render();
+  }
+
+  function closeHints(applyText) {
+    if (applyText) {
+      dom.input.value = HINTS[state.hintIndex];
+      state.input = dom.input.value;
+    }
+    state.phase = 'input';
+    dom.input.disabled = false;
+    render();
+    focusInput();
+    if (applyText) {
+      try {
+        dom.input.setSelectionRange(dom.input.value.length, dom.input.value.length);
+      } catch (e) { /* ignore */ }
+    }
+  }
+
+  function hintNavigate(delta) {
+    var n = HINTS.length;
+    state.hintIndex = (state.hintIndex + delta + n) % n;
+    render();
+  }
+
+  // ---- input wiring (section 8) ----
+  function wireInput() {
+    dom.input.setAttribute('maxlength', String(MAX_EQUATION_CHARS));
+
+    dom.input.addEventListener('input', function () {
+      state.input = dom.input.value;
+      // Typing (as opposed to a programmatic recall) breaks the history
+      // walk, so the next Up starts over from the most recent entry.
+      state.historyCursor = null;
+      render();
+    });
+
+    dom.input.addEventListener('keydown', function (e) {
+      // Note: while phase === 'hints' the input is disabled (see openHints),
+      // and a disabled form control never receives keydown events in a
+      // browser -- so hint navigation and game-over restart are handled by
+      // a single document-level listener below instead, which keeps
+      // receiving keys regardless of what (if anything) has focus.
+      if (state.phase !== 'input') return;
+
+      if (e.key === 'h' || e.key === 'H') {
+        // 'h' is never a valid equation character (the grammar's only
+        // letters are x, y, and the spelled-out function names), so it is
+        // always intercepted here and never reaches the input's value --
+        // whatever the student was mid-typing is preserved, per section 9.1.
+        e.preventDefault();
+        openHints();
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        recallHistory();
+        return;
+      }
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        state.historyCursor = null;
+        fireShot(dom.input.value);
+        return;
+      }
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        dom.input.value = '';
+        state.input = '';
+        state.historyCursor = null;
+        render();
+        return;
+      }
+    });
+
+    document.getElementById('screen').addEventListener('click', function (e) {
+      if (state.phase === 'input') focusInput();
+    });
+  }
+
+  // ---- shot history (up-arrow recall) ----
+  // Every equation submitted with Return joins the history, whether it
+  // fired cleanly or was rejected -- a broken equation is often the thing
+  // you most want back, to fix rather than retype. This is the software's
+  // side of "debug the idea and fire again" (PLAN.md 16.1, principle 8):
+  // Dugdale's diagnostic feedback only pays off if revising a near-miss
+  // shot is as easy as remembering what you just typed.
+  var HISTORY_LIMIT = 500;
+  function pushHistory(text) {
+    state.history.push(text);
+    if (state.history.length > HISTORY_LIMIT) state.history.shift();
+  }
+
+  function recallHistory() {
+    if (state.history.length === 0) return;
+    if (state.historyCursor === null) {
+      state.historyCursor = state.history.length - 1;
+    } else {
+      // Always steps further back, wrapping from the oldest entry to the
+      // most recent -- a cyclical buffer, per the person's request, rather
+      // than a shell-style history that stops at the oldest entry.
+      state.historyCursor = (state.historyCursor - 1 + state.history.length) % state.history.length;
+    }
+    dom.input.value = state.history[state.historyCursor];
+    state.input = dom.input.value;
+    render();
+    try { dom.input.setSelectionRange(dom.input.value.length, dom.input.value.length); } catch (e) { /* ignore */ }
+  }
+
+  // ---- firing a shot (sections 5, 7.6) ----
+  function fireShot(rawText) {
+    var text = rawText;
+    if (text.trim() === '') return;
+    pushHistory(text);
+
+    var descriptor;
+    try {
+      descriptor = ENGINE.parseEquation(text);
+    } catch (err) {
+      state.message = err.userMessage || ENGINE.MSG_GENERIC;
+      state.messageHint = '';
+      render();
+      return;
+    }
+
+    var polylines;
+    try {
+      polylines = ENGINE.plotEquation(descriptor);
+    } catch (err) {
+      state.message = ENGINE.MSG_GENERIC;
+      state.messageHint = '';
+      render();
+      return;
+    }
+
+    var hitGlobs = state.globs.filter(function (g) { return g.alive && ENGINE.globIsHit(g, polylines); });
+    var points = ENGINE.scoreForHits(hitGlobs.length);
+
+    startShotAnimation(text, polylines, hitGlobs, points);
+  }
+
+  // ---- shot sweep + explosion animation (section 7.6) ----
+  var SWEEP_MS = 700;
+  var EXPLOSION_MS = 350;
+  var FLASH_MS = 150;
+
+  function buildRevealPlan(polylines) {
+    var flat = [];
+    polylines.forEach(function (line, li) {
+      line.forEach(function (pt, pi) { flat.push({ li: li, pi: pi, pt: pt }); });
+    });
+    return flat;
+  }
+
+  function targetFractionForGlob(glob, flat) {
+    var searchR = GLOB_RADIUS * 1.6;
+    for (var k = 0; k < flat.length; k++) {
+      var pt = flat[k].pt;
+      if (Math.hypot(pt.x - glob.x, pt.y - glob.y) <= searchR) {
+        return flat.length > 1 ? k / (flat.length - 1) : 0;
+      }
+    }
+    return 1;
+  }
+
+  function startShotAnimation(text, polylines, hitGlobs, points) {
+    state.phase = 'animating';
+    dom.input.disabled = true;
+
+    var flat = buildRevealPlan(polylines);
+    var hitPlans = hitGlobs.map(function (glob) {
+      return { glob: glob, targetFraction: targetFractionForGlob(glob, flat), exploded: false };
+    });
+
+    anim = {
+      startTime: performance.now(),
+      polylines: polylines,
+      flat: flat,
+      hitPlans: hitPlans,
+      text: text,
+      points: points,
+      done: false
+    };
+
+    dom.curShotLayer.innerHTML = '';
+    state.message = '';
+    state.messageHint = '';
+    render();
+  }
+
+  function revealCounts(polylines, flat, revealCount) {
+    var counts = polylines.map(function () { return 0; });
+    var limit = Math.min(revealCount, flat.length);
+    for (var k = 0; k < limit; k++) counts[flat[k].li]++;
+    return counts;
+  }
+
+  function explodeGlob(glob) {
+    glob.alive = false;
+    var g = dom.globsLayer.querySelector('.gg-glob[data-index="' + state.globs.indexOf(glob) + '"]');
+    var cx = toScreenX(glob.x), cy = toScreenY(glob.y);
+    var rPx = GLOB_RADIUS * UNIT_PX;
+    var particles = [];
+    if (g) {
+      var rects = g.querySelectorAll('rect');
+      rects.forEach(function (rect) {
+        var angle = Math.random() * Math.PI * 2;
+        var speed = 30 + Math.random() * 40;
+        particles.push({ el: rect, angle: angle, speed: speed });
+      });
+      dom.explosionsLayer.appendChild(g);
+    }
+    var flash = svgEl('circle', {
+      cx: cx, cy: cy, r: rPx, class: 'gg-flash'
+    });
+    dom.explosionsLayer.appendChild(flash);
+    explosions.push({
+      startTime: performance.now(),
+      group: g,
+      particles: particles,
+      flash: flash
+    });
+  }
+
+  function tickExplosions(now) {
+    for (var i = explosions.length - 1; i >= 0; i--) {
+      var ex = explosions[i];
+      var t = now - ex.startTime;
+      if (t >= EXPLOSION_MS) {
+        if (ex.group && ex.group.parentNode) ex.group.parentNode.removeChild(ex.group);
+        if (ex.flash && ex.flash.parentNode) ex.flash.parentNode.removeChild(ex.flash);
+        explosions.splice(i, 1);
+        continue;
+      }
+      var p = t / EXPLOSION_MS;
+      ex.particles.forEach(function (particle) {
+        var dist = particle.speed * p;
+        var tx = Math.cos(particle.angle) * dist;
+        var ty = Math.sin(particle.angle) * dist;
+        particle.el.setAttribute('transform', 'translate(' + tx + ',' + ty + ')');
+        particle.el.setAttribute('opacity', String(1 - p));
+      });
+      if (ex.flash) {
+        var fp = Math.min(t / FLASH_MS, 1);
+        var rPx0 = GLOB_RADIUS * UNIT_PX;
+        ex.flash.setAttribute('r', String(rPx0 + rPx0 * 1.5 * fp));
+        ex.flash.setAttribute('opacity', String(1 - fp));
+      }
+    }
+  }
+
+  function tickShotAnimation(now) {
+    if (!anim) return;
+    var elapsed = now - anim.startTime;
+    var sweepP = clamp(elapsed / SWEEP_MS, 0, 1);
+    var revealCount = Math.max(2, Math.round(sweepP * anim.flat.length));
+
+    var counts = revealCounts(anim.polylines, anim.flat, revealCount);
+    dom.curShotLayer.innerHTML = '';
+    anim.polylines.forEach(function (line, li) {
+      var shown = line.slice(0, counts[li]);
+      if (shown.length < 2) return;
+      dom.curShotLayer.appendChild(svgEl('polyline', {
+        points: polylineToPointsAttr(shown),
+        class: 'gg-curve gg-curve-live'
+      }));
+    });
+
+    anim.hitPlans.forEach(function (hp) {
+      if (!hp.exploded && sweepP >= hp.targetFraction) {
+        hp.exploded = true;
+        explodeGlob(hp.glob);
+      }
+    });
+
+    var allExploded = anim.hitPlans.every(function (hp) { return hp.exploded; });
+    if (sweepP >= 1 && allExploded && explosions.length === 0 && !anim.done) {
+      anim.done = true;
+      finishShotAnimation();
+    }
+  }
+
+  function finishShotAnimation() {
+    var shot = { text: anim.text, polylines: anim.polylines, hits: anim.hitPlans.length, points: anim.points };
+    state.shots.push(shot);
+    state.score += anim.points;
+    dom.curShotLayer.innerHTML = '';
+    renderPrevShots();
+
+    var remaining = state.globs.filter(function (g) { return g.alive; }).length;
+    if (remaining === 0) {
+      state.phase = 'gameover';
+      state.message = 'ALL GLOBS GONE. Score: ' + state.score + '   Shots: ' + state.shots.length + '.  Press ENTER for a new game.';
+      state.messageHint = '';
+    } else {
+      state.phase = 'input';
+      state.message = 'Press RETURN for another shot.';
+      state.messageHint = 'Press the UP ARROW key to edit recent shots.';
+    }
+    dom.input.value = '';
+    state.input = '';
+    anim = null;
+    dom.input.disabled = false;
+    render();
+    focusInput();
+  }
+
+  // ---- document-level keys: hint browsing (input is disabled while the
+  // overlay is open, so it cannot receive these itself) and game-over
+  // restart ----
+  document.addEventListener('keydown', function (e) {
+    if (state.phase === 'hints') {
+      if (e.key === 'ArrowLeft') { e.preventDefault(); hintNavigate(-1); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); hintNavigate(1); }
+      else if (e.key === 'Enter') { e.preventDefault(); closeHints(true); }
+      else if (e.key === 'Escape') { e.preventDefault(); closeHints(false); }
+      return;
+    }
+    if (state.phase === 'gameover' && e.key === 'Enter') {
+      newGame();
+    }
+  });
+
+  // ---- main loop ----
+  function tick(now) {
+    if (anim) tickShotAnimation(now);
+    if (explosions.length) tickExplosions(now);
+    requestAnimationFrame(tick);
+  }
+
+  document.addEventListener('DOMContentLoaded', initGame);
+})();
+
+</script>
+</body>
+</html>
